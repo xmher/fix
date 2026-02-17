@@ -1209,62 +1209,12 @@
         }
 
 
-        /* ── LAYOUT FIXES (from audit) ── */
-        
+        /* ── LAYOUT FIXES (consolidated) ── */
+
         /* Allow tables to split across pages — headers repeat via table-header-group */
         .beat-table { break-inside: auto; }
-        
-        /* Larger write-spaces in dual-arc section to fill gaps */
-        .write-space { min-height: 3.2in; }
-        .write-space-lg { min-height: 4.5in; }
-        
-        /* Increase insight-box padding to fill text-heavy pages */
-        .insight-box {
-            padding: 20px 24px;
-            margin: 1.5rem 0;
-        }
-        .insight-box p {
-            margin-bottom: 0.85rem;
-        }
-        
-        /* Quick-ref sections - more breathing room */
-        .quick-ref {
-            padding: 20px 25px;
-            margin: 1.5rem 0;
-        }
+        .beat-table.expanded { break-inside: auto; }
 
-        
-        /* Principle cards - slightly more padding */
-        .principle-card {
-            padding: 22px 28px;
-            margin: 2.5rem 0;
-        }
-        
-        /* Craft toolkit insight boxes - increase spacing */
-        .insight-box p {
-            line-height: 1.7;
-        }
-
-        /* Key Terms / Glossary - more space between definitions */
-        .quick-ref p strong:first-child {
-            display: inline;
-        }
-        
-        /* Two-col sections - more gap */
-        .two-col {
-            gap: 2rem;
-        }
-        
-        /* Prevent the "Need more chapter logs" orphan line from being alone */
-        .text-center.text-muted {
-            break-before: avoid;
-        }
-
-        /* Chapter log header section - tighten to prevent overflow that causes gaps */
-        .chapter-log-header {
-            padding-bottom: 0.5rem;
-        }
-        
         /* Beat tables - tighter cell padding to fit more rows per page */
         .beat-table td,
         .beat-table th {
@@ -1272,69 +1222,137 @@
             font-size: 0.85rem;
         }
 
+        /* Larger write-spaces to fill page gaps */
+        .write-space { min-height: 3.2in; }
+        .write-space-lg { min-height: 4.5in; }
 
         /* Expectations page write-lines - fill the page */
         .expectations-page .write-lines {
             min-height: 2.6in;
         }
 
-
-        /* Glossary/quick-ref pages — more spacious definitions */
-
-        
-        /* Beat tables — allow splitting, compact cells */
-        .beat-table.expanded {
-            break-inside: auto;
-        }
-
-        
-        /* Pro-tip boxes */
-        .pro-tip {
-            break-inside: avoid;
-        }
-        
-        /* Insight boxes in chapter log intro — more spacious */
-        .insight-box p {
-            margin-bottom: 0.9rem;
-            line-height: 1.75;
-        }
-
-
-        /* Prevent lone principle-cards on pages */
-        .principle-card {
-            break-before: avoid;
-        }
-        
-        /* Make insight-box paragraphs more spacious for text-heavy pages */
+        /* ── Consolidated insight-box spacing ── */
         .insight-box {
             padding: 18px 22px;
-        }
-        .insight-box p {
-            margin-bottom: 0.85rem;
-            line-height: 1.8;
+            margin: 1.25rem 0;
         }
         .insight-box .insight-label {
             margin-bottom: 0.75rem;
         }
-        
-        /* Two-col insight boxes — add more internal padding */
+        .insight-box p {
+            margin-bottom: 0.75rem;
+            line-height: 1.75;
+        }
         .two-col .insight-box {
             padding: 15px 18px;
         }
-
-
-        /* Color-coding table — taller rows to fill the page */
-        #how-to-use + * table td,
-        #how-to-use + * table th,
-        #how-to-use ~ * table td,
-        #how-to-use ~ * table th {
-            padding: 14px 16px;
+        /* Craft-compact sections get tighter insight boxes */
+        .craft-compact .insight-box {
+            margin: 0.6rem 0;
+            padding: 14px 18px;
         }
-        
-        /* Line-Level Craft insight boxes — more spacious */
-        .break-before:not(.craft-compact) > .insight-box p {
-            line-height: 1.85;
-            margin-bottom: 0.9rem;
+        .craft-compact .insight-box p {
+            margin-bottom: 0.3rem;
+        }
+
+        /* Quick-ref sections */
+        .quick-ref {
+            margin: 1.25rem 0;
+        }
+
+        /* Principle cards - keep with surrounding content */
+        .principle-card {
+            padding: 22px 28px;
+            margin: 1.5rem 0;
+            break-before: avoid;
+        }
+
+        /* Two-col sections */
+        .two-col {
+            gap: 2rem;
+        }
+
+        /* Prevent orphans */
+        .text-center.text-muted {
+            break-before: avoid;
+        }
+        .pro-tip {
+            break-inside: avoid;
+        }
+
+        /* Chapter log header - tighten */
+        .chapter-log-header {
+            padding-bottom: 0.5rem;
+        }
+
+        /* ── Reduce excessive heading margins to prevent dead space ── */
+        h3 {
+            margin-top: 1.75rem;
+        }
+
+        /* ── TOC page - expand spacing to fill the page ── */
+        .toc-page {
+            padding-top: 0.75rem;
+        }
+        .toc-page .toc-title {
+            margin-bottom: 2.2rem;
+        }
+        .toc-page .toc-section {
+            margin-bottom: 1.6rem;
+        }
+        .toc-page .toc-item {
+            margin-bottom: 0.25rem;
+            padding: 0.12rem 0 0.12rem 0.5rem;
+        }
+        .toc-page .toc-subitem {
+            margin-bottom: 0.15rem;
+            padding: 0.08rem 0 0.08rem 1.5rem;
+        }
+        .toc-page .toc-label {
+            padding: 0.5rem 0 0.3rem;
+            margin-bottom: 0.4rem;
+        }
+
+        /* ── Key Terms - let quick-ref boxes split across pages if needed ── */
+        #key-terms ~ .quick-ref {
+            break-inside: auto;
+        }
+        #key-terms ~ .quick-ref p {
+            break-inside: avoid;
+            padding-top: 0.15rem;
+            padding-bottom: 0.15rem;
+        }
+
+        /* ── "How to Use" section - keep principle card with preceding paragraph ── */
+        #how-to-use ~ .principle-card {
+            break-before: avoid;
+        }
+
+        /* Keep Analysis Level insight boxes together with their heading */
+        #analysis-level ~ .insight-box {
+            margin: 0.75rem 0;
+        }
+
+        /* ── Tropes checklist - tighter spacing to fit on metadata page ── */
+        .checklist {
+            padding: 0.5rem 0.75rem 0.25rem;
+        }
+        .checklist li {
+            margin-bottom: 0.6rem;
+            font-size: 0.9rem;
+        }
+
+        /* ── Prevent list items from splitting across pages ── */
+        li {
+            break-inside: avoid;
+        }
+
+        /* ── Keep headings with their following content ── */
+        h2, h3, h4 {
+            break-after: avoid;
+        }
+        h2 + p, h3 + p, h4 + p {
+            break-before: avoid;
         }
 
     </style>
@@ -1712,7 +1730,6 @@
 
 <p>Every story is a series of promises and payoffs. Structure is how you organize those promises so readers stay hooked until the final payoff.</p>
 
-<div style="break-inside: avoid;">
 <div class="insight-box">
     <span class="insight-label">The Three-Act Framework</span>
     <p><strong>Act 1 (0-25%):</strong> Setup. Establish the normal world, introduce the protagonist's wound/flaw, present the inciting incident, and end with the protagonist choosing to engage.</p>
@@ -1720,7 +1737,7 @@
     <p><strong>Act 3 (75-100%):</strong> Resolution. The protagonist faces their deepest fear, makes a crucial choice that demonstrates growth, and earns (or fails to earn) their reward.</p>
 </div>
 
-<div class="insight-box" style="margin-top: 1rem;">
+<div class="insight-box">
     <span class="insight-label">Key Story Beats to Recognize</span>
     <p><strong>The Hook:</strong> First pages—creates a question the reader needs answered.</p>
     <p><strong>Inciting Incident:</strong> The event that starts the story engine. Around 10-12%.</p>
@@ -1729,7 +1746,6 @@
     <p><strong>All Is Lost:</strong> Rock bottom. The protagonist's worst fear realized. Around 75%.</p>
     <p><strong>Climax:</strong> Final confrontation. Everything the story promised comes due. 90-95%.</p>
     <p><strong>Resolution:</strong> New normal established. Final image mirrors or contrasts opening.</p>
-</div>
 </div>
 
 <div class="break-before craft-compact">
