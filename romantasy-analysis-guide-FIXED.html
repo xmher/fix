@@ -1248,26 +1248,15 @@
         }
         /* Craft-compact sections get tighter insight boxes */
         .craft-compact .insight-box {
-            margin: 0.4rem 0;
-            padding: 10px 16px;
+            margin: 0.6rem 0;
+            padding: 14px 18px;
         }
-        .craft-compact .insight-box .insight-label {
-            margin-bottom: 0.35rem;
+        .craft-compact .insight-box + .insight-box {
+            break-before: avoid;
         }
         .craft-compact .insight-box p {
-            margin-bottom: 0.15rem;
-            line-height: 1.35;
-        }
-        .craft-compact h2 {
-            margin-bottom: 0.4rem;
-        }
-        .craft-compact > p {
-            margin-bottom: 0.4rem;
-            line-height: 1.4;
-        }
-        .craft-compact .principle-card {
-            margin-top: 0.4rem;
-            padding: 12px 16px;
+            margin-bottom: 0.3rem;
+            line-height: 1.55;
         }
 
         /* Quick-ref sections */
@@ -1851,7 +1840,7 @@
 </div>
 </div>
 
-<div class="craft-compact" style="break-before: page; break-inside: avoid;">
+<div class="craft-compact" style="break-before: page;">
 <h2 class="mt-0" id="dialogue-craft">Dialogue Craft: Making Characters Talk</h2>
 
 <p>Great dialogue does multiple jobs at once—reveals character, advances plot, creates tension, and entertains—all while sounding natural.</p>
