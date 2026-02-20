@@ -1291,6 +1291,14 @@
         .two-col {
             gap: 2rem;
         }
+        .two-col > div {
+            display: flex;
+            flex-direction: column;
+        }
+        .two-col > div > .write-space-xs:last-child,
+        .two-col > div > .write-space-md:last-child {
+            flex: 1;
+        }
 
         /* Prevent orphans */
         .text-center.text-muted {
