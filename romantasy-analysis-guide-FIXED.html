@@ -757,7 +757,8 @@
 
         /* Enlarge chapter log answer boxes to fill two pages */
         .chapter-log .write-space-xs {
-            min-height: 2.8in;
+            height: 2.8in;
+            min-height: 0;
         }
 
         .chapter-log .write-space-md {
@@ -1290,14 +1291,6 @@
         /* Two-col sections */
         .two-col {
             gap: 2rem;
-        }
-        .two-col > div {
-            display: flex;
-            flex-direction: column;
-        }
-        .two-col > div > .write-space-xs:last-child,
-        .two-col > div > .write-space-md:last-child {
-            flex: 1;
         }
 
         /* Prevent orphans */
