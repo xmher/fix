@@ -1,254 +1,207 @@
-\% Plot Brew Visual AI Design + Gap Detection Workflow % Generated
-automatically % 2026-02-21 19:52 UTC
+# Plot Brew Visual QA + Gap Detection Workflow
 
-# Overview
+This document explains how to run automated workbook design QA using the scripts in this repo.
 
-This workflow allows you to:
+## What this workflow gives you
 
--   Render your Paged.js HTML workbook
--   Automatically screenshot every page
--   Detect awkward whitespace gaps (between elements and bottom-of-page
-    whitespace)
--   Generate a machine-readable `gap-report.json`
--   Feed screenshots + structured gap data into AI
--   Receive design-aware content suggestions sized to fit available
-    space
--   Iterate quickly without manual screenshotting
+- Per-page screenshots for your Paged.js workbook (`out/pages/page-###.png`)
+- Structured gap analysis with page/context metadata (`out/gap-report.json`)
+- Optional visual diffs between two page screenshot sets (`out/diff/diff-report.json` + diff images)
+- A consistent handoff format for ChatGPT or other AI design review workflows
 
-------------------------------------------------------------------------
+---
 
-# System Requirements
+## Prerequisites
 
--   Node.js (v18+)
--   Local development server (NOT file://)
--   Paged.js rendering your workbook
--   Playwright
+- Node.js 18+
+- A local dev server serving your workbook HTML (for example Vite on `http://localhost:5173`)
+- Paged.js rendering `.pagedjs_page` containers
+- Installed dependencies:
 
-------------------------------------------------------------------------
-
-# Installation
-
-``` bash
-npm install -D playwright
+```bash
+npm install
 npx playwright install
 ```
 
-------------------------------------------------------------------------
+---
 
-# Daily Workflow Loop
+## Repository scripts
 
-## 1. Start your preview server
+- `npm run gapscan -- <url> [out-dir]`
+  - Runs `scripts/gap-scan.js`
+  - Captures page PNGs and produces `gap-report.json`
+- `npm run diffscan -- <baseline-pages-dir> <candidate-pages-dir> [out-dir]`
+  - Runs `scripts/diff-pages.js`
+  - Generates per-page visual diff images and `diff-report.json`
 
-Example: http://localhost:5173/workbook.html
+---
 
-## 2. Run the gap scanner
+## End-to-end workflow
 
-``` bash
-node scripts/gap-scan.js "http://localhost:5173/workbook.html" out
+### 1) Start your workbook preview server
+
+Example:
+
+```bash
+npm run dev
+# or any other server command
+```
+
+Assume your workbook is available at:
+
+```text
+http://localhost:5173/workbook.html
+```
+
+### 2) Run gap scan
+
+```bash
+npm run gapscan -- "http://localhost:5173/workbook.html" out
 ```
 
 Outputs:
 
-    out/
-      gap-report.json
-      pages/
-        page-001.png
-        page-002.png
-
-## 3. Provide to AI
-
-Share: - gap-report.json - relevant page PNGs
-
-Ask AI to propose: - filler component type - ready-to-paste text -
-optional HTML snippet - styling guidance
-
-------------------------------------------------------------------------
-
-# scripts/gap-scan.js
-
-``` javascript
-const { chromium } = require("playwright");
-const fs = require("fs");
-const path = require("path");
-
-function ensureDir(p) {
-  fs.mkdirSync(p, { recursive: true });
-}
-
-(async () => {
-  const url = process.argv[2];
-  const outRoot = process.argv[3] || "out";
-
-  if (!url) {
-    console.error('Usage: node scripts/gap-scan.js "http://localhost:5173/workbook.html" out');
-    process.exit(1);
-  }
-
-  const outPages = path.join(outRoot, "pages");
-  ensureDir(outPages);
-
-  const browser = await chromium.launch();
-  const page = await browser.newPage({
-    viewport: { width: 1400, height: 900 },
-  });
-
-  await page.goto(url, { waitUntil: "networkidle" });
-
-  await page.waitForFunction(() => document.querySelectorAll(".pagedjs_page").length > 0, {
-    timeout: 60000,
-  });
-
-  await page.waitForTimeout(250);
-
-  const result = await page.evaluate(() => {
-    const GAP_MIN_PX = 60;
-    const BOTTOM_GAP_MIN_PX = 120;
-    const MAX_SNIPPET = 220;
-
-    function clampText(t) {
-      const s = (t || "").replace(/\s+/g, " ").trim();
-      if (!s) return "";
-      return s.length > MAX_SNIPPET ? s.slice(0, MAX_SNIPPET) + "…" : s;
-    }
-
-    function shortSelector(el) {
-      const tag = el.tagName.toLowerCase();
-      const id = el.id ? `#${el.id}` : "";
-      let cls = "";
-      if (el.className && typeof el.className === "string") {
-        const parts = el.className.trim().split(/\s+/).filter(Boolean);
-        if (parts.length) cls = "." + parts.slice(0, 2).join(".");
-      }
-      return `${tag}${id}${cls}`;
-    }
-
-    function isVisible(el) {
-      const cs = getComputedStyle(el);
-      if (cs.display === "none" || cs.visibility === "hidden") return false;
-      const r = el.getBoundingClientRect();
-      return r.width > 2 && r.height > 2;
-    }
-
-    function isBlocky(el) {
-      const tag = el.tagName.toLowerCase();
-      const cs = getComputedStyle(el);
-      const disp = cs.display;
-      if (["p","li","table","figure","blockquote","h1","h2","h3","h4"].includes(tag)) return true;
-      if (disp.includes("block") || disp.includes("flex") || disp.includes("grid")) return true;
-      return false;
-    }
-
-    function bestText(el) {
-      const heading = el.querySelector?.("h1,h2,h3,h4");
-      if (heading && heading.innerText) return clampText(heading.innerText);
-      const p = el.querySelector?.("p");
-      if (p && p.innerText) return clampText(p.innerText);
-      return clampText(el.innerText);
-    }
-
-    const pages = Array.from(document.querySelectorAll(".pagedjs_page"));
-    const gaps = [];
-    const pageMeta = [];
-
-    pages.forEach((pg, idx) => {
-      const content = pg.querySelector(".pagedjs_page_content") || pg;
-      const contentRect = content.getBoundingClientRect();
-
-      const blocks = Array.from(content.querySelectorAll("*"))
-        .filter(isVisible)
-        .filter(isBlocky)
-        .map(el => {
-          const r = el.getBoundingClientRect();
-          return {
-            selector: shortSelector(el),
-            top: r.top - contentRect.top,
-            bottom: r.bottom - contentRect.top,
-            width: r.width,
-            height: r.height,
-            text: bestText(el),
-          };
-        })
-        .filter(b => b.height >= 10 && b.width >= 50)
-        .sort((a,b) => a.top - b.top);
-
-      for (let i=0; i<blocks.length-1; i++) {
-        const a = blocks[i];
-        const b = blocks[i+1];
-        const gapH = b.top - a.bottom;
-
-        if (gapH >= GAP_MIN_PX) {
-          gaps.push({
-            type: "between-blocks",
-            page: idx+1,
-            gap: {
-              x: 0,
-              y: Math.round(a.bottom),
-              w: Math.round(contentRect.width),
-              h: Math.round(gapH)
-            },
-            above: a,
-            below: b
-          });
-        }
-      }
-
-      const lastBottom = blocks.length ? Math.max(...blocks.map(b => b.bottom)) : 0;
-      const bottomGap = contentRect.height - lastBottom;
-
-      if (bottomGap >= BOTTOM_GAP_MIN_PX) {
-        const aboveBlock = blocks.length ? blocks[blocks.length-1] : null;
-        gaps.push({
-          type: "bottom-whitespace",
-          page: idx+1,
-          gap: {
-            x: 0,
-            y: Math.round(lastBottom),
-            w: Math.round(contentRect.width),
-            h: Math.round(bottomGap)
-          },
-          above: aboveBlock,
-          below: { selector: "(page end)", text: "" }
-        });
-      }
-
-      pageMeta.push({
-        page: idx+1,
-        blocksCount: blocks.length
-      });
-    });
-
-    return { gaps, pageMeta, pageCount: pages.length };
-  });
-
-  const pageCount = result.pageCount;
-  const gapReport = {
-    url,
-    generatedAt: new Date().toISOString(),
-    pageCount,
-    pageMeta: result.pageMeta,
-    gaps: result.gaps.map(g => ({
-      ...g,
-      screenshot: `pages/page-${String(g.page).padStart(3,"0")}.png`
-    }))
-  };
-
-  ensureDir(outRoot);
-  fs.writeFileSync(path.join(outRoot, "gap-report.json"), JSON.stringify(gapReport, null, 2));
-
-  for (let i=0; i<pageCount; i++) {
-    const pg = page.locator(".pagedjs_page").nth(i);
-    const file = path.join(outPages, `page-${String(i+1).padStart(3,"0")}.png`);
-    await pg.screenshot({ path: file });
-  }
-
-  console.log("Gap scan complete.");
-  await browser.close();
-})();
+```text
+out/
+  gap-report.json
+  pages/
+    page-001.png
+    page-002.png
+    ...
 ```
 
-------------------------------------------------------------------------
+### 3) (Optional) Compare before/after renders
 
-# Final Result
+Run the scanner twice to separate folders (`out-baseline`, `out-candidate`), then:
 
-You now have a structured, measurable, AI-compatible visual QA system
-for your Plot Brew workbooks.
+```bash
+npm run diffscan -- out-baseline/pages out-candidate/pages out/diff
+```
+
+Outputs:
+
+```text
+out/diff/
+  diff-report.json
+  page-001.png
+  page-002.png
+  ...
+```
+
+### 4) Feed the results to ChatGPT for design fixes
+
+Provide:
+
+- `out/gap-report.json`
+- Selected page PNGs from `out/pages`
+- (Optional) `out/diff/diff-report.json` and diff images when reviewing changes
+
+Suggested prompt structure:
+
+1. Explain workbook tone + audience.
+2. Ask for **filler component candidates** sized to specific gaps.
+3. Ask for concrete HTML/CSS patch suggestions.
+4. Require preservation of reading order and visual hierarchy.
+
+---
+
+## Gap report format (AI-friendly schema)
+
+`gap-report.json` now uses a stable structure:
+
+```json
+{
+  "schemaVersion": "2.0.0",
+  "source": {
+    "url": "http://localhost:5173/workbook.html",
+    "generatedAt": "2026-02-21T20:15:00.000Z",
+    "tool": "scripts/gap-scan.js"
+  },
+  "summary": {
+    "pageCount": 12,
+    "gapCount": 24,
+    "byType": {
+      "column-text-flow-gap": 8,
+      "column-bottom-gap": 10,
+      "page-bottom-whitespace": 6
+    }
+  },
+  "pages": [
+    {
+      "page": 3,
+      "image": "pages/page-003.png",
+      "dimensions": { "width": 980, "height": 1320 },
+      "blockCount": 41,
+      "columns": [{ "id": 1, "left": 0, "right": 470, "blockCount": 20 }],
+      "gaps": [
+        {
+          "id": "3-column-text-flow-gap-544-1",
+          "type": "column-text-flow-gap",
+          "subtype": "text-flow",
+          "severity": "medium",
+          "geometry": { "x": 0, "y": 544, "width": 470, "height": 138 },
+          "context": {
+            "column": 1,
+            "above": {
+              "selector": "p.lesson-copy",
+              "role": "text",
+              "text": "Readers emotionally map to visible, specific stakes...",
+              "top": 470,
+              "bottom": 544
+            },
+            "below": {
+              "selector": "p.lesson-copy",
+              "role": "text",
+              "text": "When momentum softens, insert concrete scene consequence...",
+              "top": 682,
+              "bottom": 752
+            }
+          },
+          "notes": "Unusually large vertical jump within a text flow sequence."
+        }
+      ]
+    }
+  ],
+  "gaps": []
+}
+```
+
+### Gap types currently detected
+
+- `column-text-flow-gap`: oversized whitespace between text flow blocks in a column
+- `between-blocks`: oversized whitespace between non-text neighboring blocks
+- `column-top-gap`: large leading blank space before first block in a column
+- `column-bottom-gap`: blank tail at bottom of a column
+- `page-bottom-whitespace`: residual bottom whitespace at page level
+
+---
+
+## Best practices for applying AI-generated HTML/CSS updates
+
+- Keep changes local: patch one page pattern at a time, then re-run scans.
+- Prefer reusable components (`.tip-card`, `.pull-quote`, `.exercise-box`) over one-off hacks.
+- Preserve semantic flow (heading → explanation → example → activity).
+- Avoid fixed heights unless tied to print/page constraints.
+- Track every iteration using before/after `out-*` folders + `diffscan`.
+- Validate that added filler supports pedagogy (not decorative-only filler).
+
+### Recommended review checklist
+
+- Does each inserted component resolve a real detected gap?
+- Is line length still readable and typographic rhythm intact?
+- Do headings remain visually dominant?
+- Are widows/orphans and column breaks improved?
+- Did total `summary.gapCount` trend down after updates?
+
+---
+
+## Notes on scanner robustness
+
+The scanner is designed to be resilient by:
+
+- Waiting for paged output before analyzing (`.pagedjs_page` guard)
+- Filtering out hidden/tiny elements
+- Clustering text-aligned blocks into columns to catch text flow gaps
+- Including consistent `context.above` / `context.below` snippets for AI prompts
+- Producing both per-page gaps and a flattened top-level `gaps` array for easy ingestion
+
