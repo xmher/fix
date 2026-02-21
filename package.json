@@ -4,6 +4,8 @@
   "private": true,
   "description": "Automated design QA scripts for Paged.js Plot Brew workbooks",
   "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "serve": "node scripts/serve.js",
     "gapscan": "node scripts/gap-scan.js",
     "diffscan": "node scripts/diff-pages.js",
     "test": "node --test"

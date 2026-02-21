@@ -11,22 +11,36 @@ This document explains how to run automated workbook design QA using the scripts
 
 ---
 
+## Quick start
+
+```bash
+npm run setup          # install deps + Playwright Chromium
+npm run serve          # serves workbook at http://localhost:3000
+# in another terminal:
+npm run gapscan -- "http://localhost:3000" out
+```
+
 ## Prerequisites
 
 - Node.js 18+
-- A local dev server serving your workbook HTML (for example Vite on `http://localhost:5173`)
 - Paged.js rendering `.pagedjs_page` containers
 - Installed dependencies:
 
 ```bash
+npm run setup
+# or manually:
 npm install
-npx playwright install
+npx playwright install chromium
 ```
 
 ---
 
 ## Repository scripts
 
+- `npm run setup`
+  - Installs npm dependencies and Playwright Chromium browser
+- `npm run serve`
+  - Starts a local static file server on port 3000 (override with `PORT` env var)
 - `npm run gapscan -- <url> [out-dir]`
   - Runs `scripts/gap-scan.js`
   - Captures page PNGs and produces `gap-report.json`
@@ -40,23 +54,20 @@ npx playwright install
 
 ### 1) Start your workbook preview server
 
-Example:
+This repo includes a zero-dependency static server:
 
 ```bash
-npm run dev
-# or any other server command
+npm run serve
+# Serves the repo root at http://localhost:3000
+# Use PORT=8080 npm run serve to change the port
 ```
 
-Assume your workbook is available at:
-
-```text
-http://localhost:5173/workbook.html
-```
+Or use any other server (Vite, live-server, etc.).
 
 ### 2) Run gap scan
 
 ```bash
-npm run gapscan -- "http://localhost:5173/workbook.html" out
+npm run gapscan -- "http://localhost:3000" out
 ```
 
 Outputs:
