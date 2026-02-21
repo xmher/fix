@@ -404,6 +404,50 @@
             margin-bottom: 0;
         }
 
+        /* WORD BANK */
+        .word-bank {
+            border: 2px solid var(--color-romance);
+            background: rgba(139, 74, 107, 0.04);
+            padding: 20px 25px;
+            margin: 1.5rem 0;
+            break-inside: avoid;
+        }
+
+        .word-bank-label {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            background: var(--color-romance);
+            display: inline-block;
+            padding: 5px 12px;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+        }
+
+        .word-bank p {
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        .word-bank-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .word-bank-items span {
+            display: inline-block;
+            border: 1px solid var(--color-romance);
+            border-radius: 4px;
+            padding: 0.25rem 0.6rem;
+            font-size: 0.85rem;
+            color: var(--color-romance);
+            background: white;
+        }
+
         /* PITFALL BOX */
         .pitfall-box {
             border-left: 4px solid var(--color-highlight);
@@ -4875,7 +4919,7 @@
 
 <h2 class="break-before" id="macro-tropes">Macro Tropes</h2>
 
-<p>These are the large-scale dynamics that define the romance. Mark which ones appear in your book, then analyse how they're executed.</p>
+<p>These are the large-scale dynamics that define the romance. Identify which ones appear in your book, then analyse how they're executed.</p>
 
 <div class="example-box">
     <span class="example-label">Enemies to Lovers: The Four Phases</span>
@@ -4893,60 +4937,225 @@
 </div>
 
 <div class="example-box">
-    <span class="example-label">Fated Mates/Soul Bonds: The Challenge</span>
+    <span class="example-label">Fated Mates / Soul Bonds: The Challenge</span>
     <p><strong>The Problem:</strong> If they're fated, where's the tension? Good authors create conflict BECAUSE of the bond, not despite it.</p>
     <p><strong>What to Watch:</strong> Does one character resist the bond? Is the bond incomplete or conditional? Does the bond create obligations that conflict with desires?</p>
     <p><strong>The Best Version:</strong> The bond forces them together, but they must CHOOSE each other to make it real. Fate brings them together; love makes them stay.</p>
 </div>
 
-<table>
+<div class="example-box">
+    <span class="example-label">Slow Burn: The Art of Delayed Gratification</span>
+    <p><strong>The Promise:</strong> Readers know the characters will get together—the pleasure is in the WAIT. Every lingering glance, accidental touch, and loaded silence adds fuel.</p>
+    <p><strong>Pacing Is Everything:</strong> Too fast and it's not a slow burn. Too slow and readers lose patience. The best slow burns escalate in micro-steps: awareness → attraction → denial → near-miss → surrender.</p>
+    <p><strong>What to Watch:</strong> How does the author create tension without resolution? What moments almost break the dam? How many chapters between the first spark and the first real contact?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Forbidden Love: Why They Can't</span>
+    <p><strong>The Stakes Must Be Real:</strong> If the "forbidden" part has no teeth, there's no tension. What's the actual cost of being together—exile, death, war, betrayal of a cause?</p>
+    <p><strong>Internal vs. External:</strong> Is the barrier external (law, duty, rival courts) or internal (guilt, loyalty, fear)? The best forbidden romances layer both.</p>
+    <p><strong>What to Watch:</strong> How does the author make the reader root for rule-breaking? At what point does love become worth the cost? Does the resolution remove the barrier or accept it?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Morally Grey Hero: The Tightrope</span>
+    <p><strong>The Appeal:</strong> Readers want someone dangerous who is tender only for the love interest. The key is making the "grey" feel genuine—not just a bad boy with good hair.</p>
+    <p><strong>The Line:</strong> The character must do genuinely questionable things. But the author gives us access to their reasoning, their pain, their code. We understand even when we don't approve.</p>
+    <p><strong>What to Watch:</strong> What is the character's moral code? What lines won't they cross? How does the love interest challenge or change their morality without "fixing" them?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Hidden Identity / Disguise: Who Are You Really?</span>
+    <p><strong>The Setup:</strong> One character conceals who they truly are—a secret heir, a spy, a runaway royal, a god in mortal form. The romance develops based on the false self.</p>
+    <p><strong>The Ticking Clock:</strong> Readers know the reveal is coming. Tension comes from watching intimacy deepen while the lie grows more costly to maintain.</p>
+    <p><strong>What to Watch:</strong> Does the deceiver fall in love before or after the lie becomes unsustainable? How does the betrayed character respond—and what must be done to earn forgiveness?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Only One Bed / Proximity Trap: Forced Intimacy</span>
+    <p><strong>Why It Works:</strong> Physical closeness strips away emotional walls. Characters who avoid vulnerability can't avoid a shared sleeping space.</p>
+    <p><strong>The Escalation:</strong> Awkwardness → hyper-awareness → accidental contact → intentional contact. Each night the distance shrinks.</p>
+    <p><strong>What to Watch:</strong> How does the author use the physical space as a metaphor for emotional distance? What conversations happen in the dark that wouldn't happen in daylight?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Marriage of Convenience / Arranged Union</span>
+    <p><strong>The Setup:</strong> A political alliance, a bargain, a debt—something forces two people into a formal bond before feelings exist. The romance is in watching duty become desire.</p>
+    <p><strong>The Tension:</strong> They're legally or magically bound but emotionally strangers. Intimacy is obligated but authenticity isn't. When does performance become real?</p>
+    <p><strong>What to Watch:</strong> What small acts of genuine care slip through the formal arrangement? When does the character start doing things they don't have to?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Found Family: Belonging as a Love Language</span>
+    <p><strong>The Setup:</strong> Characters who have lost (or never had) family find a new one—a crew, a court, a band of rebels. The romance often grows within this chosen family.</p>
+    <p><strong>Why It Hits:</strong> It satisfies two needs at once: romantic love AND belonging. The love interest becomes both partner and home.</p>
+    <p><strong>What to Watch:</strong> How does the found family create opportunities for the romance? Does the group dynamic create jealousy, protectiveness, or forced teamwork between the leads?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">The Chosen One / Power Awakening</span>
+    <p><strong>The Dynamic:</strong> One character discovers extraordinary power. This creates an immediate imbalance—and imbalance is the engine of romantic tension.</p>
+    <p><strong>Romance Friction:</strong> Does the love interest fear the power? Train it? Envy it? Protect the character from it? The power becomes a third presence in the relationship.</p>
+    <p><strong>What to Watch:</strong> How does growing power change the romantic dynamic? Does the power bring them together (shared destiny) or push them apart (fear, duty, sacrifice)?</p>
+</div>
+
+<div class="example-box">
+    <span class="example-label">Protector / Guardian: Duty Becomes Devotion</span>
+    <p><strong>The Setup:</strong> One character is sworn to guard the other—a bodyguard, a sworn shield, a bonded protector. Professional distance is the rule; breaking it is the story.</p>
+    <p><strong>The Power Imbalance:</strong> One holds physical power, the other holds authority. The best versions play with this tension rather than ignoring it.</p>
+    <p><strong>What to Watch:</strong> When does "I'm protecting you because it's my duty" become "I'm protecting you because I can't breathe without you"? How is the power imbalance reconciled?</p>
+</div>
+
+<div class="word-bank break-before">
+    <span class="word-bank-label">Macro Trope Word Bank</span>
+    <p>Use this list to help identify which tropes appear in the book. Circle or highlight the ones you spot, then record them in the table on the next page.</p>
+    <div class="word-bank-items">
+        <span>Enemies to Lovers</span>
+        <span>Forced Proximity</span>
+        <span>Fated Mates / Soul Bonds</span>
+        <span>Slow Burn</span>
+        <span>Forbidden Love</span>
+        <span>Morally Grey Hero</span>
+        <span>Hidden Identity / Disguise</span>
+        <span>Only One Bed</span>
+        <span>Marriage of Convenience</span>
+        <span>Found Family</span>
+        <span>The Chosen One</span>
+        <span>Protector / Guardian</span>
+        <span>Rivals to Lovers</span>
+        <span>Second Chance Romance</span>
+        <span>Grumpy / Sunshine</span>
+        <span>Touch Her and Die</span>
+        <span>Who Did This to You?</span>
+        <span>Fake Relationship</span>
+        <span>There Was Only One Bed</span>
+        <span>Magical Bond</span>
+        <span>Captive / Captor</span>
+        <span>Redemption Arc</span>
+        <span>Power Imbalance</span>
+        <span>Training Partners</span>
+        <span>Reluctant Allies</span>
+        <span>Royal / Commoner</span>
+        <span>Amnesia / Memory Loss</span>
+        <span>He Falls First</span>
+        <span>She Falls First</span>
+        <span>Dark Romance</span>
+        <span>Possessive Hero</span>
+        <span>Mutual Pining</span>
+    </div>
+</div>
+
+<table class="break-before">
     <thead>
         <tr>
-            <th>Trope</th>
-            <th>Present?</th>
-            <th>Setup (Ch)</th>
-            <th>Payoff (Ch)</th>
+            <th style="width: 25%;">Trope</th>
+            <th style="width: 10%; text-align: center;">Present?</th>
+            <th style="width: 10%;">Setup (Ch)</th>
+            <th style="width: 10%;">Payoff (Ch)</th>
             <th>What Makes It Work</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="height: 0.7in;">
             <td>Enemies to Lovers</td>
-            <td style="width: 10%; text-align: center;">&#9744;</td>
-            <td style="width: 12%;"></td>
-            <td style="width: 12%;"></td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr style="height: 0.7in;">
             <td>Forced Proximity</td>
             <td style="text-align: center;">&#9744;</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>Fated Mates</td>
+        <tr style="height: 0.7in;">
+            <td>Fated Mates / Soul Bonds</td>
             <td style="text-align: center;">&#9744;</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr style="height: 0.7in;">
             <td>Slow Burn</td>
             <td style="text-align: center;">&#9744;</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr style="height: 0.7in;">
             <td>Forbidden Love</td>
             <td style="text-align: center;">&#9744;</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr style="height: 0.7in;">
             <td>Morally Grey Hero</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td>Hidden Identity / Disguise</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td>Marriage of Convenience</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td>Found Family</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td>The Chosen One</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td>Protector / Guardian</td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td></td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td></td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td></td>
+            <td style="text-align: center;">&#9744;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 0.7in;">
+            <td></td>
             <td style="text-align: center;">&#9744;</td>
             <td></td>
             <td></td>
