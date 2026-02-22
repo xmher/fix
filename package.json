@@ -1,0 +1,15 @@
+{
+  "name": "plot-brew-workbook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "node scripts/render-pages.js",
+    "thumbs": "node scripts/make-contact-sheets.js",
+    "model": "node scripts/export-page-model.js",
+    "ai-prep": "npm run render && npm run thumbs && npm run model"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0",
+    "sharp": "^0.33.5"
+  }
+}
