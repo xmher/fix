@@ -21,11 +21,31 @@ const PADDING = 20;
 /* ── Helpers ────────────────────────────────────────────────────── */
 
 async function waitForPages(page) {
+  // First, wait for at least one page to appear
   await page.waitForFunction(
     () => document.querySelectorAll('.pagedjs_page').length > 0,
-    { timeout: 60000 }
+    { timeout: 120000 }
   );
-  await page.waitForTimeout(400);
+
+  // Then wait until paged.js is fully done: the page count must stabilise
+  // for 2 consecutive checks 1.5 s apart, meaning no new pages appeared.
+  let previousCount = 0;
+  let stableRounds = 0;
+  const STABLE_NEEDED = 2;
+
+  while (stableRounds < STABLE_NEEDED) {
+    await page.waitForTimeout(1500);
+    const currentCount = await page.evaluate(
+      () => document.querySelectorAll('.pagedjs_page').length
+    );
+    if (currentCount === previousCount) {
+      stableRounds += 1;
+    } else {
+      stableRounds = 0;
+    }
+    previousCount = currentCount;
+    console.log(`  paged.js: ${currentCount} pages so far…`);
+  }
 }
 
 async function createSheet(imagePaths, sheetIndex, outDir) {
@@ -175,7 +195,7 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1600, height: 1200 } });
 
-  await page.goto(url, { waitUntil: 'networkidle' });
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 120000 });
   await waitForPages(page);
 
   const pageCount = await page.locator('.pagedjs_page').count();
