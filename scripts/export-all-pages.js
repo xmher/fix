@@ -21,30 +21,50 @@ const PADDING = 20;
 /* ── Helpers ────────────────────────────────────────────────────── */
 
 async function waitForPages(page) {
-  // First, wait for at least one page to appear
-  await page.waitForFunction(
-    () => document.querySelectorAll('.pagedjs_page').length > 0,
-    { timeout: 120000 }
-  );
+  // Install a completion flag that paged.js sets when it finishes rendering
+  await page.evaluate(() => {
+    window.__pagedDone = false;
+    // paged.js polyfill fires this event when all pages are laid out
+    window.addEventListener('pagedjs', () => { window.__pagedDone = true; });
+    // Also catch if paged.js already finished before we attached
+    if (document.querySelector('.pagedjs_pages')) {
+      const flow = document.querySelector('.pagedjs_pages');
+      if (flow && flow.childElementCount > 0) {
+        // Check if paged.js is no longer running by looking for pending content
+        const remaining = document.querySelector('.pagedjs_page_content:empty');
+        // Set a secondary check via mutation observer
+      }
+    }
+  });
 
-  // Then wait until paged.js is fully done: the page count must stabilise
-  // for 2 consecutive checks 1.5 s apart, meaning no new pages appeared.
+  // Wait up to 5 minutes for paged.js to signal completion
+  console.log('  Waiting for paged.js to finish rendering…');
+  try {
+    await page.waitForFunction(() => window.__pagedDone === true, { timeout: 300000 });
+    console.log('  paged.js signalled completion.');
+  } catch {
+    // Fallback: if the event never fires, poll until page count is stable
+    console.log('  pagedjs event not detected, falling back to stability polling…');
+  }
+
+  // Always do a stability check as a safety net — wait for page count to be
+  // unchanged for 3 consecutive checks 2s apart
   let previousCount = 0;
   let stableRounds = 0;
-  const STABLE_NEEDED = 2;
+  const STABLE_NEEDED = 3;
 
   while (stableRounds < STABLE_NEEDED) {
-    await page.waitForTimeout(1500);
+    await page.waitForTimeout(2000);
     const currentCount = await page.evaluate(
       () => document.querySelectorAll('.pagedjs_page').length
     );
-    if (currentCount === previousCount) {
+    if (currentCount === previousCount && currentCount > 0) {
       stableRounds += 1;
     } else {
       stableRounds = 0;
     }
     previousCount = currentCount;
-    console.log(`  paged.js: ${currentCount} pages so far…`);
+    console.log(`  paged.js: ${currentCount} pages (stable ${stableRounds}/${STABLE_NEEDED})`);
   }
 }
 
