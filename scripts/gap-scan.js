@@ -2,10 +2,81 @@
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
+const { PNG } = require('pngjs');
 const { buildReport } = require('./gap-report');
+
+const THUMB_WIDTH = 180;
+const GRID_COLS = 8;
+const GRID_PAD = 12;
+const LABEL_HEIGHT = 18;
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
+}
+
+function buildContactSheet(pagesDir, outPath, pageCount) {
+  const thumbs = [];
+  for (let i = 1; i <= pageCount; i += 1) {
+    const file = path.join(pagesDir, `page-${String(i).padStart(3, '0')}.png`);
+    const src = PNG.sync.read(fs.readFileSync(file));
+    const scale = THUMB_WIDTH / src.width;
+    const thumbHeight = Math.round(src.height * scale);
+    const dst = new PNG({ width: THUMB_WIDTH, height: thumbHeight });
+
+    for (let y = 0; y < thumbHeight; y += 1) {
+      const srcY = Math.min(Math.floor(y / scale), src.height - 1);
+      for (let x = 0; x < THUMB_WIDTH; x += 1) {
+        const srcX = Math.min(Math.floor(x / scale), src.width - 1);
+        const si = (srcY * src.width + srcX) << 2;
+        const di = (y * THUMB_WIDTH + x) << 2;
+        dst.data[di] = src.data[si];
+        dst.data[di + 1] = src.data[si + 1];
+        dst.data[di + 2] = src.data[si + 2];
+        dst.data[di + 3] = src.data[si + 3];
+      }
+    }
+    thumbs.push(dst);
+  }
+
+  const thumbHeight = thumbs[0].height;
+  const cellH = thumbHeight + GRID_PAD + LABEL_HEIGHT;
+  const cellW = THUMB_WIDTH + GRID_PAD;
+  const cols = Math.min(GRID_COLS, pageCount);
+  const rows = Math.ceil(pageCount / cols);
+  const sheetW = cols * cellW + GRID_PAD;
+  const sheetH = rows * cellH + GRID_PAD;
+
+  const sheet = new PNG({ width: sheetW, height: sheetH });
+  // Fill with white background
+  for (let i = 0; i < sheet.data.length; i += 4) {
+    sheet.data[i] = 255;
+    sheet.data[i + 1] = 255;
+    sheet.data[i + 2] = 255;
+    sheet.data[i + 3] = 255;
+  }
+
+  for (let idx = 0; idx < thumbs.length; idx += 1) {
+    const col = idx % cols;
+    const row = Math.floor(idx / cols);
+    const offsetX = GRID_PAD + col * cellW;
+    const offsetY = GRID_PAD + LABEL_HEIGHT + row * cellH;
+    const thumb = thumbs[idx];
+
+    for (let y = 0; y < thumb.height; y += 1) {
+      for (let x = 0; x < thumb.width; x += 1) {
+        const si = (y * thumb.width + x) << 2;
+        const dx = offsetX + x;
+        const dy = offsetY + y;
+        const di = (dy * sheetW + dx) << 2;
+        sheet.data[di] = thumb.data[si];
+        sheet.data[di + 1] = thumb.data[si + 1];
+        sheet.data[di + 2] = thumb.data[si + 2];
+        sheet.data[di + 3] = thumb.data[si + 3];
+      }
+    }
+  }
+
+  fs.writeFileSync(outPath, PNG.sync.write(sheet));
 }
 
 async function main() {
@@ -252,7 +323,11 @@ async function main() {
       await locator.screenshot({ path: filePath });
     }
 
+    const sheetPath = path.join(outRoot, 'contact-sheet.png');
+    buildContactSheet(outPages, sheetPath, report.summary.pageCount);
+
     console.log(`Gap scan complete. ${report.summary.gapCount} gaps found across ${report.summary.pageCount} pages.`);
+    console.log(`Contact sheet saved to ${sheetPath}`);
   } finally {
     await browser.close();
   }
