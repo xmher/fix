@@ -6355,6 +6355,76 @@ function initRuler() {
     });
 }
 
+
+function assignStablePbIds() {
+    const selectors = [
+        'section',
+        '[data-section]',
+        '.section',
+        '[class*="section"]',
+        '.chapter-log',
+        '.callout',
+        '[class*="callout"]',
+        '.answer-box',
+        '[class*="answer"]',
+        '.checklist',
+        '[class*="checklist"]',
+        '.divider',
+        '[class*="divider"]',
+        'table',
+        'h1, h2, h3, h4, h5, h6'
+    ];
+
+    const normalize = (value) => (value || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .slice(0, 40);
+
+    const hash = (value) => {
+        let h = 5381;
+        for (let i = 0; i < value.length; i += 1) {
+            h = ((h << 5) + h) + value.charCodeAt(i);
+        }
+        return Math.abs(h >>> 0).toString(36);
+    };
+
+    const used = new Set();
+    const nodes = Array.from(document.querySelectorAll(selectors.join(',')));
+
+    nodes.forEach((node, index) => {
+        if (node.hasAttribute('data-pb-id')) {
+            used.add(node.getAttribute('data-pb-id'));
+            return;
+        }
+
+        const tag = node.tagName.toLowerCase();
+        const refId = node.id ? normalize(node.id) : '';
+        const role = node.getAttribute('data-comp') ? normalize(node.getAttribute('data-comp')) : '';
+        const text = normalize(node.textContent || '').slice(0, 24);
+        const siblingIndex = node.parentElement
+            ? Array.from(node.parentElement.children).filter((el) => el.tagName === node.tagName).indexOf(node)
+            : index;
+
+        const base = [tag, role || refId || text || `n${index + 1}`, `i${siblingIndex + 1}`]
+            .filter(Boolean)
+            .join('-');
+        const stableId = `pb-${base}-${hash(`${tag}|${role}|${refId}|${text}|${siblingIndex}`)}`;
+
+        let finalId = stableId;
+        let suffix = 1;
+        while (used.has(finalId)) {
+            suffix += 1;
+            finalId = `${stableId}-${suffix}`;
+        }
+
+        node.setAttribute('data-pb-id', finalId);
+        used.add(finalId);
+    });
+}
+
+assignStablePbIds();
+
 // Wait for paged.js
 const _prObs = new MutationObserver((m, obs) => {
     if (document.querySelector('.pagedjs_page')) {
