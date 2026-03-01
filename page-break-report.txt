@@ -1,0 +1,2204 @@
+Measuring: /tmp/romantasy-analysis-guide-FIXED.html
+Page: 8.5" × 11.0" with margins T:0.75" B:0.75" L:0.75" R:0.75"
+Content area: 7.00" × 9.50"
+
+================================================================================
+  PAGE BREAK & ELEMENT MEASUREMENT REPORT
+================================================================================
+  Total pages: 152
+  Total document height: 138546px
+  Content area per page: 912px (9.50 inches)
+
+────────────────────────────────────────────────────────────────────────────────
+  PAGE SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+  Page   1  |    6 elements  |  Empty:   23.1px (0.24")  
+  Page   2  |    9 elements  |  Empty:    4.7px (0.05")  
+  Page   3  |    2 elements  |  Empty:  768.8px (8.01")    ⚠️  >40% empty — consider reflow
+  Page   4  |    0 elements  |  Empty:  912.0px (9.50")    ⚠️  >40% empty — consider reflow
+  Page   5  |   12 elements  |  Empty:   21.7px (0.23")    🔴 2 element(s) SPLIT across break
+  Page   6  |   14 elements  |  Empty:   45.3px (0.47")    🔴 4 element(s) SPLIT across break
+  Page   7  |   11 elements  |  Empty:   37.6px (0.39")    🔴 3 element(s) SPLIT across break
+  Page   8  |   11 elements  |  Empty:   63.3px (0.66")    🔴 2 element(s) SPLIT across break
+  Page   9  |    4 elements  |  Empty:  225.3px (2.35")    🔴 1 element(s) SPLIT across break
+  Page  10  |    6 elements  |  Empty:   24.5px (0.26")    🔴 1 element(s) SPLIT across break
+  Page  11  |    6 elements  |  Empty:  170.9px (1.78")    🔴 1 element(s) SPLIT across break
+  Page  12  |    2 elements  |  Empty:  313.8px (3.27")    📐 >25% empty
+  Page  13  |   16 elements  |  Empty:   22.9px (0.24")    🔴 1 element(s) SPLIT across break
+  Page  14  |   18 elements  |  Empty:   56.0px (0.58")    🔴 3 element(s) SPLIT across break
+  Page  15  |   18 elements  |  Empty:   17.6px (0.18")    🔴 4 element(s) SPLIT across break
+  Page  16  |   15 elements  |  Empty:   67.3px (0.70")    🔴 3 element(s) SPLIT across break
+  Page  17  |   14 elements  |  Empty:   91.8px (0.96")    🔴 1 element(s) SPLIT across break
+  Page  18  |    4 elements  |  Empty:   48.6px (0.51")    🔴 1 element(s) SPLIT across break
+  Page  19  |   15 elements  |  Empty:   51.0px (0.53")    🔴 2 element(s) SPLIT across break
+  Page  20  |   12 elements  |  Empty:  148.7px (1.55")    🔴 1 element(s) SPLIT across break
+  Page  21  |    3 elements  |  Empty:   99.8px (1.04")  
+  Page  22  |   10 elements  |  Empty:  184.7px (1.92")  
+  Page  23  |    3 elements  |  Empty:  135.8px (1.42")  
+  Page  24  |   10 elements  |  Empty:  220.7px (2.30")  
+  Page  25  |    3 elements  |  Empty:  171.8px (1.79")  
+  Page  26  |   10 elements  |  Empty:  256.7px (2.67")    📐 >25% empty
+  Page  27  |    3 elements  |  Empty:  207.8px (2.17")  
+  Page  28  |   11 elements  |  Empty:  292.7px (3.05")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  29  |    3 elements  |  Empty:  243.8px (2.54")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  30  |   11 elements  |  Empty:   12.4px (0.13")  
+  Page  31  |    2 elements  |  Empty:  279.8px (2.92")    📐 >25% empty
+  Page  32  |   11 elements  |  Empty:   48.4px (0.50")  
+  Page  33  |    3 elements  |  Empty:  315.8px (3.29")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  34  |   11 elements  |  Empty:   84.4px (0.88")    🔴 1 element(s) SPLIT across break
+  Page  35  |    4 elements  |  Empty:    3.1px (0.03")  
+  Page  36  |    9 elements  |  Empty:  120.4px (1.25")  
+  Page  37  |    5 elements  |  Empty:   39.1px (0.41")    🔴 1 element(s) SPLIT across break
+  Page  38  |    9 elements  |  Empty:  156.4px (1.63")    🔴 1 element(s) SPLIT across break
+  Page  39  |    5 elements  |  Empty:   75.1px (0.78")    🔴 1 element(s) SPLIT across break
+  Page  40  |    9 elements  |  Empty:  192.4px (2.00")    🔴 1 element(s) SPLIT across break
+  Page  41  |    6 elements  |  Empty:   26.6px (0.28")    🔴 1 element(s) SPLIT across break
+  Page  42  |    8 elements  |  Empty:  228.4px (2.38")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  43  |    7 elements  |  Empty:   24.7px (0.26")    🔴 1 element(s) SPLIT across break
+  Page  44  |    7 elements  |  Empty:  264.4px (2.75")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  45  |    7 elements  |  Empty:   60.7px (0.63")    🔴 1 element(s) SPLIT across break
+  Page  46  |    8 elements  |  Empty:  300.4px (3.13")    📐 >25% empty  🔴 2 element(s) SPLIT across break
+  Page  47  |    7 elements  |  Empty:   96.7px (1.01")    🔴 2 element(s) SPLIT across break
+  Page  48  |    8 elements  |  Empty:   20.1px (0.21")    🔴 1 element(s) SPLIT across break
+  Page  49  |    6 elements  |  Empty:  132.7px (1.38")    🔴 1 element(s) SPLIT across break
+  Page  50  |    8 elements  |  Empty:   56.1px (0.58")    🔴 1 element(s) SPLIT across break
+  Page  51  |    6 elements  |  Empty:  168.7px (1.76")    🔴 1 element(s) SPLIT across break
+  Page  52  |    8 elements  |  Empty:   92.1px (0.96")    🔴 1 element(s) SPLIT across break
+  Page  53  |    7 elements  |  Empty:   27.8px (0.29")    🔴 1 element(s) SPLIT across break
+  Page  54  |    7 elements  |  Empty:  128.1px (1.33")    🔴 1 element(s) SPLIT across break
+  Page  55  |    7 elements  |  Empty:   13.9px (0.14")  
+  Page  56  |    6 elements  |  Empty:  164.1px (1.71")  
+  Page  57  |    7 elements  |  Empty:   49.9px (0.52")  
+  Page  58  |    6 elements  |  Empty:  200.1px (2.08")  
+  Page  59  |    9 elements  |  Empty:   85.9px (0.89")    🔴 2 element(s) SPLIT across break
+  Page  60  |    6 elements  |  Empty:  236.1px (2.46")    📐 >25% empty  🔴 2 element(s) SPLIT across break
+  Page  61  |   11 elements  |  Empty:   21.8px (0.23")    🔴 2 element(s) SPLIT across break
+  Page  62  |    4 elements  |  Empty:  272.1px (2.83")    📐 >25% empty  🔴 2 element(s) SPLIT across break
+  Page  63  |   11 elements  |  Empty:   28.7px (0.30")  
+  Page  64  |    3 elements  |  Empty:  308.1px (3.21")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page  65  |   11 elements  |  Empty:   64.7px (0.67")    🔴 1 element(s) SPLIT across break
+  Page  66  |    3 elements  |  Empty:   15.8px (0.16")  
+  Page  67  |   10 elements  |  Empty:  100.7px (1.05")  
+  Page  68  |    3 elements  |  Empty:   51.8px (0.54")  
+  Page  69  |   10 elements  |  Empty:  136.7px (1.42")  
+  Page  70  |    3 elements  |  Empty:   87.8px (0.91")  
+  Page  71  |   10 elements  |  Empty:  172.7px (1.80")  
+  Page  72  |    3 elements  |  Empty:  123.8px (1.29")  
+  Page  73  |   10 elements  |  Empty:  208.7px (2.17")  
+  Page  74  |    3 elements  |  Empty:  159.8px (1.66")  
+  Page  75  |   10 elements  |  Empty:  244.7px (2.55")    📐 >25% empty
+  Page  76  |    3 elements  |  Empty:  195.8px (2.04")  
+  Page  77  |   10 elements  |  Empty:  280.7px (2.92")    📐 >25% empty
+  Page  78  |    3 elements  |  Empty:  231.8px (2.41")    📐 >25% empty
+  Page  79  |    3 elements  |  Empty:  385.9px (4.02")    ⚠️  >40% empty — consider reflow  🔴 1 element(s) SPLIT across break
+  Page  80  |    8 elements  |  Empty:   78.5px (0.82")    🔴 2 element(s) SPLIT across break
+  Page  81  |    7 elements  |  Empty:  366.9px (3.82")    ⚠️  >40% empty — consider reflow  🔴 2 element(s) SPLIT across break
+  Page  82  |    7 elements  |  Empty:   62.3px (0.65")    🔴 3 element(s) SPLIT across break
+  Page  83  |    5 elements  |  Empty:  640.3px (6.67")    ⚠️  >40% empty — consider reflow  🔴 3 element(s) SPLIT across break
+  Page  84  |    9 elements  |  Empty:   85.7px (0.89")    🔴 3 element(s) SPLIT across break
+  Page  85  |    4 elements  |  Empty:   72.6px (0.76")    🔴 3 element(s) SPLIT across break
+  Page  86  |    9 elements  |  Empty:  243.1px (2.53")    📐 >25% empty  🔴 2 element(s) SPLIT across break
+  Page  87  |    6 elements  |  Empty:   19.4px (0.20")    🔴 1 element(s) SPLIT across break
+  Page  88  |    3 elements  |  Empty:  372.9px (3.88")    ⚠️  >40% empty — consider reflow  🔴 1 element(s) SPLIT across break
+  Page  89  |    8 elements  |  Empty:   92.8px (0.97")    🔴 3 element(s) SPLIT across break
+  Page  90  |   10 elements  |  Empty:  251.3px (2.62")    📐 >25% empty  🔴 3 element(s) SPLIT across break
+  Page  91  |    6 elements  |  Empty:   40.7px (0.42")    🔴 3 element(s) SPLIT across break
+  Page  92  |    6 elements  |  Empty:  522.7px (5.44")    ⚠️  >40% empty — consider reflow  🔴 3 element(s) SPLIT across break
+  Page  93  |    9 elements  |  Empty:    8.1px (0.08")    🔴 1 element(s) SPLIT across break
+  Page  94  |    3 elements  |  Empty:    5.0px (0.05")  
+  Page  95  |    7 elements  |  Empty:  377.5px (3.93")    ⚠️  >40% empty — consider reflow  🔴 1 element(s) SPLIT across break
+  Page  96  |    3 elements  |  Empty:  121.2px (1.26")    🔴 2 element(s) SPLIT across break
+  Page  97  |    7 elements  |  Empty:   95.7px (1.00")    🔴 2 element(s) SPLIT across break
+  Page  98  |   11 elements  |  Empty:   89.8px (0.94")    🔴 1 element(s) SPLIT across break
+  Page  99  |    8 elements  |  Empty:  127.4px (1.33")    🔴 1 element(s) SPLIT across break
+  Page 100  |    3 elements  |  Empty:  105.6px (1.10")    🔴 2 element(s) SPLIT across break
+  Page 101  |    4 elements  |  Empty:   57.2px (0.60")    🔴 2 element(s) SPLIT across break
+  Page 102  |    7 elements  |  Empty:  423.5px (4.41")    ⚠️  >40% empty — consider reflow  🔴 2 element(s) SPLIT across break
+  Page 103  |    9 elements  |  Empty:   26.8px (0.28")    🔴 3 element(s) SPLIT across break
+  Page 104  |    4 elements  |  Empty:  380.2px (3.96")    ⚠️  >40% empty — consider reflow  🔴 2 element(s) SPLIT across break
+  Page 105  |    3 elements  |  Empty:   10.3px (0.11")  
+  Page 106  |    7 elements  |  Empty:    8.8px (0.09")  
+  Page 107  |    2 elements  |  Empty:  190.6px (1.99")  
+  Page 108  |    2 elements  |  Empty:  238.5px (2.48")    📐 >25% empty
+  Page 109  |    6 elements  |  Empty:   27.3px (0.28")    🔴 1 element(s) SPLIT across break
+  Page 110  |   13 elements  |  Empty:   22.9px (0.24")    🔴 3 element(s) SPLIT across break
+  Page 111  |   15 elements  |  Empty:   91.1px (0.95")    🔴 4 element(s) SPLIT across break
+  Page 112  |    7 elements  |  Empty:  540.0px (5.63")    ⚠️  >40% empty — consider reflow  🔴 3 element(s) SPLIT across break
+  Page 113  |    5 elements  |  Empty:   84.3px (0.88")    🔴 3 element(s) SPLIT across break
+  Page 114  |   16 elements  |  Empty:   50.9px (0.53")    🔴 2 element(s) SPLIT across break
+  Page 115  |    2 elements  |  Empty:  774.4px (8.07")    ⚠️  >40% empty — consider reflow  🔴 1 element(s) SPLIT across break
+  Page 116  |    3 elements  |  Empty:   67.9px (0.71")    🔴 1 element(s) SPLIT across break
+  Page 117  |    9 elements  |  Empty:   52.0px (0.54")    🔴 2 element(s) SPLIT across break
+  Page 118  |   13 elements  |  Empty:    8.7px (0.09")    🔴 2 element(s) SPLIT across break
+  Page 119  |    2 elements  |  Empty:    4.9px (0.05")  
+  Page 120  |    3 elements  |  Empty:   68.7px (0.72")    🔴 1 element(s) SPLIT across break
+  Page 121  |   14 elements  |  Empty:   46.8px (0.49")    🔴 3 element(s) SPLIT across break
+  Page 122  |    5 elements  |  Empty:  736.8px (7.67")    ⚠️  >40% empty — consider reflow  🔴 3 element(s) SPLIT across break
+  Page 123  |    3 elements  |  Empty:  177.4px (1.85")    🔴 1 element(s) SPLIT across break
+  Page 124  |   10 elements  |  Empty:   74.7px (0.78")    🔴 1 element(s) SPLIT across break
+  Page 125  |    4 elements  |  Empty:   66.4px (0.69")    🔴 2 element(s) SPLIT across break
+  Page 126  |    3 elements  |  Empty:   55.9px (0.58")    🔴 1 element(s) SPLIT across break
+  Page 127  |    0 elements  |  Empty:  912.0px (9.50")    ⚠️  >40% empty — consider reflow
+  Page 128  |    4 elements  |  Empty:  182.2px (1.90")  
+  Page 129  |    5 elements  |  Empty:  332.6px (3.46")    📐 >25% empty  🔴 1 element(s) SPLIT across break
+  Page 130  |    4 elements  |  Empty:  472.6px (4.92")    ⚠️  >40% empty — consider reflow  🔴 2 element(s) SPLIT across break
+  Page 131  |   10 elements  |  Empty:  132.1px (1.38")    🔴 1 element(s) SPLIT across break
+  Page 132  |    3 elements  |  Empty:    6.4px (0.07")  
+  Page 133  |    9 elements  |  Empty:    0.2px (0.00")  
+  Page 134  |    7 elements  |  Empty:  362.7px (3.78")    📐 >25% empty  🔴 2 element(s) SPLIT across break
+  Page 135  |    7 elements  |  Empty:   12.2px (0.13")    🔴 2 element(s) SPLIT across break
+  Page 136  |    2 elements  |  Empty:  163.1px (1.70")  
+  Page 137  |    5 elements  |  Empty:   22.3px (0.23")    🔴 1 element(s) SPLIT across break
+  Page 138  |    5 elements  |  Empty:  462.5px (4.82")    ⚠️  >40% empty — consider reflow  🔴 2 element(s) SPLIT across break
+  Page 139  |    4 elements  |  Empty:    2.2px (0.02")    🔴 1 element(s) SPLIT across break
+  Page 140  |    9 elements  |  Empty:   15.9px (0.17")  
+  Page 141  |    9 elements  |  Empty:    6.3px (0.07")  
+  Page 142  |    4 elements  |  Empty:  151.8px (1.58")  
+  Page 143  |   11 elements  |  Empty:   63.9px (0.67")    🔴 1 element(s) SPLIT across break
+  Page 144  |   15 elements  |  Empty:   42.7px (0.44")    🔴 3 element(s) SPLIT across break
+  Page 145  |   15 elements  |  Empty:   11.4px (0.12")    🔴 3 element(s) SPLIT across break
+  Page 146  |   14 elements  |  Empty:   79.5px (0.83")    🔴 2 element(s) SPLIT across break
+  Page 147  |   14 elements  |  Empty:    6.6px (0.07")    🔴 2 element(s) SPLIT across break
+  Page 148  |   15 elements  |  Empty:   35.0px (0.36")    🔴 3 element(s) SPLIT across break
+  Page 149  |   14 elements  |  Empty:  132.4px (1.38")    🔴 4 element(s) SPLIT across break
+  Page 150  |   16 elements  |  Empty:   25.6px (0.27")    🔴 4 element(s) SPLIT across break
+  Page 151  |   15 elements  |  Empty:   34.0px (0.35")    🔴 3 element(s) SPLIT across break
+  Page 152  |   12 elements  |  Empty:  122.2px (1.27")    🔴 1 element(s) SPLIT across break
+
+────────────────────────────────────────────────────────────────────────────────
+  🔴 SPLIT ACROSS PAGE BREAK (elements broken between pages)
+────────────────────────────────────────────────────────────────────────────────
+  [Bordered Box (auto)] <div> pages 5→6  height=336px
+    Text: "Craft Includes
+
+    Structure: How the story is organized. Where beats fall. How..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 5→6  height=56px
+    Text: "Emotional Engineering: How the author makes you feel things. The buildup before ..."
+
+  [Bordered Box (auto)] <div> pages 6→7  height=240px
+    Text: "Deep-Dive
+    About 5-10 minutes per chapter, plus an hour or more after finishi..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 6→7  height=84px
+    Text: "Fill in every question in the chapter logs — you can ignore the QF labels and wo..."
+
+  [Paragraph] <p> pages 7→8  height=66px
+    Text: "The Wound: The past trauma that shapes how your character sees love and the worl..."
+
+  [Paragraph] <p> pages 8→9  height=66px
+    Text: "Emotional Mirror: When the state of the world reflects the state of the relation..."
+
+  [Checklist / Radio] <ul> pages 10→11  height=376px
+    Text: "Enemies to Lovers
+     Forced Proximity
+     Fated Mates / Soul Bond
+     Slow B..."
+    Class: checklist
+
+  [Paragraph] <p> pages 13→14  height=54px
+    Text: "Stories are made of scenes. A scene is a unit of story that happens in one time ..."
+
+  [Bordered Box (auto)] <div> pages 14→15  height=336px
+    Text: "Creating Tension
+    Questions: Every unanswered question creates tension. Who i..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 14→15  height=56px
+    Text: "Competing Desires: When a character wants two things that are mutually exclusive..."
+
+  [Bordered Box (auto)] <div> pages 15→16  height=251px
+    Text: "Showing Character
+    Action Under Pressure: Who someone is gets revealed when s..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 15→16  height=46px
+    Text: "Specificity: Not "she was nervous" but "she kept touching the scar on her wrist...."
+
+  [Bordered Box (auto)] <div> pages 16→17  height=336px
+    Text: "Description & Detail
+    The Telling Detail: One perfect detail beats five gener..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 18→19  height=54px
+    Text: "Reading like a writer means noticing things. But noticing without a framework ju..."
+
+  [Paragraph] <p> pages 19→20  height=23px
+    Text: "Jump to Chapter:"
+
+  [Section Header] <h4> pages 28→29  height=30px
+    Text: "Romance: How did the relationship shift?"
+    Class: mt-0
+
+  [Answer Box] <input> pages 33→34  height=16px
+    Text: ""
+
+  [Bordered Box (auto)] <div> pages 37→38  height=54px
+    Text: "QF Arc Driver: (check one)  Fantasy  Romance  Both Intertwined
+        QF Tensio..."
+
+  [Bordered Box (auto)] <div> pages 39→40  height=54px
+    Text: "QF Arc Driver: (check one)  Fantasy  Romance  Both Intertwined
+        QF Tensio..."
+
+  [Section Header] <h4> pages 41→42  height=30px
+    Text: "This chapter's JOB: Why does it exist?"
+    Class: mt-0
+
+  [Checklist / Radio] <ul> pages 43→44  height=169px
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+    Class: checklist
+
+  [Checklist / Radio] <ul> pages 45→46  height=169px
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+    Class: checklist
+
+  [Section Header] <h4> pages 46→47  height=30px
+    Text: "Opening Hook: How did it grab you?"
+    Class: mt-0
+
+  [Checklist / Radio] <ul> pages 47→48  height=169px
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+    Class: checklist
+
+  [Checklist / Radio] <ul> pages 49→50  height=169px
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+    Class: checklist
+
+  [Checklist / Radio] <ul> pages 51→52  height=169px
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+    Class: checklist
+
+  [Section Header] <h4> pages 53→54  height=30px
+    Text: "QF Tension (check one per row)"
+
+  [Section Header] <h4> pages 59→60  height=30px
+    Text: "QF One-Sentence Summary"
+
+  [Section Header] <h4> pages 59→60  height=30px
+    Text: "Foreshadowing & Setups"
+
+  [Paragraph] <p> pages 61→62  height=26px
+    Text: "[Who] wants [what] but [obstacle] so [outcome]"
+    Class: hint
+
+  [Paragraph] <p> pages 61→62  height=26px
+    Text: "What's being set up for later?"
+    Class: hint
+
+  [Section Header] <h4> pages 64→65  height=30px
+    Text: "QF Craft Move to Steal: Quote it if you can!"
+
+  [Section Header] <h2> pages 79→80  height=48px
+    Text: "Romancing the Beat Framework"
+    Class: mt-0
+
+  [Bordered Box (auto)] <div> pages 80→81  height=600px
+    Text: "What to Look For in Phase 1
+    Phase 1 is about creating the conditions for lov..."
+    Class: insight-box
+
+  [Table] <table> pages 81→82  height=761px
+    Text: "Beat
+            Chapter/Page
+            How It's Executed
+            Fantasy ..."
+    Class: beat-table compact
+
+  [Bordered Box (auto)] <div> pages 82→83  height=572px
+    Text: "What to Look For in Phase 2
+    This phase is about the slow erosion of resistan..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 82→83  height=112px
+    Text: "Vulnerability Moments: Watch for scenes where one character sees the other's tru..."
+
+  [Table] <table> pages 83→84  height=791px
+    Text: "Beat
+            Ch/Page
+            How It's Executed
+            Fantasy Arc C..."
+    Class: beat-table
+
+  [Bordered Box (auto)] <div> pages 84→85  height=572px
+    Text: "What to Look For in Phase 3
+    This phase is about everything falling apart. Th..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 84→85  height=84px
+    Text: "The "Black Moment": The relationship seems completely, irreparably broken. As a ..."
+
+  [Bordered Box (auto)] <div> pages 85→86  height=150px
+    Text: "Phase 4: Fighting for Love (75–100%)
+    The protagonist realizes love is worth ..."
+    Class: romance-box break-before
+
+  [Table] <table> pages 86→87  height=791px
+    Text: "Beat
+            Ch/Page
+            How It's Executed
+            Fantasy Arc C..."
+    Class: beat-table
+
+  [Section Header] <h2> pages 88→89  height=48px
+    Text: "Save the Cat! / Three-Act Structure"
+    Class: mt-0
+
+  [Bordered Box (auto)] <div> pages 89→90  height=150px
+    Text: "Act 1: The Setup (0–25%)
+    We meet the protagonist in their ordinary world. So..."
+    Class: fantasy-box
+
+  [Paragraph] <p> pages 89→90  height=54px
+    Text: "We meet the protagonist in their ordinary world. Something disrupts that world. ..."
+
+  [Table] <table> pages 90→91  height=791px
+    Text: "Beat
+            Ch/Page
+            What Happens
+            Romance Connection..."
+    Class: beat-table fantasy
+
+  [Bordered Box (auto)] <div> pages 91→92  height=544px
+    Text: "What to Look For in Act 2A
+    This is the section readers came for. It's where ..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 91→92  height=84px
+    Text: "The "Fun and Games": This is what the book jacket promised. If it's a Fae court ..."
+
+  [Table] <table> pages 92→93  height=721px
+    Text: "Beat
+            Ch/Page
+            What Happens
+            Romance Connection..."
+    Class: beat-table fantasy expanded break-before
+
+  [Table] <table> pages 95→96  height=721px
+    Text: "Beat
+            Ch/Page
+            What Happens
+            Romance Connection..."
+    Class: beat-table fantasy expanded break-before
+
+  [Paragraph] <p> pages 96→97  height=99px
+    Text: "This is the defining craft challenge of romantasy. Not just "romance plus fantas..."
+    Class: section-intro
+
+  [Bordered Box (auto)] <div> pages 97→98  height=183px
+    Text: "The Core Test
+    Could you remove the romance and still have a complete fantasy..."
+    Class: principle-card
+
+  [Table] <table> pages 99→100  height=859px
+    Text: "Binding Technique
+            Definition
+        
+    
+    
+        
+           ..."
+    Class: break-before
+
+  [Table] <table> pages 100→101  height=806px
+    Text: "Binding Technique
+            How It Appears in This Book
+        
+    
+    
+   ..."
+
+  [Paragraph] <p> pages 101→102  height=54px
+    Text: "For each major beat, ask: What did this romance moment CAUSE in the fantasy arc?..."
+
+  [Table] <table> pages 102→103  height=815px
+    Text: "%
+            Fantasy Beat
+            Romance Beat
+            Causal Link (A c..."
+    Class: break-before
+
+  [Bordered Box (auto)] <div> pages 103→104  height=308px
+    Text: "Midpoint Analysis
+    What is the fantasy midpoint event? (False victory, false ..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 103→104  height=56px
+    Text: "Does one CAUSE the other? This is the key question. A fantasy revelation that fo..."
+
+  [Bordered Box (auto)] <div> pages 109→110  height=432px
+    Text: "What Makes a Trope Work
+    When analysing trope execution, ask yourself these q..."
+    Class: insight-box
+
+  [Bordered Box (auto)] <div> pages 110→111  height=362px
+    Text: "Enemies to Lovers: The Four Phases
+    Phase 1 — Justified Hatred: The hatred mu..."
+    Class: example-box
+
+  [Paragraph] <p> pages 110→111  height=52px
+    Text: "Phase 4 — Respect to Attraction: Grudging admiration becomes desire. This is whe..."
+
+  [Bordered Box (auto)] <div> pages 111→112  height=251px
+    Text: "Forbidden Love: Why They Can't
+    The Stakes Must Be Real: If the "forbidden" p..."
+    Class: example-box
+
+  [Paragraph] <p> pages 111→112  height=52px
+    Text: "The Stakes Must Be Real: If the "forbidden" part has no teeth, there's no tensio..."
+
+  [Table] <table> pages 112→113  height=893px
+    Text: "Trope
+            Setup (Ch)
+            Payoff (Ch)
+            What Makes It W..."
+    Class: break-before
+
+  [Bordered Box (auto)] <div> pages 113→114  height=165px
+    Text: ""Who Did This To You?"
+    Why It Works: This shows protective rage from someone..."
+    Class: example-box
+
+  [Paragraph] <p> pages 113→114  height=52px
+    Text: "Why It Works: This shows protective rage from someone who was previously cold or..."
+
+  [Table] <table> pages 115→116  height=874px
+    Text: "Micro Trope
+            Chapter
+            How It's Executed
+        
+    
+    ..."
+    Class: break-before
+
+  [Bordered Box (auto)] <div> pages 117→118  height=528px
+    Text: "What to Analyse in Intimacy Scenes
+
+    Placement Matters: Where in the story do..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 117→118  height=84px
+    Text: "The Language Choices: Pay attention to word choices. Clinical language creates d..."
+
+  [Paragraph] <p> pages 120→121  height=82px
+    Text: "Chemistry isn't just physical. Often the most memorable romantic tension lives i..."
+
+  [Bordered Box (auto)] <div> pages 121→122  height=540px
+    Text: "Techniques to Look For
+
+    Double Meaning: A line that works on two levels—inno..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 121→122  height=56px
+    Text: "Pet Names: Nicknames and terms of endearment—or mockery. Whether affectionate or..."
+
+  [Table] <table> pages 122→123  height=889px
+    Text: "Chapter
+            The Exchange
+            Technique
+        
+    
+    
+      ..."
+    Class: break-before
+
+  [Section Header] <h2> pages 124→125  height=48px
+    Text: "Technique Collection"
+    Class: break-before
+
+  [Table] <table> pages 125→126  height=768px
+    Text: "Category
+            The Quote/Example (cont.)
+            Why It Works
+        ..."
+    Class: break-before
+
+  [Section Header] <h4> pages 129→130  height=30px
+    Text: "What surprised you most about how the story was put together?"
+
+  [Table] <table> pages 130→131  height=459px
+    Text: "Element
+            Rating (1-5)
+            Notes
+        
+    
+    
+        
+ ..."
+
+  [Bordered Box (auto)] <div> pages 134→135  height=160px
+    Text: "Structural Pitfall Diagnosis
+    Based on your reading, does this book suffer fr..."
+    Class: insight-box
+
+  [Paragraph] <p> pages 134→135  height=84px
+    Text: "Based on your reading, does this book suffer from any of these common integratio..."
+
+  [Paragraph] <p> pages 137→138  height=163px
+    Text: "Think of these patterns as structural adhesives. Each one answers the same quest..."
+
+  [Table] <table> pages 138→139  height=784px
+    Text: "Pattern
+            How It Works
+        
+    
+    
+        
+            Symbiot..."
+
+  [Bordered Box (auto)] <div> pages 143→144  height=251px
+    Text: "Fated Mates / Soul Bonds
+    The Promise: The universe itself declares these two..."
+    Class: example-box
+
+  [Bordered Box (auto)] <div> pages 144→145  height=251px
+    Text: "Morally Grey Hero
+    The Promise: Someone dangerous who is tender only for the ..."
+    Class: example-box
+
+  [Paragraph] <p> pages 144→145  height=52px
+    Text: "The Line: The character does genuinely questionable things. But the author gives..."
+
+  [Bordered Box (auto)] <div> pages 145→146  height=251px
+    Text: "Found Family
+    The Promise: Characters who have lost (or never had) family fin..."
+    Class: example-box
+
+  [Bordered Box (auto)] <div> pages 146→147  height=251px
+    Text: "Second Chance Romance
+    The Promise: Two people who loved and lost each other ..."
+    Class: example-box
+
+  [Bordered Box (auto)] <div> pages 147→148  height=251px
+    Text: "Captive / Captor
+    The Promise: One character holds power over the other. The ..."
+    Class: example-box
+
+  [Bordered Box (auto)] <div> pages 148→149  height=251px
+    Text: "Mutual Pining
+    The Promise: Both characters want each other desperately—and n..."
+    Class: example-box
+
+  [Paragraph] <p> pages 148→149  height=52px
+    Text: "What to Watch: How does the author give the reader access to both characters' lo..."
+
+  [Bordered Box (auto)] <div> pages 149→150  height=251px
+    Text: "The Training Scene
+    The Moment: Physical contact + competence display + sweat..."
+    Class: example-box
+
+  [Paragraph] <p> pages 149→150  height=52px
+    Text: "The Moment: Physical contact + competence display + sweating/breathing hard = te..."
+
+  [Bordered Box (auto)] <div> pages 150→151  height=251px
+    Text: "The Dance Scene
+    The Moment: A ball, a celebration, a formal occasion. Two ch..."
+    Class: example-box
+
+  [Paragraph] <p> pages 150→151  height=52px
+    Text: "What to Watch: How does the author use the choreography of the dance as a metaph..."
+
+  [Bordered Box (auto)] <div> pages 151→152  height=251px
+    Text: "Forehead Touch / Non-Sexual Intimacy
+    The Moment: A gesture that's more intim..."
+    Class: example-box
+
+────────────────────────────────────────────────────────────────────────────────
+  ⚠️  DANGER ZONE (within 40px of page bottom)
+────────────────────────────────────────────────────────────────────────────────
+  [Image] <img> page 1  only 23px from break
+    Text: ""
+
+  [Paragraph] <p> page 2  only 5px from break
+    Text: "This guide is intended for personal use only. Unauthorized copying, sharing, sel..."
+
+  [Paragraph] <p> page 5  only 22px from break
+    Text: "Line-Level Choices: Word selection. Sentence rhythm. Dialogue patterns. How desc..."
+
+  [Paragraph] <p> page 7  only 38px from break
+    Text: "Adhesion: This is the external force that keeps characters together when they'd ..."
+
+  [Answer Box] <input> page 10  only 24px from break
+    Text: ""
+
+  [Section Header] <h2> page 13  only 23px from break
+    Text: "Scene Craft: The Building Blocks"
+
+  [Paragraph] <p> page 15  only 18px from break
+    Text: "Contradiction: Real people are inconsistent. A killer who's gentle with animals...."
+
+  [Section Header] <h4> page 30  only 12px from break
+    Text: "Romance: How did the relationship shift?"
+
+  [Answer Box] <input> page 35  only 28px from break
+    Text: ""
+
+  [Answer Box] <input> page 35  only 3px from break
+    Text: ""
+
+  [Answer Box] <input> page 37  only 39px from break
+    Text: ""
+
+  [Bordered Box (auto)] <div> page 41  only 27px from break
+    Text: "QF Arc Driver: (check one)  Fantasy  Romance  Both Intertwined
+        QF Tensio..."
+
+  [Section Header] <h4> page 43  only 25px from break
+    Text: "This chapter's JOB: Why does it exist?"
+
+  [Section Header] <h4> page 48  only 20px from break
+    Text: "Opening Hook: How did it grab you?"
+
+  [Checklist / Radio] <ul> page 53  only 28px from break
+    Text: "Plot
+                 Romance
+                 World
+                 Character
+..."
+
+  [Section Header] <h4> page 55  only 14px from break
+    Text: "QF Tension (check one per row)"
+
+  [Section Header] <h4> page 61  only 25px from break
+    Text: "QF One-Sentence Summary"
+
+  [Section Header] <h4> page 61  only 22px from break
+    Text: "Foreshadowing & Setups"
+
+  [Paragraph] <p> page 63  only 32px from break
+    Text: "[Who] wants [what] but [obstacle] so [outcome]"
+
+  [Paragraph] <p> page 63  only 29px from break
+    Text: "What's being set up for later?"
+
+  [Section Header] <h4> page 66  only 16px from break
+    Text: "QF Craft Move to Steal: Quote it if you can!"
+
+  [Bordered Box (auto)] <div> page 87  only 19px from break
+    Text: "Common Pitfalls to Notice
+    Unearned HEA: If the grand gesture costs nothing, ..."
+
+  [Paragraph] <p> page 87  only 39px from break
+    Text: "Insufficient Pain in Phase 3: If the breakup doesn't hurt, the reunion won't sat..."
+
+  [Bordered Box (auto)] <div> page 93  only 8px from break
+    Text: "What to Look For in Act 2B
+    This is where the author earns their climax. If t..."
+
+  [Paragraph] <p> page 93  only 26px from break
+    Text: "The Whiff of Death: There's often a literal or metaphorical death here—a charact..."
+
+  [Bordered Box (auto)] <div> page 94  only 5px from break
+    Text: "Act 3: The Finale (75–100%)
+    From the ashes of defeat, a new plan emerges. Th..."
+
+  [Paragraph] <p> page 103  only 27px from break
+    Text: "Do they happen at the same time? If yes, you're looking at strong integration. I..."
+
+  [Section Header] <h3> page 105  only 10px from break
+    Text: "The Emotional Mirror"
+
+  [Section Header] <h4> page 106  only 9px from break
+    Text: "At what point in the book does the romance begin to drive the fantasy plot (not ..."
+
+  [Paragraph] <p> page 109  only 27px from break
+    Text: "The difference between a well-executed trope and a cliché is specificity. Generi..."
+
+  [Paragraph] <p> page 110  only 23px from break
+    Text: "Phase 3 — Reluctant Allies: External circumstances force cooperation. "I don't l..."
+
+  [Paragraph] <p> page 118  only 9px from break
+    Text: "4 – Steamy: On-page intimacy, some detail"
+
+  [Table] <table> page 119  only 5px from break
+    Text: "#
+            Chapter
+            Heat Level
+            Scene Type
+            ..."
+
+  [Section Header] <h4> page 132  only 6px from break
+    Text: "The single most important craft lesson from this book:"
+
+  [Section Header] <h4> page 133  only 31px from break
+    Text: "Unraveling Test Results:"
+
+  [Paragraph] <p> page 133  only 0px from break
+    Text: "Without the romance, the fantasy plot would..."
+
+  [Section Header] <h4> page 135  only 12px from break
+    Text: "Could your WIP pass the Unraveling Test? If not, what causal links are missing?"
+
+  [Paragraph] <p> page 137  only 22px from break
+    Text: "Every successful romantasy uses at least one of these binding techniques to make..."
+
+  [Section Header] <h2> page 139  only 2px from break
+    Text: "Dual-Arc Glossary"
+
+  [Paragraph] <p> page 140  only 16px from break
+    Text: "Bolted-On Romance: A structural pitfall where the romance could be removed witho..."
+
+  [Paragraph] <p> page 141  only 6px from break
+    Text: "Slow Burn: A pacing strategy that builds romantic tension through delayed gratif..."
+
+  [Paragraph] <p> page 145  only 11px from break
+    Text: "What to Watch: How does the found family create opportunities for the romance? D..."
+
+  [Paragraph] <p> page 147  only 7px from break
+    Text: "The Promise: One character holds power over the other. The romance lives in the ..."
+
+  [Paragraph] <p> page 148  only 35px from break
+    Text: "Why It Works: Dramatic irony is powerful. Readers scream at the page because the..."
+
+  [Paragraph] <p> page 150  only 26px from break
+    Text: "Why It Works: Dancing is sanctioned intimacy. You can hold someone, look into th..."
+
+  [Bordered Box (auto)] <div> page 151  only 34px from break
+    Text: "The Sacrifice / "Not Without You"
+    The Moment: One character faces death or l..."
+
+────────────────────────────────────────────────────────────────────────────────
+  ⚠️  ORPHAN RISK (element starts near bottom of page)
+────────────────────────────────────────────────────────────────────────────────
+  [Answer Box] <input> starts at 893px on page 35  (19px remaining)
+    Text: ""
+
+  [Section Header] <h4> starts at 873px on page 106  (39px remaining)
+    Text: "At what point in the book does the romance begin to drive the fantasy plot (not ..."
+
+  [Paragraph] <p> starts at 885px on page 114  (27px remaining)
+    Text: "See the Trope Dictionary in the appendix for detailed breakdowns of all macro an..."
+
+  [Section Header] <h4> starts at 876px on page 132  (36px remaining)
+    Text: "The single most important craft lesson from this book:"
+
+  [Paragraph] <p> starts at 889px on page 133  (23px remaining)
+    Text: "Without the romance, the fantasy plot would..."
+
+────────────────────────────────────────────────────────────────────────────────
+  FULL ELEMENT MAP (all measured elements, top to bottom)
+────────────────────────────────────────────────────────────────────────────────
+  Type                      Tag      Page  PosInPg   Height  Remaining  Preview
+  ------------------------- -------- ---- -------- -------- ----------  ------------------------------
+  ─── PAGE 1 ───────────────────────────────────────────────────────────────────────────────
+  Navigation Bar            div         1      20px      34px       858px  Book Info
+    |
+    Ch. Logs
+    |
+    R
+  Section Header            h1          1     263px     123px       526px  Read Likea Writer
+  Paragraph                 p           1     394px      44px       475px  The Romantasy Analysis Companion
+  Divider / HR              div         1     453px       3px       456px  
+  Paragraph                 p           1     472px      84px       355px  Extract craft lessons, track story struc
+  Image                     img         1     596px     293px        23px   ⚠️CLOSE
+  ─── PAGE 2 ───────────────────────────────────────────────────────────────────────────────
+  Image                     img         2      14px     168px       730px  
+  Paragraph                 p           2     222px      32px       658px  A note for you—
+  Paragraph                 p           2     262px     128px       523px  Every great writer started as a great re
+  Paragraph                 p           2     397px      96px       419px  This guide was built to help you see the
+  Paragraph                 p           2     501px      96px       315px  Thank you so much for supporting Plot Br
+  Paragraph                 p           2     605px      64px       243px  Happy reading (and writing!)— Plot Brew
+  Paragraph                 p           2     709px      29px       175px  © 2025 Plot Brew. All rights reserved.
+  Paragraph                 p           2     749px      97px        65px  No part of this publication may be repro
+  Paragraph                 p           2     859px      49px         5px  This guide is intended for personal use  ⚠️CLOSE
+  ─── PAGE 3 ───────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p           3      19px      46px       847px  Read Like a Writer: The Romantasy Analys
+  Section Header            h2          3      85px      58px       769px  Contents
+  ─── PAGE 5 ───────────────────────────────────────────────────────────────────────────────
+  Section Header            h2          5     118px      48px       746px  How to Use This Guide
+  Paragraph                 p           5     182px      63px       668px  When you read for pleasure, you let the 
+  Paragraph                 p           5     268px      54px       589px  To learn from the books you love, you ne
+  Paragraph                 p           5     339px      82px       492px  This guide will help you do that. It giv
+  Section Header            h3          5     448px      36px       428px  What Is "Craft" Anyway?
+  Paragraph                 p           5     496px      27px       389px  You'll see the word "craft" throughout t
+  Paragraph                 p           5     539px      82px       291px  Craft is the HOW of storytelling. It's n
+  Bordered Box (auto)       div         5     641px     336px       848px  Craft Includes
+
+    Structure: How the s 🔴SPLIT
+  Paragraph                 p           5     698px      56px       158px  Structure: How the story is organized. W
+  Paragraph                 p           5     766px      56px        90px  Scene-Level Choices: What's shown vs. to
+  Paragraph                 p           5     834px      56px        22px  Line-Level Choices: Word selection. Sent ⚠️CLOSE
+  Paragraph                 p           5     902px      56px       866px  Emotional Engineering: How the author ma 🔴SPLIT
+  ─── PAGE 6 ───────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p           6      84px      82px       746px  When we talk about "craft moves," we mea
+  Paragraph                 p           6     182px      54px       676px  The goal of this guide is to help you se
+  Bordered Box (auto)       div         6     260px     151px       500px  The Goal
+    When you can look at a page
+  Section Header            h3          6     440px      36px       437px  Choose Your Analysis Level
+  Paragraph                 p           6     487px      54px       370px  You don't have to fill in every section.
+  Bordered Box (auto)       div         6     558px     212px       143px  Quick-Fill
+    About 2-3 minutes per cha
+  Paragraph                 p           6     615px      28px       269px  About 2-3 minutes per chapter, plus 20 m
+  Paragraph                 p           6     655px      56px       201px  You'll complete chapter logs with tensio
+  Paragraph                 p           6     723px      28px       161px  Ideal if you're reading for pleasure but
+  Bordered Box (auto)       div         6     781px     240px       803px  Deep-Dive
+    About 5-10 minutes per cha 🔴SPLIT
+  Paragraph                 p           6     839px      28px        45px  About 5-10 minutes per chapter, plus an 
+  Paragraph                 p           6     879px      84px       861px  Fill in every question in the chapter lo 🔴SPLIT
+  ─── PAGE 7 ───────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p           7      63px      28px       821px  Ideal if you're doing serious craft stud
+  Section Header            h3          7     137px      36px       740px  Top Tip: The Color-Coding System
+  Paragraph                 p           7     184px      54px       673px  If you're reading a physical book, color
+  Table                     table       7     263px     292px       357px  Color
+            Category
+            W
+  Section Header            h2          7     595px      48px       269px  Key Terms
+  Paragraph                 p           7     659px      54px       198px  You'll see these terms throughout your a
+  Section Header            h4          7     724px      39px       150px  Essential Vocabulary
+  Paragraph                 p           7     778px      96px        38px  Adhesion: This is the external force tha ⚠️CLOSE
+  Paragraph                 p           7     895px      66px       863px  The Wound: The past trauma that shapes h 🔴SPLIT
+  ─── PAGE 8 ───────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p           8      70px      66px       777px  The Lie: A false belief the character ho
+  Paragraph                 p           8     156px      66px       691px  Deep POV: A narrative perspective that p
+  Paragraph                 p           8     242px      66px       604px  Slow Burn: A pacing strategy that builds
+  Paragraph                 p           8     329px      66px       518px  HEA/HFN: Happily Ever After or Happy For
+  Section Header            h4          8     439px      39px       434px  Dual-Arc Vocabulary
+  Paragraph                 p           8     494px      66px       353px  Through-Thread: The causal chain that ma
+  Paragraph                 p           8     580px      96px       236px  Double Helix: A structural model where r
+  Paragraph                 p           8     697px      66px       150px  The Bridge: The specific mechanism that 
+  Paragraph                 p           8     783px      66px        63px  Midpoint Rupture: The moment (usually ne
+  Paragraph                 p           8     870px      66px       889px  Emotional Mirror: When the state of the  🔴SPLIT
+  ─── PAGE 9 ───────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p           9      44px      66px       803px  Bolted-On Romance: A structural pitfall 
+  Section Header            h1          9     502px      61px       349px  Pre-Read Setup
+  Paragraph                 p           9     587px      99px       225px  Before you start reading, take a few min
+  ─── PAGE 10 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h2         10     123px      48px       741px  Book Metadata
+  Section Header            h4         10     473px      30px       409px  Expected Heat Level (check one)
+  Section Header            h4         10     556px      30px       326px  Anticipated Tropes (check what you expec
+  Checklist / Radio         ul         10     602px     376px       846px  Enemies to Lovers
+     Forced Proximity
+ 🔴SPLIT
+  Answer Box                input      10     821px      16px        75px  
+  Answer Box                input      10     872px      16px        24px   ⚠️CLOSE
+  ─── PAGE 11 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      11      10px      16px       886px  
+  Section Header            h3         11      82px      36px       794px  Expectations & Goals
+  Section Header            h4         11     136px      30px       746px  What do I expect from this book based on
+  Section Header            h4         11     424px      30px       458px  What specific craft element am I hoping 
+  Section Header            h4         11     711px      30px       171px  What weakness in my own writing do I hop
+  ─── PAGE 12 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h1         12     447px      61px       404px  The Craft Toolkit
+  Paragraph                 p          12     532px      66px       314px  Before you start logging chapters, famil
+  ─── PAGE 13 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h2         13      51px      48px       812px  Story Structure: The Big Picture
+  Paragraph                 p          13     116px      54px       742px  Every story is a series of promises and 
+  Bordered Box (auto)       div        13     190px     268px       455px  The Three-Act Framework
+    Act 1 (0-25%
+  Paragraph                 p          13     247px      56px       609px  Act 1 (0-25%): Setup. Establish the norm
+  Paragraph                 p          13     315px      56px       541px  Act 2 (25-75%): Confrontation. Escalatin
+  Paragraph                 p          13     383px      56px       473px  Act 3 (75-100%): Resolution. The protago
+  Bordered Box (auto)       div        13     477px     344px        91px  Key Story Beats to Recognize
+    The Hoo
+  Paragraph                 p          13     535px      28px       349px  The Hook: First pages—creates a question
+  Paragraph                 p          13     575px      28px       309px  Inciting Incident: The event that starts
+  Paragraph                 p          13     615px      28px       269px  First Plot Point: Protagonist commits to
+  Paragraph                 p          13     655px      28px       229px  Midpoint: Major shift—false victory, def
+  Paragraph                 p          13     695px      28px       189px  All Is Lost: Rock bottom. The protagonis
+  Paragraph                 p          13     735px      28px       149px  Climax: Final confrontation. Everything 
+  Paragraph                 p          13     775px      28px       109px  Resolution: New normal established. Fina
+  Section Header            h2         13     841px      48px        23px  Scene Craft: The Building Blocks ⚠️CLOSE
+  Paragraph                 p          13     899px      54px       871px  Stories are made of scenes. A scene is a 🔴SPLIT
+  ─── PAGE 14 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        14      51px     227px       634px  What Every Scene Needs
+    A Character W
+  Paragraph                 p          14      93px      46px       773px  A Character With a Goal: Someone wants s
+  Paragraph                 p          14     143px      46px       723px  Obstacles: Something prevents the charac
+  Paragraph                 p          14     192px      23px       697px  Stakes: Why does achieving (or failing t
+  Paragraph                 p          14     219px      46px       647px  Change: Something must be different at t
+  Bordered Box (auto)       div        14     284px     204px       423px  Scene-Level Techniques
+    Scene Entry: 
+  Paragraph                 p          14     327px      23px       562px  Scene Entry: Start as late as possible. 
+  Paragraph                 p          14     353px      23px       536px  Scene Exit: End as early as possible—oft
+  Paragraph                 p          14     380px      46px       486px  Scene Sequels: After an action scene, ch
+  Paragraph                 p          14     429px      46px       436px  Scene Types: Action scenes (something ha
+  Section Header            h2         14     495px      48px       369px  Tension & Pacing: The Rhythm
+  Paragraph                 p          14     559px      27px       326px  Pacing isn't just "fast" or "slow"—it's 
+  Bordered Box (auto)       div        14     606px     336px       882px  Creating Tension
+    Questions: Every un 🔴SPLIT
+  Paragraph                 p          14     664px      56px       192px  Questions: Every unanswered question cre
+  Paragraph                 p          14     732px      56px       124px  Dramatic Irony: When readers know someth
+  Paragraph                 p          14     800px      56px        56px  Ticking Clocks: Deadlines create urgency
+  Paragraph                 p          14     868px      56px       900px  Competing Desires: When a character want 🔴SPLIT
+  ─── PAGE 15 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        15      50px     308px       554px  Controlling Pace
+    Speed Up: Short sen
+  Paragraph                 p          15     108px      56px       748px  Speed Up: Short sentences. Short paragra
+  Paragraph                 p          15     176px      28px       708px  Slow Down: Longer sentences. Sensory det
+  Paragraph                 p          15     216px      56px       640px  Chapter Length: Short chapters = fast pa
+  Paragraph                 p          15     284px      56px       572px  Scene Breaks: White space signals time p
+  Section Header            h2         15     378px      48px       486px  Character Craft: Making People Real
+  Paragraph                 p          15     435px      54px       422px  Characters aren't just descriptions—they
+  Bordered Box (auto)       div        15     499px     251px       162px  Character Essentials
+    The Want (Exter
+  Paragraph                 p          15     542px      46px       324px  The Want (External Goal): What the chara
+  Paragraph                 p          15     591px      46px       275px  The Need (Internal Goal): What the chara
+  Paragraph                 p          15     641px      46px       225px  The Wound: Past pain that created a fals
+  Paragraph                 p          15     690px      46px       175px  The Flaw: Behavioral manifestation of th
+  Bordered Box (auto)       div        15     756px     251px       817px  Showing Character
+    Action Under Press 🔴SPLIT
+  Paragraph                 p          15     799px      46px        67px  Action Under Pressure: Who someone is ge
+  Paragraph                 p          15     848px      46px        18px  Contradiction: Real people are inconsist ⚠️CLOSE
+  Paragraph                 p          15     898px      46px       880px  Specificity: Not "she was nervous" but " 🔴SPLIT
+  ─── PAGE 16 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          16      35px      46px       830px  Voice: How a character speaks—word choic
+  Section Header            h2         16     101px      48px       763px  Line-Level Craft: The Micro Skills
+  Paragraph                 p          16     165px      54px       692px  Big-picture structure matters, but stori
+  Bordered Box (auto)       div        16     240px     336px       337px  Sentence Techniques
+    Vary Length: Lon
+  Paragraph                 p          16     297px      56px       559px  Vary Length: Long sentences for flow and
+  Paragraph                 p          16     365px      56px       491px  End on Strength: The most important word
+  Paragraph                 p          16     433px      56px       423px  Active Voice: "She drew her sword" not "
+  Paragraph                 p          16     501px      56px       355px  Concrete Over Abstract: "Grief" is abstr
+  Bordered Box (auto)       div        16     595px     336px       893px  Description & Detail
+    The Telling Det 🔴SPLIT
+  Paragraph                 p          16     653px      56px       203px  The Telling Detail: One perfect detail b
+  Paragraph                 p          16     721px      56px       135px  Character-Filtered: Description should r
+  Paragraph                 p          16     789px      56px        67px  In Motion: Static description stops stor
+  Paragraph                 p          16     857px      56px       911px  Sensory Balance: Most writers default to
+  ─── PAGE 17 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h2         17      39px      48px       825px  Dialogue Craft: Making Characters Talk
+  Paragraph                 p          17      96px      54px       761px  Great dialogue does multiple jobs at onc
+  Bordered Box (auto)       div        17     160px     251px       501px  Dialogue Principles
+    Subtext: Charact
+  Paragraph                 p          17     203px      46px       663px  Subtext: Characters rarely say what they
+  Paragraph                 p          17     252px      46px       613px  Agenda: Every character in a conversatio
+  Paragraph                 p          17     302px      46px       564px  Distinct Voices: Cover the dialogue tags
+  Paragraph                 p          17     351px      46px       514px  Compression: Real speech is boring. Fict
+  Bordered Box (auto)       div        17     417px     204px       290px  Dialogue Techniques
+    Misdirection: An
+  Paragraph                 p          17     460px      46px       406px  Misdirection: Answer a different questio
+  Paragraph                 p          17     509px      23px       380px  Interruption: Characters cutting each ot
+  Paragraph                 p          17     536px      23px       353px  Silence: What's NOT said matters. "She d
+  Paragraph                 p          17     562px      46px       304px  Beats: Small actions between dialogue li
+  Bordered Box (auto)       div        17     638px     183px        92px  The Goal of This Guide
+    You now have 
+  ─── PAGE 18 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h1         18     282px      61px       569px  Chapter-by-Chapter Logs
+  Paragraph                 p          18     367px      99px       445px  These logs help you capture observations
+  Section Header            h2         18     815px      48px        49px  How to Use These Chapter Logs
+  Paragraph                 p          18     879px      54px       890px  Reading like a writer means noticing thi 🔴SPLIT
+  ─── PAGE 19 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        19      38px     240px       634px  What to Track in Every Chapter
+    The C
+  Paragraph                 p          19      79px      45px       788px  The Chapter's Job: What does this chapte
+  Paragraph                 p          19     127px      45px       741px  Opening & Closing: Pay special attention
+  Paragraph                 p          19     174px      45px       694px  The Emotional Shift: Characters should f
+  Paragraph                 p          19     221px      45px       646px  Tension Types: Romantic tension and plot
+  Bordered Box (auto)       div        19     284px     240px       387px  Specific Things to Notice
+    For Romanc
+  Paragraph                 p          19     326px      45px       541px  For Romance: Any moment of awareness bet
+  Paragraph                 p          19     373px      45px       494px  For Fantasy Plot: What new information d
+  Paragraph                 p          19     420px      45px       447px  For Craft: Did any sentence stop you? An
+  Paragraph                 p          19     468px      45px       400px  For Pacing: Did the chapter feel too lon
+  Paragraph                 p          19     590px     109px       213px  Many writers find it helpful to do two p
+  Section Header            h2         19     779px      48px        85px  Chapter Logs
+  Paragraph                 p          19     835px      26px        51px  Fill these out immediately after finishi
+  Paragraph                 p          19     893px      23px       908px  Jump to Chapter: 🔴SPLIT
+  ─── PAGE 20 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          20     133px      27px       752px  Need more chapter logs? Use the Chapter 
+  Answer Box                input      20     244px      16px       652px  
+  Answer Box                input      20     269px      16px       627px  
+  Bordered Box (auto)       div        20     315px      54px       543px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         20     377px      30px       505px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         20     415px     169px       328px  Plot
+                 Romance
+          
+  Section Header            h4         20     604px      30px       278px  QF Tension (check one per row)
+  Section Header            h4         20     701px      30px       181px  QF One-Sentence Summary
+  Section Header            h4         20     704px      30px       178px  Foreshadowing & Setups
+  Paragraph                 p          20     734px      26px       152px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          20     737px      26px       149px  What's being set up for later?
+  ─── PAGE 21 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         21     138px      30px       744px  Romance: How did the relationship shift?
+  Section Header            h4         21     454px      30px       428px  Opening Hook: How did it grab you?
+  Section Header            h4         21     782px      30px       100px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 22 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      22     208px      16px       688px  
+  Answer Box                input      22     233px      16px       663px  
+  Bordered Box (auto)       div        22     279px      54px       579px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         22     341px      30px       541px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         22     379px     169px       364px  Plot
+                 Romance
+          
+  Section Header            h4         22     568px      30px       314px  QF Tension (check one per row)
+  Section Header            h4         22     665px      30px       217px  QF One-Sentence Summary
+  Section Header            h4         22     668px      30px       214px  Foreshadowing & Setups
+  Paragraph                 p          22     698px      26px       188px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          22     701px      26px       185px  What's being set up for later?
+  ─── PAGE 23 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         23     102px      30px       780px  Romance: How did the relationship shift?
+  Section Header            h4         23     418px      30px       464px  Opening Hook: How did it grab you?
+  Section Header            h4         23     746px      30px       136px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 24 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      24     172px      16px       724px  
+  Answer Box                input      24     197px      16px       699px  
+  Bordered Box (auto)       div        24     243px      54px       615px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         24     305px      30px       577px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         24     343px     169px       400px  Plot
+                 Romance
+          
+  Section Header            h4         24     532px      30px       350px  QF Tension (check one per row)
+  Section Header            h4         24     629px      30px       253px  QF One-Sentence Summary
+  Section Header            h4         24     632px      30px       250px  Foreshadowing & Setups
+  Paragraph                 p          24     662px      26px       224px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          24     665px      26px       221px  What's being set up for later?
+  ─── PAGE 25 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         25      66px      30px       816px  Romance: How did the relationship shift?
+  Section Header            h4         25     382px      30px       500px  Opening Hook: How did it grab you?
+  Section Header            h4         25     710px      30px       172px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 26 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      26     136px      16px       760px  
+  Answer Box                input      26     161px      16px       735px  
+  Bordered Box (auto)       div        26     207px      54px       651px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         26     269px      30px       613px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         26     307px     169px       436px  Plot
+                 Romance
+          
+  Section Header            h4         26     496px      30px       386px  QF Tension (check one per row)
+  Section Header            h4         26     593px      30px       289px  QF One-Sentence Summary
+  Section Header            h4         26     596px      30px       286px  Foreshadowing & Setups
+  Paragraph                 p          26     626px      26px       260px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          26     629px      26px       257px  What's being set up for later?
+  ─── PAGE 27 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         27      30px      30px       852px  Romance: How did the relationship shift?
+  Section Header            h4         27     346px      30px       536px  Opening Hook: How did it grab you?
+  Section Header            h4         27     674px      30px       208px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 28 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      28     100px      16px       796px  
+  Answer Box                input      28     125px      16px       771px  
+  Bordered Box (auto)       div        28     171px      54px       687px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         28     233px      30px       649px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         28     271px     169px       472px  Plot
+                 Romance
+          
+  Section Header            h4         28     460px      30px       422px  QF Tension (check one per row)
+  Section Header            h4         28     557px      30px       325px  QF One-Sentence Summary
+  Section Header            h4         28     560px      30px       322px  Foreshadowing & Setups
+  Paragraph                 p          28     590px      26px       296px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          28     593px      26px       293px  What's being set up for later?
+  Section Header            h4         28     906px      30px       888px  Romance: How did the relationship shift? 🔴SPLIT
+  ─── PAGE 29 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         29     310px      30px       572px  Opening Hook: How did it grab you?
+  Section Header            h4         29     638px      30px       244px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 30 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      30      64px      16px       832px  
+  Answer Box                input      30      89px      16px       807px  
+  Bordered Box (auto)       div        30     135px      54px       723px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         30     197px      30px       685px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         30     235px     169px       508px  Plot
+                 Romance
+          
+  Section Header            h4         30     424px      30px       458px  QF Tension (check one per row)
+  Section Header            h4         30     521px      30px       361px  QF One-Sentence Summary
+  Section Header            h4         30     524px      30px       358px  Foreshadowing & Setups
+  Paragraph                 p          30     554px      26px       332px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          30     557px      26px       329px  What's being set up for later?
+  Section Header            h4         30     870px      30px        12px  Romance: How did the relationship shift? ⚠️CLOSE
+  ─── PAGE 31 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         31     274px      30px       608px  Opening Hook: How did it grab you?
+  Section Header            h4         31     602px      30px       280px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 32 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      32      28px      16px       868px  
+  Answer Box                input      32      53px      16px       843px  
+  Bordered Box (auto)       div        32      99px      54px       759px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         32     161px      30px       721px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         32     199px     169px       544px  Plot
+                 Romance
+          
+  Section Header            h4         32     388px      30px       494px  QF Tension (check one per row)
+  Section Header            h4         32     485px      30px       397px  QF One-Sentence Summary
+  Section Header            h4         32     488px      30px       394px  Foreshadowing & Setups
+  Paragraph                 p          32     518px      26px       368px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          32     521px      26px       365px  What's being set up for later?
+  Section Header            h4         32     834px      30px        48px  Romance: How did the relationship shift?
+  ─── PAGE 33 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         33     238px      30px       644px  Opening Hook: How did it grab you?
+  Section Header            h4         33     566px      30px       316px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      33     904px      16px       904px   🔴SPLIT
+  ─── PAGE 34 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      34      17px      16px       879px  
+  Bordered Box (auto)       div        34      63px      54px       795px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         34     125px      30px       757px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         34     163px     169px       580px  Plot
+                 Romance
+          
+  Section Header            h4         34     352px      30px       530px  QF Tension (check one per row)
+  Section Header            h4         34     449px      30px       433px  QF One-Sentence Summary
+  Section Header            h4         34     452px      30px       430px  Foreshadowing & Setups
+  Paragraph                 p          34     482px      26px       404px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          34     485px      26px       401px  What's being set up for later?
+  Section Header            h4         34     798px      30px        84px  Romance: How did the relationship shift?
+  ─── PAGE 35 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         35     202px      30px       680px  Opening Hook: How did it grab you?
+  Section Header            h4         35     530px      30px       352px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      35     868px      16px        28px   ⚠️CLOSE
+  Answer Box                input      35     893px      16px         3px   ⚠️CLOSE
+  ─── PAGE 36 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        36      27px      54px       831px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         36      89px      30px       793px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         36     127px     169px       616px  Plot
+                 Romance
+          
+  Section Header            h4         36     316px      30px       566px  QF Tension (check one per row)
+  Section Header            h4         36     413px      30px       469px  QF One-Sentence Summary
+  Section Header            h4         36     416px      30px       466px  Foreshadowing & Setups
+  Paragraph                 p          36     446px      26px       440px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          36     449px      26px       437px  What's being set up for later?
+  Section Header            h4         36     762px      30px       120px  Romance: How did the relationship shift?
+  ─── PAGE 37 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         37     166px      30px       716px  Opening Hook: How did it grab you?
+  Section Header            h4         37     494px      30px       388px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      37     832px      16px        64px  
+  Answer Box                input      37     857px      16px        39px   ⚠️CLOSE
+  Bordered Box (auto)       div        37     903px      54px       867px  QF Arc Driver: (check one)  Fantasy  Rom 🔴SPLIT
+  ─── PAGE 38 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         38      53px      30px       829px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         38      91px     169px       652px  Plot
+                 Romance
+          
+  Section Header            h4         38     280px      30px       602px  QF Tension (check one per row)
+  Section Header            h4         38     377px      30px       505px  QF One-Sentence Summary
+  Section Header            h4         38     380px      30px       502px  Foreshadowing & Setups
+  Paragraph                 p          38     410px      26px       476px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          38     413px      26px       473px  What's being set up for later?
+  Section Header            h4         38     726px      30px       156px  Romance: How did the relationship shift?
+  ─── PAGE 39 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         39     130px      30px       752px  Opening Hook: How did it grab you?
+  Section Header            h4         39     458px      30px       424px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      39     796px      16px       100px  
+  Answer Box                input      39     821px      16px        75px  
+  Bordered Box (auto)       div        39     867px      54px       903px  QF Arc Driver: (check one)  Fantasy  Rom 🔴SPLIT
+  ─── PAGE 40 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         40      17px      30px       865px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         40      55px     169px       688px  Plot
+                 Romance
+          
+  Section Header            h4         40     244px      30px       638px  QF Tension (check one per row)
+  Section Header            h4         40     341px      30px       541px  QF One-Sentence Summary
+  Section Header            h4         40     344px      30px       538px  Foreshadowing & Setups
+  Paragraph                 p          40     374px      26px       512px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          40     377px      26px       509px  What's being set up for later?
+  Section Header            h4         40     690px      30px       192px  Romance: How did the relationship shift?
+  ─── PAGE 41 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         41      94px      30px       788px  Opening Hook: How did it grab you?
+  Section Header            h4         41     422px      30px       460px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      41     760px      16px       136px  
+  Answer Box                input      41     785px      16px       111px  
+  Bordered Box (auto)       div        41     831px      54px        27px  QF Arc Driver: (check one)  Fantasy  Rom ⚠️CLOSE
+  Section Header            h4         41     893px      30px       901px  This chapter's JOB: Why does it exist? 🔴SPLIT
+  ─── PAGE 42 ──────────────────────────────────────────────────────────────────────────────
+  Checklist / Radio         ul         42      19px     169px       724px  Plot
+                 Romance
+          
+  Section Header            h4         42     208px      30px       674px  QF Tension (check one per row)
+  Section Header            h4         42     305px      30px       577px  QF One-Sentence Summary
+  Section Header            h4         42     308px      30px       574px  Foreshadowing & Setups
+  Paragraph                 p          42     338px      26px       548px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          42     341px      26px       545px  What's being set up for later?
+  Section Header            h4         42     654px      30px       228px  Romance: How did the relationship shift?
+  ─── PAGE 43 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         43      58px      30px       824px  Opening Hook: How did it grab you?
+  Section Header            h4         43     386px      30px       496px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      43     724px      16px       172px  
+  Answer Box                input      43     749px      16px       147px  
+  Bordered Box (auto)       div        43     795px      54px        63px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         43     857px      30px        25px  This chapter's JOB: Why does it exist? ⚠️CLOSE
+  Checklist / Radio         ul         43     895px     169px       760px  Plot
+                 Romance
+           🔴SPLIT
+  ─── PAGE 44 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         44     172px      30px       710px  QF Tension (check one per row)
+  Section Header            h4         44     269px      30px       613px  QF One-Sentence Summary
+  Section Header            h4         44     272px      30px       610px  Foreshadowing & Setups
+  Paragraph                 p          44     302px      26px       584px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          44     305px      26px       581px  What's being set up for later?
+  Section Header            h4         44     618px      30px       264px  Romance: How did the relationship shift?
+  ─── PAGE 45 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         45      22px      30px       860px  Opening Hook: How did it grab you?
+  Section Header            h4         45     350px      30px       532px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      45     688px      16px       208px  
+  Answer Box                input      45     713px      16px       183px  
+  Bordered Box (auto)       div        45     759px      54px        99px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         45     821px      30px        61px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         45     859px     169px       796px  Plot
+                 Romance
+           🔴SPLIT
+  ─── PAGE 46 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         46     136px      30px       746px  QF Tension (check one per row)
+  Section Header            h4         46     233px      30px       649px  QF One-Sentence Summary
+  Section Header            h4         46     236px      30px       646px  Foreshadowing & Setups
+  Paragraph                 p          46     266px      26px       620px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          46     269px      26px       617px  What's being set up for later?
+  Section Header            h4         46     582px      30px       300px  Romance: How did the relationship shift?
+  Section Header            h4         46     898px      30px       896px  Opening Hook: How did it grab you? 🔴SPLIT
+  ─── PAGE 47 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         47     314px      30px       568px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      47     652px      16px       244px  
+  Answer Box                input      47     677px      16px       219px  
+  Bordered Box (auto)       div        47     723px      54px       135px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         47     785px      30px        97px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         47     823px     169px       832px  Plot
+                 Romance
+           🔴SPLIT
+  ─── PAGE 48 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         48     100px      30px       782px  QF Tension (check one per row)
+  Section Header            h4         48     197px      30px       685px  QF One-Sentence Summary
+  Section Header            h4         48     200px      30px       682px  Foreshadowing & Setups
+  Paragraph                 p          48     230px      26px       656px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          48     233px      26px       653px  What's being set up for later?
+  Section Header            h4         48     546px      30px       336px  Romance: How did the relationship shift?
+  Section Header            h4         48     862px      30px        20px  Opening Hook: How did it grab you? ⚠️CLOSE
+  ─── PAGE 49 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         49     278px      30px       604px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      49     616px      16px       280px  
+  Answer Box                input      49     641px      16px       255px  
+  Bordered Box (auto)       div        49     687px      54px       171px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         49     749px      30px       133px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         49     787px     169px       868px  Plot
+                 Romance
+           🔴SPLIT
+  ─── PAGE 50 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         50      64px      30px       818px  QF Tension (check one per row)
+  Section Header            h4         50     161px      30px       721px  QF One-Sentence Summary
+  Section Header            h4         50     164px      30px       718px  Foreshadowing & Setups
+  Paragraph                 p          50     194px      26px       692px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          50     197px      26px       689px  What's being set up for later?
+  Section Header            h4         50     510px      30px       372px  Romance: How did the relationship shift?
+  Section Header            h4         50     826px      30px        56px  Opening Hook: How did it grab you?
+  ─── PAGE 51 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         51     242px      30px       640px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      51     580px      16px       316px  
+  Answer Box                input      51     605px      16px       291px  
+  Bordered Box (auto)       div        51     651px      54px       207px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         51     713px      30px       169px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         51     751px     169px       904px  Plot
+                 Romance
+           🔴SPLIT
+  ─── PAGE 52 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         52      28px      30px       854px  QF Tension (check one per row)
+  Section Header            h4         52     125px      30px       757px  QF One-Sentence Summary
+  Section Header            h4         52     128px      30px       754px  Foreshadowing & Setups
+  Paragraph                 p          52     158px      26px       728px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          52     161px      26px       725px  What's being set up for later?
+  Section Header            h4         52     474px      30px       408px  Romance: How did the relationship shift?
+  Section Header            h4         52     790px      30px        92px  Opening Hook: How did it grab you?
+  ─── PAGE 53 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         53     206px      30px       676px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      53     544px      16px       352px  
+  Answer Box                input      53     569px      16px       327px  
+  Bordered Box (auto)       div        53     615px      54px       243px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         53     677px      30px       205px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         53     715px     169px        28px  Plot
+                 Romance
+           ⚠️CLOSE
+  Section Header            h4         53     904px      30px       890px  QF Tension (check one per row) 🔴SPLIT
+  ─── PAGE 54 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         54      89px      30px       793px  QF One-Sentence Summary
+  Section Header            h4         54      92px      30px       790px  Foreshadowing & Setups
+  Paragraph                 p          54     122px      26px       764px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          54     125px      26px       761px  What's being set up for later?
+  Section Header            h4         54     438px      30px       444px  Romance: How did the relationship shift?
+  Section Header            h4         54     754px      30px       128px  Opening Hook: How did it grab you?
+  ─── PAGE 55 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         55     170px      30px       712px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      55     508px      16px       388px  
+  Answer Box                input      55     533px      16px       363px  
+  Bordered Box (auto)       div        55     579px      54px       279px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         55     641px      30px       241px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         55     679px     169px        64px  Plot
+                 Romance
+          
+  Section Header            h4         55     868px      30px        14px  QF Tension (check one per row) ⚠️CLOSE
+  ─── PAGE 56 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         56      53px      30px       829px  QF One-Sentence Summary
+  Section Header            h4         56      56px      30px       826px  Foreshadowing & Setups
+  Paragraph                 p          56      86px      26px       800px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          56      89px      26px       797px  What's being set up for later?
+  Section Header            h4         56     402px      30px       480px  Romance: How did the relationship shift?
+  Section Header            h4         56     718px      30px       164px  Opening Hook: How did it grab you?
+  ─── PAGE 57 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         57     134px      30px       748px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      57     472px      16px       424px  
+  Answer Box                input      57     497px      16px       399px  
+  Bordered Box (auto)       div        57     543px      54px       315px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         57     605px      30px       277px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         57     643px     169px       100px  Plot
+                 Romance
+          
+  Section Header            h4         57     832px      30px        50px  QF Tension (check one per row)
+  ─── PAGE 58 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         58      17px      30px       865px  QF One-Sentence Summary
+  Section Header            h4         58      20px      30px       862px  Foreshadowing & Setups
+  Paragraph                 p          58      50px      26px       836px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          58      53px      26px       833px  What's being set up for later?
+  Section Header            h4         58     366px      30px       516px  Romance: How did the relationship shift?
+  Section Header            h4         58     682px      30px       200px  Opening Hook: How did it grab you?
+  ─── PAGE 59 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         59      98px      30px       784px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      59     436px      16px       460px  
+  Answer Box                input      59     461px      16px       435px  
+  Bordered Box (auto)       div        59     507px      54px       351px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         59     569px      30px       313px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         59     607px     169px       136px  Plot
+                 Romance
+          
+  Section Header            h4         59     796px      30px        86px  QF Tension (check one per row)
+  Section Header            h4         59     893px      30px       901px  QF One-Sentence Summary 🔴SPLIT
+  Section Header            h4         59     896px      30px       898px  Foreshadowing & Setups 🔴SPLIT
+  ─── PAGE 60 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          60      14px      26px       872px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          60      17px      26px       869px  What's being set up for later?
+  Section Header            h4         60     330px      30px       552px  Romance: How did the relationship shift?
+  Section Header            h4         60     646px      30px       236px  Opening Hook: How did it grab you?
+  ─── PAGE 61 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         61      62px      30px       820px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      61     400px      16px       496px  
+  Answer Box                input      61     425px      16px       471px  
+  Bordered Box (auto)       div        61     471px      54px       387px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         61     533px      30px       349px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         61     571px     169px       172px  Plot
+                 Romance
+          
+  Section Header            h4         61     760px      30px       122px  QF Tension (check one per row)
+  Section Header            h4         61     857px      30px        25px  QF One-Sentence Summary ⚠️CLOSE
+  Section Header            h4         61     860px      30px        22px  Foreshadowing & Setups ⚠️CLOSE
+  Paragraph                 p          61     890px      26px       908px  [Who] wants [what] but [obstacle] so [ou 🔴SPLIT
+  Paragraph                 p          61     893px      26px       905px  What's being set up for later? 🔴SPLIT
+  ─── PAGE 62 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         62     294px      30px       588px  Romance: How did the relationship shift?
+  Section Header            h4         62     610px      30px       272px  Opening Hook: How did it grab you?
+  ─── PAGE 63 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         63      26px      30px       856px  QF Craft Move to Steal: Quote it if you 
+  Answer Box                input      63     364px      16px       532px  
+  Answer Box                input      63     389px      16px       507px  
+  Bordered Box (auto)       div        63     435px      54px       423px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         63     497px      30px       385px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         63     535px     169px       208px  Plot
+                 Romance
+          
+  Section Header            h4         63     724px      30px       158px  QF Tension (check one per row)
+  Section Header            h4         63     821px      30px        61px  QF One-Sentence Summary
+  Section Header            h4         63     824px      30px        58px  Foreshadowing & Setups
+  Paragraph                 p          63     854px      26px        32px  [Who] wants [what] but [obstacle] so [ou ⚠️CLOSE
+  Paragraph                 p          63     857px      26px        29px  What's being set up for later? ⚠️CLOSE
+  ─── PAGE 64 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         64     258px      30px       624px  Romance: How did the relationship shift?
+  Section Header            h4         64     574px      30px       308px  Opening Hook: How did it grab you?
+  Section Header            h4         64     902px      30px       892px  QF Craft Move to Steal: Quote it if you  🔴SPLIT
+  ─── PAGE 65 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      65     328px      16px       568px  
+  Answer Box                input      65     353px      16px       543px  
+  Bordered Box (auto)       div        65     399px      54px       459px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         65     461px      30px       421px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         65     499px     169px       244px  Plot
+                 Romance
+          
+  Section Header            h4         65     688px      30px       194px  QF Tension (check one per row)
+  Section Header            h4         65     785px      30px        97px  QF One-Sentence Summary
+  Section Header            h4         65     788px      30px        94px  Foreshadowing & Setups
+  Paragraph                 p          65     818px      26px        68px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          65     821px      26px        65px  What's being set up for later?
+  ─── PAGE 66 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         66     222px      30px       660px  Romance: How did the relationship shift?
+  Section Header            h4         66     538px      30px       344px  Opening Hook: How did it grab you?
+  Section Header            h4         66     866px      30px        16px  QF Craft Move to Steal: Quote it if you  ⚠️CLOSE
+  ─── PAGE 67 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      67     292px      16px       604px  
+  Answer Box                input      67     317px      16px       579px  
+  Bordered Box (auto)       div        67     363px      54px       495px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         67     425px      30px       457px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         67     463px     169px       280px  Plot
+                 Romance
+          
+  Section Header            h4         67     652px      30px       230px  QF Tension (check one per row)
+  Section Header            h4         67     749px      30px       133px  QF One-Sentence Summary
+  Section Header            h4         67     752px      30px       130px  Foreshadowing & Setups
+  Paragraph                 p          67     782px      26px       104px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          67     785px      26px       101px  What's being set up for later?
+  ─── PAGE 68 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         68     186px      30px       696px  Romance: How did the relationship shift?
+  Section Header            h4         68     502px      30px       380px  Opening Hook: How did it grab you?
+  Section Header            h4         68     830px      30px        52px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 69 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      69     256px      16px       640px  
+  Answer Box                input      69     281px      16px       615px  
+  Bordered Box (auto)       div        69     327px      54px       531px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         69     389px      30px       493px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         69     427px     169px       316px  Plot
+                 Romance
+          
+  Section Header            h4         69     616px      30px       266px  QF Tension (check one per row)
+  Section Header            h4         69     713px      30px       169px  QF One-Sentence Summary
+  Section Header            h4         69     716px      30px       166px  Foreshadowing & Setups
+  Paragraph                 p          69     746px      26px       140px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          69     749px      26px       137px  What's being set up for later?
+  ─── PAGE 70 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         70     150px      30px       732px  Romance: How did the relationship shift?
+  Section Header            h4         70     466px      30px       416px  Opening Hook: How did it grab you?
+  Section Header            h4         70     794px      30px        88px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 71 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      71     220px      16px       676px  
+  Answer Box                input      71     245px      16px       651px  
+  Bordered Box (auto)       div        71     291px      54px       567px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         71     353px      30px       529px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         71     391px     169px       352px  Plot
+                 Romance
+          
+  Section Header            h4         71     580px      30px       302px  QF Tension (check one per row)
+  Section Header            h4         71     677px      30px       205px  QF One-Sentence Summary
+  Section Header            h4         71     680px      30px       202px  Foreshadowing & Setups
+  Paragraph                 p          71     710px      26px       176px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          71     713px      26px       173px  What's being set up for later?
+  ─── PAGE 72 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         72     114px      30px       768px  Romance: How did the relationship shift?
+  Section Header            h4         72     430px      30px       452px  Opening Hook: How did it grab you?
+  Section Header            h4         72     758px      30px       124px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 73 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      73     184px      16px       712px  
+  Answer Box                input      73     209px      16px       687px  
+  Bordered Box (auto)       div        73     255px      54px       603px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         73     317px      30px       565px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         73     355px     169px       388px  Plot
+                 Romance
+          
+  Section Header            h4         73     544px      30px       338px  QF Tension (check one per row)
+  Section Header            h4         73     641px      30px       241px  QF One-Sentence Summary
+  Section Header            h4         73     644px      30px       238px  Foreshadowing & Setups
+  Paragraph                 p          73     674px      26px       212px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          73     677px      26px       209px  What's being set up for later?
+  ─── PAGE 74 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         74      78px      30px       804px  Romance: How did the relationship shift?
+  Section Header            h4         74     394px      30px       488px  Opening Hook: How did it grab you?
+  Section Header            h4         74     722px      30px       160px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 75 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      75     148px      16px       748px  
+  Answer Box                input      75     173px      16px       723px  
+  Bordered Box (auto)       div        75     219px      54px       639px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         75     281px      30px       601px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         75     319px     169px       424px  Plot
+                 Romance
+          
+  Section Header            h4         75     508px      30px       374px  QF Tension (check one per row)
+  Section Header            h4         75     605px      30px       277px  QF One-Sentence Summary
+  Section Header            h4         75     608px      30px       274px  Foreshadowing & Setups
+  Paragraph                 p          75     638px      26px       248px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          75     641px      26px       245px  What's being set up for later?
+  ─── PAGE 76 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         76      42px      30px       840px  Romance: How did the relationship shift?
+  Section Header            h4         76     358px      30px       524px  Opening Hook: How did it grab you?
+  Section Header            h4         76     686px      30px       196px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 77 ──────────────────────────────────────────────────────────────────────────────
+  Answer Box                input      77     112px      16px       784px  
+  Answer Box                input      77     137px      16px       759px  
+  Bordered Box (auto)       div        77     183px      54px       675px  QF Arc Driver: (check one)  Fantasy  Rom
+  Section Header            h4         77     245px      30px       637px  This chapter's JOB: Why does it exist?
+  Checklist / Radio         ul         77     283px     169px       460px  Plot
+                 Romance
+          
+  Section Header            h4         77     472px      30px       410px  QF Tension (check one per row)
+  Section Header            h4         77     569px      30px       313px  QF One-Sentence Summary
+  Section Header            h4         77     572px      30px       310px  Foreshadowing & Setups
+  Paragraph                 p          77     602px      26px       284px  [Who] wants [what] but [obstacle] so [ou
+  Paragraph                 p          77     605px      26px       281px  What's being set up for later?
+  ─── PAGE 78 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h4         78       6px      30px       876px  Romance: How did the relationship shift?
+  Section Header            h4         78     322px      30px       560px  Opening Hook: How did it grab you?
+  Section Header            h4         78     650px      30px       232px  QF Craft Move to Steal: Quote it if you 
+  ─── PAGE 79 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h1         79     375px      61px       476px  Romance Arc Tracking
+  Paragraph                 p          79     460px      66px       386px  Romance readers have expectations for ho
+  Section Header            h2         79     891px      48px       885px  Romancing the Beat Framework 🔴SPLIT
+  ─── PAGE 80 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          80      43px     109px       760px  This framework comes from Gwen Hayes's b
+  Paragraph                 p          80     168px     109px       635px  As you read, look for these beats. Not e
+  Paragraph                 p          80     293px      82px       538px  In romantasy specifically, these romance
+  Bordered Box (auto)       div        80     414px     245px       252px  The Romance Promise
+    Romance is the o
+  Bordered Box (auto)       div        80     684px     150px        78px  Phase 1: The Setup (0–25%)
+    This is w
+  Paragraph                 p          80     743px      54px       114px  This is where you meet the characters. Y
+  Bordered Box (auto)       div        80     858px     600px       367px  What to Look For in Phase 1
+    Phase 1  🔴SPLIT
+  ─── PAGE 81 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          81       3px      56px       853px  Phase 1 is about creating the conditions
+  Paragraph                 p          81      71px     112px       729px  The Meet Cute/Ugly: In romantasy, the fi
+  Paragraph                 p          81     195px     112px       605px  The "No Way" (Why They Can't Be Together
+  Paragraph                 p          81     319px     112px       481px  The Adhesion (What Forces Proximity): De
+  Paragraph                 p          81     443px      84px       385px  Character Wounds: What past pain is each
+  Table                     table      81     565px     761px       498px  Beat
+            Chapter/Page
+           🔴SPLIT
+  ─── PAGE 82 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        82     438px     150px       324px  Phase 2: Falling in Love (25–50%)
+    Th
+  Paragraph                 p          82     498px      54px       360px  The characters are forced to cooperate. 
+  Bordered Box (auto)       div        82     612px     572px       640px  What to Look For in Phase 2
+    This pha 🔴SPLIT
+  Paragraph                 p          82     670px      56px       186px  This phase is about the slow erosion of 
+  Paragraph                 p          82     738px     112px        62px  The Inkling of Desire: This is the first
+  Paragraph                 p          82     862px     112px       850px  Vulnerability Moments: Watch for scenes  🔴SPLIT
+  ─── PAGE 83 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          83      74px      84px       754px  The Deepening: Attraction becomes someth
+  Paragraph                 p          83     170px      84px       658px  The Midpoint Intimacy: Around the 50% ma
+  Table                     table      83     292px     791px       741px  Beat
+            Ch/Page
+            How 🔴SPLIT
+  ─── PAGE 84 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        84     195px     150px       567px  Phase 3: Retreating from Love (50–75%)
+ 
+  Paragraph                 p          84     254px      54px       603px  Just when things are going well, interna
+  Bordered Box (auto)       div        84     369px     572px       884px  What to Look For in Phase 3
+    This pha 🔴SPLIT
+  Paragraph                 p          84     426px      56px       430px  This phase is about everything falling a
+  Paragraph                 p          84     494px     112px       306px  Shields Up: After the vulnerability of P
+  Paragraph                 p          84     618px     112px       182px  The Retreat/Breakup: Something happens t
+  Paragraph                 p          84     742px      84px        86px  The Dark Night of the Soul: This is rock
+  Paragraph                 p          84     838px      84px       902px  The "Black Moment": The relationship see 🔴SPLIT
+  ─── PAGE 85 ──────────────────────────────────────────────────────────────────────────────
+  Table                     table      85      48px     791px        73px  Beat
+            Ch/Page
+            How
+  Bordered Box (auto)       div        85     863px     150px       811px  Phase 4: Fighting for Love (75–100%)
+    🔴SPLIT
+  ─── PAGE 86 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          86      11px      54px       847px  The protagonist realizes love is worth t
+  Bordered Box (auto)       div        86     125px     544px       243px  What to Look For in Phase 4
+    This pha
+  Paragraph                 p          86     183px      56px       673px  This phase is about earning the happy en
+  Paragraph                 p          86     251px      84px       577px  The Realization: One or both characters 
+  Paragraph                 p          86     347px     112px       453px  The Grand Gesture: This is the visible p
+  Paragraph                 p          86     471px      84px       357px  The Proof of Change: The grand gesture s
+  Paragraph                 p          86     567px      84px       261px  The HEA/HFN: The Happy Ever After or Hap
+  Table                     table      86     689px     791px       344px  Beat
+            Ch/Page
+            How 🔴SPLIT
+  ─── PAGE 87 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        87     592px     301px        19px  Common Pitfalls to Notice
+    Unearned H ⚠️CLOSE
+  Paragraph                 p          87     653px      49px       210px  Unearned HEA: If the grand gesture costs
+  Paragraph                 p          87     710px      49px       153px  Weak "No Way": If the obstacle to love c
+  Paragraph                 p          87     767px      49px        96px  Rushed Phase 2: If falling in love happe
+  Paragraph                 p          87     824px      49px        39px  Insufficient Pain in Phase 3: If the bre ⚠️CLOSE
+  ─── PAGE 88 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h1         88     355px      61px       496px  Fantasy Plot Tracking
+  Paragraph                 p          88     440px      99px       373px  In romantasy, the fantasy plot isn't jus
+  Section Header            h2         88     888px      48px       888px  Save the Cat! / Three-Act Structure 🔴SPLIT
+  ─── PAGE 89 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          89      40px     109px       763px  The three-act structure is storytelling'
+  Paragraph                 p          89     165px     109px       639px  As you track these beats, pay attention 
+  Paragraph                 p          89     289px     109px       514px  Understanding structure helps you see wh
+  Paragraph                 p          89     414px     136px       362px  Readers have internalized these beats fr
+  Bordered Box (auto)       div        89     574px     245px        93px  The Dual-Engine Genre
+    Romantasy must
+  Bordered Box (auto)       div        89     843px     150px       831px  Act 1: The Setup (0–25%)
+    We meet the 🔴SPLIT
+  Paragraph                 p          89     903px      54px       867px  We meet the protagonist in their ordinar 🔴SPLIT
+  ─── PAGE 90 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        90     105px     556px       251px  What to Look For in Act 1
+    Act 1 is a
+  Paragraph                 p          90     163px      28px       721px  Act 1 is about establishing normal so yo
+  Paragraph                 p          90     203px      84px       625px  The Opening Image: What is the very firs
+  Paragraph                 p          90     299px      84px       529px  The "Stasis = Death" Moment: Before the 
+  Paragraph                 p          90     395px      84px       433px  The Catalyst: The inciting incident that
+  Paragraph                 p          90     491px      56px       365px  The Debate/Refusal: After the catalyst, 
+  Paragraph                 p          90     559px      84px       269px  Break Into Two: The protagonist makes a 
+  Table                     table      90     681px     791px       352px  Beat
+            Ch/Page
+            Wha 🔴SPLIT
+  ─── PAGE 91 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        91     584px     150px       178px  Act 2A: Fun & Games (25–50%)
+    This is
+  Paragraph                 p          91     643px      54px       214px  This is the "promise of the premise." Th
+  Bordered Box (auto)       div        91     758px     544px       523px  What to Look For in Act 2A
+    This is t 🔴SPLIT
+  Paragraph                 p          91     815px      56px        41px  This is the section readers came for. It
+  Paragraph                 p          91     883px      84px       857px  The "Fun and Games": This is what the bo 🔴SPLIT
+  ─── PAGE 92 ──────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p          92      67px      84px       761px  The B-Story (Romance): In romantasy, the
+  Paragraph                 p          92     163px      84px       665px  Building the World: Act 2A is where we r
+  Paragraph                 p          92     259px     112px       541px  The Midpoint: Around 50%, something big 
+  Table                     table      92     409px     721px       694px  Beat
+            Ch/Page
+            Wha 🔴SPLIT
+  ─── PAGE 93 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        93     242px     150px       520px  Act 2B: Bad Guys Close In (50–75%)
+    T
+  Paragraph                 p          93     302px      54px       556px  The fun is over. External pressure mount
+  Bordered Box (auto)       div        93     416px     488px         8px  What to Look For in Act 2B
+    This is w ⚠️CLOSE
+  Paragraph                 p          93     474px      56px       382px  This is where the author earns their cli
+  Paragraph                 p          93     542px      84px       286px  Bad Guys Close In: The antagonist gets s
+  Paragraph                 p          93     638px      84px       190px  Internal Bad Guys: It's not just externa
+  Paragraph                 p          93     734px      84px        94px  All Is Lost: Rock bottom. Someone import
+  Paragraph                 p          93     830px      56px        26px  The Whiff of Death: There's often a lite ⚠️CLOSE
+  ─── PAGE 94 ──────────────────────────────────────────────────────────────────────────────
+  Table                     table      94      12px     721px       179px  Beat
+            Ch/Page
+            Wha
+  Bordered Box (auto)       div        94     757px     150px         5px  Act 3: The Finale (75–100%)
+    From the ⚠️CLOSE
+  Paragraph                 p          94     817px      54px        41px  From the ashes of defeat, a new plan eme
+  ─── PAGE 95 ──────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div        95      19px     516px       377px  What to Look For in Act 3
+    This is wh
+  Paragraph                 p          95      77px      56px       779px  This is where everything comes together—
+  Paragraph                 p          95     145px      84px       683px  Dark Night of the Soul: After "All Is Lo
+  Paragraph                 p          95     241px      84px       587px  Break Into Three: A new plan emerges. It
+  Paragraph                 p          95     337px      84px       491px  The Finale/Climax: This should resolve B
+  Paragraph                 p          95     433px      84px       395px  The Final Image: Mirror to the opening i
+  Table                     table      95     555px     721px       548px  Beat
+            Ch/Page
+            Wha 🔴SPLIT
+  ─── PAGE 96 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h1         96     730px      61px       121px  Dual-Arc Integration Analysis
+  Paragraph                 p          96     815px      99px       910px  This is the defining craft challenge of  🔴SPLIT
+  ─── PAGE 97 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h2         97     351px      48px       513px  The Through-Thread
+  Paragraph                 p          97     415px      54px       443px  Here's the difference between a fantasy 
+  Paragraph                 p          97     485px     109px       318px  In a fantasy novel with romance, both th
+  Paragraph                 p          97     610px     136px       166px  A true romantasy is different. The arcs 
+  Paragraph                 p          97     762px      54px        96px  That constant back and forth, where roma
+  Bordered Box (auto)       div        97     840px     183px       801px  The Core Test
+    Could you remove the r 🔴SPLIT
+  ─── PAGE 98 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h3         98     139px      36px       737px  Where Does This Book Fall on the Spectru
+  Paragraph                 p          98     187px      82px       644px  Romantasy isn't one thing. It's a spectr
+  Bordered Box (auto)       div        98     308px     356px       248px  Fantasy Romance
+        The love story i
+  Paragraph                 p          98     368px     190px       354px  The love story is the primary arc. The f
+  Paragraph                 p          98     368px     163px       381px  The quest/world is the primary arc. The 
+  Paragraph                 p          98     547px      54px       311px  Think: The Priory of the Orange Tree, Th
+  Paragraph                 p          98     574px      54px       284px  Think: From Blood and Ash, Zodiac Academ
+  Section Header            h4         98     708px      30px       174px  This book is: (mark on spectrum)
+  Bordered Box (auto)       div        98     759px       4px       149px  
+  Section Header            h4         98     792px      30px        90px  Why? What evidence supports your placeme
+  ─── PAGE 99 ──────────────────────────────────────────────────────────────────────────────
+  Section Header            h3         99      61px      36px       815px  The Bridge: What Binds the Arcs?
+  Paragraph                 p          99     109px      82px       721px  Every successful romantasy has a bridge—
+  Paragraph                 p          99     207px      54px       651px  Identifying the bridge tells you HOW thi
+  Paragraph                 p          99     277px      82px       553px  The test: Ask yourself, "Could the roman
+  Bordered Box (auto)       div        99     379px     132px       402px  Identify the Binding Technique(s)
+      
+  Paragraph                 p          99     436px      56px       420px  In your own words, what is the bridge in
+  Paragraph                 p          99     730px      54px       127px  Review the common binding techniques bel
+  Table                     table      99     809px     859px       157px  Binding Technique
+            Definition 🔴SPLIT
+  ─── PAGE 100 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         100     779px      27px       106px  Fill in the binding techniques you ident
+  Table                     table     100     830px     806px       187px  Binding Technique
+            How It App 🔴SPLIT
+  ─── PAGE 101 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        101     753px      36px       124px  The Dual-Arc Causality Grid
+  Paragraph                 p         101     800px      54px        57px  This is the most powerful analysis tool 
+  Paragraph                 p         101     871px      54px       899px  For each major beat, ask: What did this  🔴SPLIT
+  ─── PAGE 102 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        102      33px      30px       849px  How to Use the Grid
+  Paragraph                 p         102      71px     109px       732px  Start by identifying the major beats in 
+  Paragraph                 p         102     196px      27px       689px  Look for three patterns:
+  Unordered List            ul        102     239px     179px       494px  Strong causal chains — Fantasy event for
+  Paragraph                 p         102     434px      54px       423px  A well-integrated romantasy should show 
+  Table                     table     102     513px     815px       496px  %
+            Fantasy Beat
+            R 🔴SPLIT
+  ─── PAGE 103 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        103     444px      36px       432px  The Midpoint Rupture
+  Paragraph                 p         103     492px      82px       339px  The midpoint is where a good romantasy r
+  Paragraph                 p         103     589px      54px       268px  This is the moment where a romantic trut
+  Bordered Box (auto)       div       103     664px     308px       853px  Midpoint Analysis
+    What is the fantas 🔴SPLIT
+  Paragraph                 p         103     721px      28px       163px  What is the fantasy midpoint event? (Fal
+  Paragraph                 p         103     761px      56px        95px  What is the romance midpoint event? (Fir
+  Paragraph                 p         103     829px      56px        27px  Do they happen at the same time? If yes, ⚠️CLOSE
+  Paragraph                 p         103     897px      56px       871px  Does one CAUSE the other? This is the ke 🔴SPLIT
+  ─── PAGE 104 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        104      79px      30px       803px  Fantasy midpoint event (what happens and
+  Section Header            h4        104     502px      30px       380px  Romance midpoint event (what happens and
+  ─── PAGE 105 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        105      13px      30px       869px  How do they connect? Does one cause the 
+  Section Header            h4        105     435px      30px       447px  If you removed one arc's midpoint entire
+  Section Header            h3        105     866px      36px        10px  The Emotional Mirror ⚠️CLOSE
+  ─── PAGE 106 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         106       2px      54px       856px  In deeply integrated romantasy, the stat
+  Paragraph                 p         106      72px      82px       758px  Look for: weather that shifts with mood,
+  Section Header            h4        106     174px      30px       708px  Examples of the Emotional Mirror in this
+  Section Header            h4        106     664px      30px       219px  How strong is the mirror effect? (check 
+  Section Header            h3        106     751px      36px       125px  Integration Deep Questions
+  Paragraph                 p         106     799px      54px        59px  After filling in the grid, the bridge id
+  Section Header            h4        106     873px      30px         9px  At what point in the book does the roman ⚠️CLOSE
+  ─── PAGE 107 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        107     326px      30px       556px  Where are the "saggy" spots—chapters whe
+  Section Header            h4        107     691px      30px       191px  Does the climax resolve both arcs simult
+  ─── PAGE 108 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        108      87px      60px       765px  What is the single causal link that hold
+  Bordered Box (auto)       div       108     428px     245px       238px  What You're Really Learning
+    The dual
+  ─── PAGE 109 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h1        109     152px      61px       699px  Trope Execution
+  Paragraph                 p         109     237px      66px       609px  Tropes are promises to readers. When you
+  Section Header            h2        109     669px      48px       195px  Understanding Tropes
+  Paragraph                 p         109     733px      82px        98px  Tropes aren't clichés—they're reader exp
+  Paragraph                 p         109     830px      54px        27px  The difference between a well-executed t ⚠️CLOSE
+  Bordered Box (auto)       div       109     905px     432px       488px  What Makes a Trope Work
+    When analysi 🔴SPLIT
+  ─── PAGE 110 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         110      50px      28px       834px  When analysing trope execution, ask your
+  Paragraph                 p         110      90px      56px       766px  Is the Setup Earned? For enemies-to-love
+  Paragraph                 p         110     158px      84px       670px  Is the Progression Believable? Readers w
+  Paragraph                 p         110     254px      84px       574px  Is the Payoff Specific? The best trope p
+  Paragraph                 p         110     350px      56px       506px  Does It Serve the Larger Story? Tropes s
+  Section Header            h2        110     464px      48px       400px  Macro Tropes
+  Paragraph                 p         110     528px      54px       329px  These are the large-scale dynamics that 
+  Bordered Box (auto)       div       110     607px     362px       855px  Enemies to Lovers: The Four Phases
+    P 🔴SPLIT
+  Paragraph                 p         110     666px      78px       168px  Phase 1 — Justified Hatred: The hatred m
+  Paragraph                 p         110     752px      78px        83px  Phase 2 — Crack in Armor: One character 
+  Paragraph                 p         110     837px      52px        23px  Phase 3 — Reluctant Allies: External cir ⚠️CLOSE
+  Paragraph                 p         110     897px      52px       875px  Phase 4 — Respect to Attraction: Grudgin 🔴SPLIT
+  ─── PAGE 111 ─────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div       111      81px     191px       640px  Fated Mates / Soul Bonds
+    The Problem
+  Paragraph                 p         111     140px      52px       720px  The Problem: If they're fated, where's t
+  Paragraph                 p         111     200px      52px       660px  The Best Version: The bond forces them t
+  Bordered Box (auto)       div       111     296px     251px       366px  Slow Burn: The Art of Delayed Gratificat
+  Paragraph                 p         111     355px      52px       505px  The Promise: Readers know the characters
+  Paragraph                 p         111     415px      52px       445px  Pacing Is Everything: Too fast and it's 
+  Paragraph                 p         111     475px      52px       386px  What to Watch: How does the author creat
+  Bordered Box (auto)       div       111     570px     251px        91px  Morally Grey Hero: The Tightrope
+    The
+  Paragraph                 p         111     630px      52px       230px  The Appeal: Readers want someone dangero
+  Paragraph                 p         111     690px      52px       171px  The Line: The character must do genuinel
+  Paragraph                 p         111     749px      52px       111px  What to Watch: What is the character's m
+  Bordered Box (auto)       div       111     845px     251px       728px  Forbidden Love: Why They Can't
+    The S 🔴SPLIT
+  Paragraph                 p         111     904px      52px       868px  The Stakes Must Be Real: If the "forbidd 🔴SPLIT
+  ─── PAGE 112 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         112      52px      52px       808px  Internal vs. External: Is the barrier ex
+  Paragraph                 p         112     112px      52px       748px  What to Watch: How does the author make 
+  Paragraph                 p         112     208px      27px       677px  See the Trope Dictionary in the appendix
+  Paragraph                 p         112     320px      52px       540px  Use this list to help identify which tro
+  Table                     table     112     661px     893px       270px  Trope
+            Setup (Ch)
+            🔴SPLIT
+  ─── PAGE 113 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        113     682px      48px       182px  Micro Tropes (Viral Moments)
+  Paragraph                 p         113     746px      82px        84px  These are the specific scenes readers sc
+  Bordered Box (auto)       div       113     852px     165px       807px  "Who Did This To You?"
+    Why It Works: 🔴SPLIT
+  Paragraph                 p         113     911px      52px       861px  Why It Works: This shows protective rage 🔴SPLIT
+  ─── PAGE 114 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         114      59px      26px       827px  What to Watch: What triggers the rage? H
+  Bordered Box (auto)       div       114     129px     165px       618px  Wound Tending / Injury Care
+    Why It W
+  Paragraph                 p         114     188px      52px       672px  Why It Works: Forced intimacy + vulnerab
+  Paragraph                 p         114     248px      26px       638px  What to Watch: How does the author slow 
+  Bordered Box (auto)       div       114     318px     165px       429px  The Training Scene
+    Why It Works: Phy
+  Paragraph                 p         114     377px      52px       483px  Why It Works: Physical contact + compete
+  Paragraph                 p         114     437px      26px       449px  What to Watch: How does the author make 
+  Bordered Box (auto)       div       114     507px     165px       240px  Jealousy / Possessive Moment
+    Why It 
+  Paragraph                 p         114     567px      52px       294px  Why It Works: "Mine." The appeal is seei
+  Paragraph                 p         114     626px      26px       260px  What to Watch: What triggers the jealous
+  Bordered Box (auto)       div       114     696px     165px        51px  Almost Kiss (Interrupted)
+    Why It Wor
+  Paragraph                 p         114     756px      52px       105px  Why It Works: Delayed gratification buil
+  Paragraph                 p         114     815px      26px        71px  What to Watch: How close do they get? Wh
+  Paragraph                 p         114     885px      27px       912px  See the Trope Dictionary in the appendix ⚠️ORPHAN
+  ─── PAGE 115 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         115      86px      52px       774px  Use this list to help identify which mic
+  Table                     table     115     347px     874px       602px  Micro Trope
+            Chapter
+         🔴SPLIT
+  ─── PAGE 116 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h1        116     659px      61px       191px  Spice & Intimacy
+  Paragraph                 p         116     745px      99px        68px  Intimacy scenes work best when they serv
+  ─── PAGE 117 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        117     281px      48px       583px  Intimacy as Storytelling
+  Paragraph                 p         117     345px      82px       486px  The best intimacy scenes aren't gratuito
+  Bordered Box (auto)       div       117     446px     528px       850px  What to Analyse in Intimacy Scenes
+
+     🔴SPLIT
+  Paragraph                 p         117     504px      84px       324px  Placement Matters: Where in the story do
+  Paragraph                 p         117     600px      56px       256px  What Triggers It: Is this a celebration?
+  Paragraph                 p         117     668px      56px       188px  Power Dynamics: Who initiates? Who's mor
+  Paragraph                 p         117     736px      56px       120px  What's Revealed: Good intimacy scenes re
+  Paragraph                 p         117     804px      56px        52px  What Changes After: If nothing changes a
+  Paragraph                 p         117     872px      84px       868px  The Language Choices: Pay attention to w 🔴SPLIT
+  ─── PAGE 118 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        118     102px      48px       762px  Heat Level Progression
+  Paragraph                 p         118     166px     109px       637px  Tracking intimate scenes in sequence rev
+  Paragraph                 p         118     291px     109px       512px  Pay attention to how heat level connects
+  Paragraph                 p         118     416px     109px       388px  Also notice what the author does between
+  Paragraph                 p         118     540px      27px       344px  Use the scale below for consistent ratin
+  Section Header            h4        118     590px      39px       284px  Heat Level Scale
+  Paragraph                 p         118     644px      35px       233px  0 – Clean: No physical intimacy beyond h
+  Paragraph                 p         118     700px      35px       177px  1 – Sweet: Closed-door, sweet kisses
+  Paragraph                 p         118     756px      35px       121px  2 – Mild: Heated kissing, some touching
+  Paragraph                 p         118     812px      35px        65px  3 – Moderate: Fade to black with buildup
+  Paragraph                 p         118     868px      35px         9px  4 – Steamy: On-page intimacy, some detai ⚠️CLOSE
+  ─── PAGE 119 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         119      12px      35px       865px  5 – Explicit: Detailed, explicit scenes
+  Table                     table     119      94px     813px         5px  #
+            Chapter
+            Heat L ⚠️CLOSE
+  ─── PAGE 120 ─────────────────────────────────────────────────────────────────────────────
+  Table                     table     120      19px     736px       157px  #
+            Chapter
+            Heat L
+  Section Header            h2        120     795px      48px        69px  Banter & Verbal Chemistry
+  Paragraph                 p         120     859px      82px       883px  Chemistry isn't just physical. Often the 🔴SPLIT
+  ─── PAGE 121 ─────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div       121      49px     432px       432px  What Creates Verbal Chemistry
+
+    Subte
+  Paragraph                 p         121     106px      84px       722px  Subtext: Characters saying one thing whi
+  Paragraph                 p         121     202px      56px       654px  Rhythm & Pacing: Great banter has a rhyt
+  Paragraph                 p         121     270px      56px       586px  Power Shifts: One character has the uppe
+  Paragraph                 p         121     338px      56px       518px  Callbacks: References to earlier convers
+  Paragraph                 p         121     406px      56px       450px  Vulnerability Through Wit: Sometimes a c
+  Paragraph                 p         121     500px      27px       384px  Collect exchanges that sparked chemistry
+  Bordered Box (auto)       div       121     548px     540px       737px  Techniques to Look For
+
+    Double Meani 🔴SPLIT
+  Paragraph                 p         121     605px      56px       251px  Double Meaning: A line that works on two
+  Paragraph                 p         121     673px      56px       183px  Callback Humor: Referencing something sa
+  Paragraph                 p         121     741px      56px       115px  Power Play: One character tries to gain 
+  Paragraph                 p         121     809px      56px        47px  Vulnerability as Wit: A character says s
+  Paragraph                 p         121     877px      56px       891px  Pet Names: Nicknames and terms of endear 🔴SPLIT
+  ─── PAGE 122 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         122      33px      56px       823px  One-upmanship: Competitive back-and-fort
+  Paragraph                 p         122     101px      56px       755px  Innuendo: Suggestive without being expli
+  Table                     table     122     199px     889px       736px  Chapter
+            The Exchange
+        🔴SPLIT
+  ─── PAGE 123 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h1        123     550px      61px       301px  Craft Moves to Steal
+  Paragraph                 p         123     635px      99px       177px  This is your personal library. When you 
+  ─── PAGE 124 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        124     171px      48px       693px  Building Your Craft Library
+  Paragraph                 p         124     235px      54px       622px  Great writers are thieves. Not of words—
+  Bordered Box (auto)       div       124     310px     528px        75px  How to Extract Usable Lessons
+
+    Don't
+  Paragraph                 p         124     367px      56px       489px  Don't Just Copy—Analyse: Anyone can writ
+  Paragraph                 p         124     435px      56px       421px  Opening Hooks: How does the author creat
+  Paragraph                 p         124     503px      56px       353px  Sensory Details: Which senses does the a
+  Paragraph                 p         124     571px      84px       257px  Tension Building: How does the author ma
+  Paragraph                 p         124     667px      56px       189px  Emotional Moments: What made you feel so
+  Paragraph                 p         124     735px      84px        93px  Chapter Endings: How does the author end
+  Section Header            h2        124     877px      48px       899px  Technique Collection 🔴SPLIT
+  ─── PAGE 125 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         125      29px      27px       855px  Copy passages that stopped you. Then be 
+  Table                     table     125      81px     765px        66px  Category
+            The Quote/Example
+ 
+  Table                     table     125     870px     768px       186px  Category
+            The Quote/Example ( 🔴SPLIT
+  ─── PAGE 126 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        126     754px      36px       122px  Swoon-Worthy Lines
+  Paragraph                 p         126     802px      54px        56px  Some lines just hit. Copy them here with
+  ─── PAGE 128 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h1        128      95px      61px       756px  Post-Read Synthesis
+  Paragraph                 p         128     180px      66px       666px  This is where your scattered observation
+  Section Header            h2        128     611px      48px       253px  Structural Metrics
+  Paragraph                 p         128     675px      54px       182px  These numbers help you compare pacing ac
+  ─── PAGE 129 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        129     109px      36px       768px  Quick Reactions
+  Paragraph                 p         129     156px      27px       728px  First instincts matter. Write these befo
+  Section Header            h4        129     204px      30px       678px  In one sentence, what is this book actua
+  Section Header            h4        129     550px      30px       333px  Who should read this book, and why?
+  Section Header            h4        129     895px      30px       899px  What surprised you most about how the st 🔴SPLIT
+  ─── PAGE 130 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        130     337px      36px       539px  Overall Assessment
+  Paragraph                 p         130     385px      54px       473px  Rate each element and jot down what work
+  Table                     table     130     463px     459px       901px  Element
+            Rating (1-5)
+        🔴SPLIT
+  ─── PAGE 131 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h3        131      39px      36px       837px  Lessons for My Writing
+  Paragraph                 p         131      87px     136px       690px  This is the best part of the process. Ev
+  Paragraph                 p         131     238px     136px       538px  Your notes from earlier in the process a
+  Bordered Box (auto)       div       131     394px     336px       182px  Questions to Drive Your Synthesis
+
+    W
+  Paragraph                 p         131     452px      56px       404px  What Made This Book Work (Or Not)? Not "
+  Paragraph                 p         131     520px      56px       336px  What Can I Steal? Not plagiarize—LEARN F
+  Paragraph                 p         131     588px      56px       268px  What Would I Do Differently? This isn't 
+  Paragraph                 p         131     656px      56px       200px  What Does This Book Do That My Book Need
+  Section Header            h4        131     750px      30px       132px  Three things this book did exceptionally
+  ─── PAGE 132 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        132     184px      30px       698px  One thing I would have done differently 
+  Section Header            h4        132     530px      30px       352px  Specific techniques I will try in my cur
+  Section Header            h4        132     876px      30px         6px  The single most important craft lesson f ⚠️CLOSE
+  ─── PAGE 133 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        133     330px      48px       534px  Dual-Arc Validation Toolkit
+  Paragraph                 p         133     394px      82px       437px  These diagnostic exercises test whether 
+  Bordered Box (auto)       div       133     495px     336px        81px  The Unraveling Test
+    This is the sing
+  Paragraph                 p         133     553px      56px       303px  This is the single most important diagno
+  Paragraph                 p         133     621px      56px       235px  Remove the romance: Does the fantasy plo
+  Paragraph                 p         133     689px      56px       167px  Remove the fantasy: Does the romance sti
+  Paragraph                 p         133     757px      56px        99px  If either arc survives intact, integrati
+  Section Header            h4        133     851px      30px        31px  Unraveling Test Results: ⚠️CLOSE
+  Paragraph                 p         133     889px      23px         0px  Without the romance, the fantasy plot wo ⚠️CLOSE
+  ─── PAGE 134 ─────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div       134     232px     268px       413px  The Logline Litmus Test
+    Try to write
+  Paragraph                 p         134     289px      56px       567px  Try to write a single-sentence summary o
+  Paragraph                 p         134     357px      56px       499px  Weak example: "A woman must defeat an ev
+  Paragraph                 p         134     425px      56px       431px  Strong example: "A woman who can only de
+  Section Header            h4        134     519px      30px       363px  My one-sentence logline (must require bo
+  Bordered Box (auto)       div       134     773px     160px       891px  Structural Pitfall Diagnosis
+    Based o 🔴SPLIT
+  Paragraph                 p         134     831px      84px       909px  Based on your reading, does this book su 🔴SPLIT
+  ─── PAGE 135 ─────────────────────────────────────────────────────────────────────────────
+  Table                     table     135      45px     439px       428px  Pitfall
+            Present?
+           
+  Section Header            h4        135     508px      30px       374px  Applying the Through-Thread to Your Own 
+  Paragraph                 p         135     546px      54px       312px  Having analysed how this book handles du
+  Section Header            h4        135     620px      30px       262px  What binding technique(s) does your WIP 
+  Section Header            h4        135     870px      30px        12px  Could your WIP pass the Unraveling Test? ⚠️CLOSE
+  ─── PAGE 136 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h4        136     208px      30px       674px  What did this book's through-thread teac
+  Bordered Box (auto)       div       136     550px     199px       163px  One Last Thing
+    Frameworks and analys
+  ─── PAGE 137 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h1        137     227px      61px       623px  Integration Patterns & Glossary
+  Paragraph                 p         137     313px      66px       533px  A quick-reference toolkit. Use the patte
+  Section Header            h2        137     744px      48px       120px  The Eight Integration Patterns
+  Paragraph                 p         137     808px      82px        22px  Every successful romantasy uses at least ⚠️CLOSE
+  Paragraph                 p         137     906px     163px       755px  Think of these patterns as structural ad 🔴SPLIT
+  ─── PAGE 138 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         138     173px     109px       630px  Most authors layer these patterns rather
+  Paragraph                 p         138     298px      82px       533px  The thing is, they're never all pulling 
+  Paragraph                 p         138     395px      54px       462px  Use the reference table below to identif
+  Table                     table     138     474px     784px       567px  Pattern
+            How It Works
+        🔴SPLIT
+  ─── PAGE 139 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         139     369px      26px       517px  Record the integration patterns you iden
+  Table                     table     139     419px     403px        90px  Pattern Used
+            How It Appears 
+  Section Header            h2        139     862px      48px         2px  Dual-Arc Glossary ⚠️CLOSE
+  ─── PAGE 140 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         140      14px      82px       817px  These terms give you a shared vocabulary
+  Section Header            h4        140     113px      39px       760px  Structure & Integration
+  Paragraph                 p         140     168px      66px       678px  Through-Thread: The causal chain that ma
+  Paragraph                 p         140     254px      96px       562px  Double Helix: A structural model where r
+  Paragraph                 p         140     371px      96px       445px  The Bridge: The specific mechanism that 
+  Paragraph                 p         140     488px      96px       328px  Midpoint Rupture: The moment (usually ne
+  Paragraph                 p         140     605px      96px       211px  Emotional Mirror: When the state of the 
+  Section Header            h4        140     745px      39px       128px  Diagnostic Terms
+  Paragraph                 p         140     800px      96px        16px  Bolted-On Romance: A structural pitfall  ⚠️CLOSE
+  ─── PAGE 141 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         141       5px      96px       811px  "Plot? What Plot?" Syndrome: The opposit
+  Paragraph                 p         141     122px      96px       694px  Logic-Leap: When a romance beat forces a
+  Paragraph                 p         141     238px      96px       578px  Stakes Asymmetry: When one arc carries l
+  Paragraph                 p         141     355px     126px       430px  Fantasy Romance vs. Romantic Fantasy: A 
+  Section Header            h4        141     526px      39px       347px  Romantic Structure
+  Paragraph                 p         141     581px      66px       265px  Adhesion: The external force that keeps 
+  Paragraph                 p         141     667px      66px       179px  The Wound: The past trauma that shapes h
+  Paragraph                 p         141     754px      66px        93px  The Lie: A false belief the character ho
+  Paragraph                 p         141     840px      66px         6px  Slow Burn: A pacing strategy that builds ⚠️CLOSE
+  ─── PAGE 142 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         142      14px      66px       832px  HEA/HFN: Happily Ever After or Happy For
+  Paragraph                 p         142     101px      66px       746px  Deep POV: Narrative perspective that put
+  Section Header            h1        142     542px      61px       308px  Trope Dictionary
+  Paragraph                 p         142     628px     132px       152px  A complete reference for every macro and
+  ─── PAGE 143 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        143     180px      48px       684px  Macro Tropes
+  Paragraph                 p         143     244px      54px       613px  Macro tropes are the large-scale romanti
+  Bordered Box (auto)       div       143     323px     251px       339px  Enemies to Lovers
+    The Promise: Two p
+  Paragraph                 p         143     382px      52px       478px  The Promise: Two people who genuinely ha
+  Paragraph                 p         143     442px      52px       418px  The Phases: Justified hatred → crack in 
+  Paragraph                 p         143     502px      52px       359px  What to Watch: Is the hatred earned or m
+  Bordered Box (auto)       div       143     597px     251px        64px  Forced Proximity
+    The Promise: Charac
+  Paragraph                 p         143     657px      52px       203px  The Promise: Characters who wouldn't cho
+  Paragraph                 p         143     717px      52px       144px  Common Setups: Magical bonds, captivity,
+  Paragraph                 p         143     776px      52px        84px  What to Watch: Is the trap airtight? (Re
+  Bordered Box (auto)       div       143     872px     251px       701px  Fated Mates / Soul Bonds
+    The Promise 🔴SPLIT
+  ─── PAGE 144 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         144      20px      52px       841px  The Promise: The universe itself declare
+  Paragraph                 p         144      79px      52px       781px  Best Execution: Good authors create conf
+  Paragraph                 p         144     139px      52px       721px  What to Watch: Does the bond force them 
+  Bordered Box (auto)       div       144     235px     251px       427px  Slow Burn
+    The Promise: The pleasure 
+  Paragraph                 p         144     294px      52px       566px  The Promise: The pleasure is in the WAIT
+  Paragraph                 p         144     354px      52px       506px  The Escalation: Awareness → attraction →
+  Paragraph                 p         144     414px      52px       447px  What to Watch: How does the author creat
+  Bordered Box (auto)       div       144     509px     225px       178px  Forbidden Love
+    The Promise: They can
+  Paragraph                 p         144     569px      26px       317px  The Promise: They can't be together—and 
+  Paragraph                 p         144     603px      52px       258px  Internal vs. External: Is the barrier ex
+  Paragraph                 p         144     662px      52px       198px  What to Watch: How does the author make 
+  Bordered Box (auto)       div       144     758px     251px       815px  Morally Grey Hero
+    The Promise: Someo 🔴SPLIT
+  Paragraph                 p         144     818px      52px        43px  The Promise: Someone dangerous who is te
+  Paragraph                 p         144     877px      52px       895px  The Line: The character does genuinely q 🔴SPLIT
+  ─── PAGE 145 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         145      25px      52px       835px  What to Watch: What is the character's m
+  Bordered Box (auto)       div       145     121px     251px       541px  Hidden Identity / Disguise
+    The Promi
+  Paragraph                 p         145     180px      52px       680px  The Promise: One character conceals who 
+  Paragraph                 p         145     240px      52px       620px  The Ticking Clock: Readers know the reve
+  Paragraph                 p         145     300px      52px       561px  What to Watch: Does the deceiver fall in
+  Bordered Box (auto)       div       145     395px     251px       266px  Marriage of Convenience / Arranged Union
+  Paragraph                 p         145     455px      52px       405px  The Promise: A political alliance, a bar
+  Paragraph                 p         145     515px      52px       346px  The Tension: They're legally or magicall
+  Paragraph                 p         145     574px      52px       286px  What to Watch: What small acts of genuin
+  Bordered Box (auto)       div       145     670px     251px       903px  Found Family
+    The Promise: Characters 🔴SPLIT
+  Paragraph                 p         145     730px      52px       131px  The Promise: Characters who have lost (o
+  Paragraph                 p         145     789px      52px        71px  Why It Hits: It satisfies two needs at o
+  Paragraph                 p         145     849px      52px        11px  What to Watch: How does the found family ⚠️CLOSE
+  ─── PAGE 146 ─────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div       146      33px     251px       629px  The Chosen One / Power Awakening
+    The
+  Paragraph                 p         146      92px      52px       768px  The Promise: One character discovers ext
+  Paragraph                 p         146     152px      52px       708px  Romance Friction: Does the love interest
+  Paragraph                 p         146     212px      52px       649px  What to Watch: How does growing power ch
+  Bordered Box (auto)       div       146     307px     251px       354px  Protector / Guardian
+    The Promise: On
+  Paragraph                 p         146     367px      52px       494px  The Promise: One character is sworn to g
+  Paragraph                 p         146     426px      52px       434px  The Power Imbalance: One holds physical 
+  Paragraph                 p         146     486px      52px       374px  What to Watch: When does "I'm protecting
+  Bordered Box (auto)       div       146     582px     251px        80px  Rivals to Lovers
+    The Promise: Two pe
+  Paragraph                 p         146     641px      52px       219px  The Promise: Two people competing for th
+  Paragraph                 p         146     701px      52px       159px  The Difference from Enemies: Rivals resp
+  Paragraph                 p         146     761px      52px       100px  What to Watch: How does competition crea
+  Bordered Box (auto)       div       146     856px     251px       717px  Second Chance Romance
+    The Promise: T 🔴SPLIT
+  ─── PAGE 147 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         147       4px      52px       856px  The Promise: Two people who loved and lo
+  Paragraph                 p         147      64px      52px       797px  The Challenge: Why did they separate? Is
+  Paragraph                 p         147     123px      52px       737px  What to Watch: How does the author balan
+  Bordered Box (auto)       div       147     219px     276px       416px  Grumpy / Sunshine
+    The Promise: An em
+  Paragraph                 p         147     279px      52px       582px  The Promise: An emotionally guarded char
+  Paragraph                 p         147     338px      52px       522px  Why It Works: It's the "chosen one" dyna
+  Paragraph                 p         147     398px      78px       436px  What to Watch: How does the sunshine cha
+  Bordered Box (auto)       div       147     520px     251px       142px  Fake Relationship
+    The Promise: Two p
+  Paragraph                 p         147     579px      52px       281px  The Promise: Two people pretend to be to
+  Paragraph                 p         147     639px      52px       222px  The Escalation: Awkward performance → co
+  Paragraph                 p         147     698px      52px       162px  What to Watch: What moment marks the shi
+  Bordered Box (auto)       div       147     794px     251px       779px  Captive / Captor
+    The Promise: One ch 🔴SPLIT
+  Paragraph                 p         147     854px      52px         7px  The Promise: One character holds power o ⚠️CLOSE
+  ─── PAGE 148 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         148       1px      52px       859px  The Ethical Tightrope: The author must a
+  Paragraph                 p         148      61px      52px       799px  What to Watch: How does the author make 
+  Bordered Box (auto)       div       148     157px     251px       505px  Royal / Commoner
+    The Promise: Love a
+  Paragraph                 p         148     216px      52px       644px  The Promise: Love across a class divide.
+  Paragraph                 p         148     276px      52px       584px  The Stakes: Courts are dangerous. Loving
+  Paragraph                 p         148     336px      52px       525px  What to Watch: How does the power/class 
+  Bordered Box (auto)       div       148     431px     251px       230px  Redemption Arc
+    The Promise: A charac
+  Paragraph                 p         148     491px      52px       369px  The Promise: A character who has done te
+  Paragraph                 p         148     551px      52px       310px  The Challenge: Redemption must be earned
+  Paragraph                 p         148     610px      52px       250px  What to Watch: What did they do? Is it f
+  Bordered Box (auto)       div       148     706px     251px       867px  Mutual Pining
+    The Promise: Both char 🔴SPLIT
+  Paragraph                 p         148     766px      52px        95px  The Promise: Both characters want each o
+  Paragraph                 p         148     825px      52px        35px  Why It Works: Dramatic irony is powerful ⚠️CLOSE
+  Paragraph                 p         148     885px      52px       887px  What to Watch: How does the author give  🔴SPLIT
+  ─── PAGE 149 ─────────────────────────────────────────────────────────────────────────────
+  Section Header            h2        149      85px      48px       779px  Micro Tropes
+  Paragraph                 p         149     149px      82px       682px  Micro tropes are the specific scenes and
+  Bordered Box (auto)       div       149     254px     251px       407px  "Who Did This to You?"
+    The Moment: A
+  Paragraph                 p         149     314px      52px       546px  The Moment: A previously cold or restrai
+  Paragraph                 p         149     374px      52px       487px  Why It Goes Viral: It reveals the depth 
+  Paragraph                 p         149     433px      52px       427px  What to Watch: What triggers the rage? H
+  Bordered Box (auto)       div       149     529px     251px       132px  Wound Tending / Injury Care
+    The Mome
+  Paragraph                 p         149     589px      52px       272px  The Moment: One character is hurt. The o
+  Paragraph                 p         149     648px      52px       212px  Why It Works: One character must touch t
+  Paragraph                 p         149     708px      52px       152px  What to Watch: How does the author slow 
+  Bordered Box (auto)       div       149     804px     251px       770px  The Training Scene
+    The Moment: Physi 🔴SPLIT
+  Paragraph                 p         149     863px      52px       909px  The Moment: Physical contact + competenc 🔴SPLIT
+  ─── PAGE 150 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         150      11px      52px       849px  Why It Works: It gives characters permis
+  Paragraph                 p         150      71px      52px       790px  What to Watch: How does the author make 
+  Bordered Box (auto)       div       150     166px     251px       495px  Jealousy / Possessive Moment
+    The Mom
+  Paragraph                 p         150     226px      52px       635px  The Moment: "Mine." One character sees s
+  Paragraph                 p         150     285px      52px       575px  Why It Works: It reveals the depth of at
+  Paragraph                 p         150     345px      52px       515px  What to Watch: What triggers the jealous
+  Bordered Box (auto)       div       150     441px     251px       221px  Almost Kiss (Interrupted)
+    The Moment
+  Paragraph                 p         150     500px      52px       360px  The Moment: They lean in. Breath mingles
+  Paragraph                 p         150     560px      52px       300px  Why It Works: The anticipation is often 
+  Paragraph                 p         150     620px      52px       241px  What to Watch: How close do they get? Wh
+  Bordered Box (auto)       div       150     715px     251px       858px  The Dance Scene
+    The Moment: A ball,  🔴SPLIT
+  Paragraph                 p         150     775px      52px        85px  The Moment: A ball, a celebration, a for
+  Paragraph                 p         150     835px      52px        26px  Why It Works: Dancing is sanctioned inti ⚠️CLOSE
+  Paragraph                 p         150     894px      52px       878px  What to Watch: How does the author use t 🔴SPLIT
+  ─── PAGE 151 ─────────────────────────────────────────────────────────────────────────────
+  Bordered Box (auto)       div       151      78px     251px       583px  Protective Snarl / Threat Display
+    Th
+  Paragraph                 p         151     138px      52px       723px  The Moment: Someone threatens the love i
+  Paragraph                 p         151     197px      52px       663px  Why It Works: It's "who did this to you?
+  Paragraph                 p         151     257px      52px       603px  What to Watch: Is the threat credible? H
+  Bordered Box (auto)       div       151     353px     251px       309px  The Vulnerability Confession
+    The Mom
+  Paragraph                 p         151     412px      52px       448px  The Moment: A character who has been gua
+  Paragraph                 p         151     472px      52px       388px  Why It Works: Emotional nudity. The char
+  Paragraph                 p         151     532px      52px       329px  What to Watch: What prompts the confessi
+  Bordered Box (auto)       div       151     627px     251px        34px  The Sacrifice / "Not Without You"
+    Th ⚠️CLOSE
+  Paragraph                 p         151     687px      52px       173px  The Moment: One character faces death or
+  Paragraph                 p         151     747px      52px       114px  Why It Works: It answers the fundamental
+  Paragraph                 p         151     806px      52px        54px  What to Watch: Is the sacrifice voluntar
+  Bordered Box (auto)       div       151     902px     251px       671px  Forehead Touch / Non-Sexual Intimacy
+    🔴SPLIT
+  ─── PAGE 152 ─────────────────────────────────────────────────────────────────────────────
+  Paragraph                 p         152      50px      52px       811px  The Moment: A gesture that's more intima
+  Paragraph                 p         152     109px      52px       751px  Why It Works: It signals emotional intim
+  Paragraph                 p         152     169px      52px       691px  What to Watch: When does this happen rel
+  Bordered Box (auto)       div       152     265px     251px       397px  "You're Mine" / Claiming Declaration
+   
+  Paragraph                 p         152     324px      52px       536px  The Moment: One character claims the oth
+  Paragraph                 p         152     384px      52px       476px  Why It Works: After chapters of uncertai
+  Paragraph                 p         152     444px      52px       417px  What to Watch: Is the claiming mutual or
+  Bordered Box (auto)       div       152     539px     251px       122px  The Rescue / "I Will Always Find You"
+  
+  Paragraph                 p         152     599px      52px       262px  The Moment: One character moves heaven a
+  Paragraph                 p         152     658px      52px       202px  Why It Works: It's devotion made physica
+  Paragraph                 p         152     718px      52px       142px  What to Watch: What obstacles does the r
+
+================================================================================
+  END OF REPORT
+================================================================================
+JSON data saved to: /tmp/report.json
