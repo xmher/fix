@@ -806,7 +806,7 @@
         }
 
         .chapter-log .write-space-md {
-            min-height: 2.4in;
+            min-height: 2.35in;
         }
 
         .chapter-number {
@@ -880,6 +880,81 @@
         }
         .craft-compact > p {
             margin-bottom: 0.6rem;
+        }
+
+
+        /* Flowing labeled section — replaces rigid insight-box for large reference content */
+        .labeled-section {
+            border-left: 4px solid var(--theme-color);
+            padding: 0 0 0 20px;
+            margin: 1.5rem 0 0.75rem 0;
+            /* NO break-inside: avoid — content flows freely across pages */
+        }
+
+        .labeled-section .insight-label {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            background: var(--theme-color);
+            display: inline-block;
+            padding: 5px 12px;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            break-after: avoid;
+        }
+
+        .labeled-section .example-label {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            background: var(--color-romance);
+            display: inline-block;
+            padding: 5px 12px;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            break-after: avoid;
+        }
+
+        .labeled-section .box-label {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            background: var(--theme-color);
+            display: inline-block;
+            padding: 5px 12px;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            break-after: avoid;
+        }
+
+        .labeled-section p {
+            margin-bottom: 0.75rem;
+            line-height: 1.75;
+            text-align: left;
+        }
+        .labeled-section p:last-child { margin-bottom: 0; }
+
+        /* Colour variants for romance/fantasy phase sections */
+        .labeled-section.romance-phase {
+            border-left-color: var(--color-romance);
+        }
+        .labeled-section.romance-phase .box-label {
+            background: var(--color-romance);
+        }
+        .labeled-section.fantasy-phase {
+            border-left-color: var(--color-fantasy);
+        }
+        .labeled-section.fantasy-phase .box-label {
+            background: var(--color-fantasy);
         }
 
         /* UTILITY CLASSES */
@@ -1584,7 +1659,7 @@
 
 <p><strong>Craft is the HOW of storytelling.</strong> It's not WHAT happens in your story—it's how you make it happen on the page. It's the difference between "they fell in love" (plot) and "she noticed his hands were shaking when he handed her the cup" (craft).</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Craft Includes</span>
 
     <p><strong>Structure:</strong> How the story is organized. Where beats fall. How chapters begin and end. The pacing of reveals. Why Chapter 12 is the kiss and not Chapter 5.</p>
@@ -1610,14 +1685,14 @@
 
 <p>You don't have to fill in every section. Choose the level that fits your reading session — or mix and match chapter to chapter.</p>
 
-<div class="insight-box" style="break-inside: avoid;">
+<div class="labeled-section">
     <span class="insight-label">Quick-Fill</span>
     <p>About 2-3 minutes per chapter, plus 20 minutes when you finish the book.</p>
     <p>You'll complete chapter logs with tension ratings, do a quick post-read synthesis, and capture 3-5 craft moves. In the chapter logs, look for the <sup class="qf-label">QF</sup> marker — those are the fields to focus on.</p>
     <p>Ideal if you're reading for pleasure but want to stay aware of craft.</p>
 </div>
 
-<div class="insight-box" style="break-inside: avoid;">
+<div class="labeled-section">
     <span class="insight-label">Deep-Dive</span>
     <p>About 5-10 minutes per chapter, plus an hour or more after finishing.</p>
     <p>Fill in every question in the chapter logs — you can ignore the <sup class="qf-label">QF</sup> labels and work through all the fields. Then track romance and fantasy beats, analyse tropes, log spice scenes, and dissect standout moments.</p>
@@ -1798,14 +1873,14 @@
 
 <p>Every story is a series of promises and payoffs. Structure is how you organize those promises so readers stay hooked until the final payoff.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">The Three-Act Framework</span>
     <p><strong>Act 1 (0-25%):</strong> Setup. Establish the normal world, introduce the protagonist's wound/flaw, present the inciting incident, and end with the protagonist choosing to engage.</p>
     <p><strong>Act 2 (25-75%):</strong> Confrontation. Escalating obstacles, a midpoint shift (false victory or defeat), then the "All Is Lost" moment where everything falls apart.</p>
     <p><strong>Act 3 (75-100%):</strong> Resolution. The protagonist faces their deepest fear, makes a crucial choice that demonstrates growth, and earns (or fails to earn) their reward.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Key Story Beats to Recognize</span>
     <p><strong>The Hook:</strong> First pages—creates a question the reader needs answered.</p>
     <p><strong>Inciting Incident:</strong> The event that starts the story engine. Around 10-12%.</p>
@@ -1821,7 +1896,7 @@
 
 <p>Stories are made of scenes. A scene is a unit of story that happens in one time and place, with a clear purpose. Understanding scenes is understanding craft.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What Every Scene Needs</span>
     <p><strong>A Character With a Goal:</strong> Someone wants something in this scene. If no one wants anything, the scene has no engine.</p>
     <p><strong>Obstacles:</strong> Something prevents the character from getting what they want easily. No obstacle = no tension.</p>
@@ -1829,7 +1904,7 @@
     <p><strong>Change:</strong> Something must be different at the end of the scene than at the beginning. Information, relationships, circumstances, or emotions—something shifts.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Scene-Level Techniques</span>
     <p><strong>Scene Entry:</strong> Start as late as possible. Skip the arrival, skip the small talk, start where the tension is.</p>
     <p><strong>Scene Exit:</strong> End as early as possible—often before the scene "finishes." Cut on tension, not resolution.</p>
@@ -1843,7 +1918,7 @@
 
 <p>Pacing isn't just "fast" or "slow"—it's the rhythm of tension and release that keeps readers turning pages.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Creating Tension</span>
     <p><strong>Questions:</strong> Every unanswered question creates tension. Who is the masked figure? Will she find out his secret? What's in the locked room?</p>
     <p><strong>Dramatic Irony:</strong> When readers know something characters don't—massive tension engine. We see the betrayal coming; we watch them trust the wrong person.</p>
@@ -1851,7 +1926,7 @@
     <p><strong>Competing Desires:</strong> When a character wants two things that are mutually exclusive, every choice creates tension.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Controlling Pace</span>
     <p><strong>Speed Up:</strong> Short sentences. Short paragraphs. Action verbs. Dialogue without tags. White space on the page.</p>
     <p><strong>Slow Down:</strong> Longer sentences. Sensory details. Internal thought. Description. Reflection.</p>
@@ -1865,7 +1940,7 @@
 
 <p>Characters aren't just descriptions—they're patterns of behavior, contradiction, and desire that create the illusion of a real person on the page.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Character Essentials</span>
     <p><strong>The Want (External Goal):</strong> What the character is actively pursuing. Defeat the villain, win the tournament, escape the kingdom. This drives plot.</p>
     <p><strong>The Need (Internal Goal):</strong> What the character actually needs to grow, usually something they're avoiding. Learn to trust, accept themselves, let go of revenge. This drives arc.</p>
@@ -1873,7 +1948,7 @@
     <p><strong>The Flaw:</strong> Behavioral manifestation of the wound. Pushes people away, trusts no one, seeks control. The character must overcome this to get what they need.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Showing Character</span>
     <p><strong>Action Under Pressure:</strong> Who someone is gets revealed when stakes are high. Easy choices reveal nothing.</p>
     <p><strong>Contradiction:</strong> Real people are inconsistent. A killer who's gentle with animals. A coward who's brave for love. Contradiction = depth.</p>
@@ -1887,7 +1962,7 @@
 
 <p>Big-picture structure matters, but stories live or die at the sentence level. These are the small moves that separate good from great.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Sentence Techniques</span>
     <p><strong>Vary Length:</strong> Long sentences for flow and immersion. Short sentences for impact. Like this. The rhythm creates feeling.</p>
     <p><strong>End on Strength:</strong> The most important word should come last. Not "She was dead, he realized" but "He realized she was dead."</p>
@@ -1895,7 +1970,7 @@
     <p><strong>Concrete Over Abstract:</strong> "Grief" is abstract. "She kept setting two places at the table" is concrete. Concrete lands harder.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Description & Detail</span>
     <p><strong>The Telling Detail:</strong> One perfect detail beats five generic ones. Not "the room was messy" but "dirty dishes grew mold on the nightstand."</p>
     <p><strong>Character-Filtered:</strong> Description should reveal who's observing. A soldier notices exits and weapons. A chef notices food. A lover notices their beloved.</p>
@@ -1909,8 +1984,8 @@
 
 <p>Great dialogue does multiple jobs at once—reveals character, advances plot, creates tension, and entertains—all while sounding natural.</p>
 
-<div style="break-inside: avoid;">
-<div class="insight-box">
+<div>
+<div class="labeled-section">
     <span class="insight-label">Dialogue Principles</span>
     <p><strong>Subtext:</strong> Characters rarely say what they mean. "Fine" means "I'm furious." "Whatever you want" means "I'll hold this against you forever."</p>
     <p><strong>Agenda:</strong> Every character in a conversation wants something, even if it's just to end the conversation. Competing agendas = conflict.</p>
@@ -1918,7 +1993,7 @@
     <p><strong>Compression:</strong> Real speech is boring. Fictional dialogue cuts the boring parts. No small talk unless it's doing work.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Dialogue Techniques</span>
     <p><strong>Misdirection:</strong> Answer a different question than was asked. Creates tension, reveals character avoidance.</p>
     <p><strong>Interruption:</strong> Characters cutting each other off shows conflict, urgency, power dynamics.</p>
@@ -1944,12 +2019,12 @@
     <p class="section-intro">These logs help you capture observations while they're fresh. Fill one out after each chapter. It should only take a few minutes. The goal is to stay aware of craft without interrupting your enjoyment of the story.</p>
 </div>
 
-<div class="chapter-log-intro" style="break-inside: avoid;">
+<div class="chapter-log-intro">
 <h2 class="mt-0">How to Use These Chapter Logs</h2>
 
 <p>Reading like a writer means noticing things. But noticing without a framework just creates noise. These logs give you specific things to look for—and more importantly, teach you WHY they matter.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Track in Every Chapter</span>
     <p><strong>The Chapter's Job:</strong> What does this chapter DO for the story? Advance the plot? Deepen the romance? Reveal character? Build the world? The best chapters do multiple jobs at once.</p>
     <p><strong>Opening & Closing:</strong> Pay special attention to the first and last paragraphs. How does the author hook you in? How do they make you turn to the next chapter?</p>
@@ -1957,7 +2032,7 @@
     <p><strong>Tension Types:</strong> Romantic tension and plot tension often move in opposite directions. When plot tension peaks, romance might pause. When romance heats up, external threats might recede.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Specific Things to Notice</span>
     <p><strong>For Romance:</strong> Any moment of awareness between the characters? Physical proximity? Vulnerability shared? Walls going up or coming down?</p>
     <p><strong>For Fantasy Plot:</strong> What new information do we get? What questions are raised? What threats loom closer? How does the magical world expand or constrain?</p>
@@ -4117,12 +4192,12 @@
     </tbody>
 </table>
 
-<div class="romance-box break-before">
+<div class="labeled-section romance-phase">
     <span class="box-label">Phase 2: Falling in Love (25–50%)</span>
     <p>The characters are forced to cooperate. Proximity creates intimacy. Attraction grows despite their resistance to it.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Phase 2</span>
     <p>This phase is about the slow erosion of resistance. The characters don't want to fall in love, but they can't help it. Look for:</p>
     
@@ -4178,12 +4253,12 @@
     </tbody>
 </table>
 
-<div class="romance-box break-before">
+<div class="labeled-section romance-phase">
     <span class="box-label">Phase 3: Retreating from Love (50–75%)</span>
     <p>Just when things are going well, internal fears resurface. External threats exploit the characters' vulnerabilities. The relationship fractures. This is often the most painful part of the book.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Phase 3</span>
     <p>This phase is about everything falling apart. The characters were getting close, but now their wounds, fears, and external circumstances conspire to drive them apart. This should hurt.</p>
     
@@ -4239,12 +4314,12 @@
     </tbody>
 </table>
 
-<div class="romance-box break-before">
+<div class="labeled-section romance-phase">
     <span class="box-label">Phase 4: Fighting for Love (75–100%)</span>
     <p>The protagonist realizes love is worth the risk. They make a choice to fight for the relationship, often at great personal cost. The HEA is earned through sacrifice and growth.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Phase 4</span>
     <p>This phase is about earning the happy ending. After all the pain of Phase 3, the characters must actively choose love. This choice must cost them something.</p>
     
@@ -4397,12 +4472,12 @@
     </tbody>
 </table>
 
-<div class="fantasy-box break-before">
+<div class="labeled-section fantasy-phase">
     <span class="box-label">Act 2A: Fun & Games (25–50%)</span>
     <p>This is the "promise of the premise." The protagonist explores the magical world, trains their powers, and navigates the early stages of romance. This is often the most enjoyable part of the book.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Act 2A</span>
     <p>This is the section readers came for. It's where the author delivers on the promise of their premise. Watch for:</p>
     
@@ -4452,12 +4527,12 @@
     </tbody>
 </table>
 
-<div class="fantasy-box break-before">
+<div class="labeled-section fantasy-phase">
     <span class="box-label">Act 2B: Bad Guys Close In (50–75%)</span>
     <p>The fun is over. External pressure mounts. The villain gains ground. Internal doubts fracture the team and the relationship. Everything that can go wrong does.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Act 2B</span>
     <p>This is where the author earns their climax. If things don't get bad enough here, the ending won't feel satisfying. Watch for:</p>
     
@@ -4507,12 +4582,12 @@
     </tbody>
 </table>
 
-<div class="fantasy-box break-before">
+<div class="labeled-section fantasy-phase">
     <span class="box-label">Act 3: The Finale (75–100%)</span>
     <p>From the ashes of defeat, a new plan emerges. The climax resolves both the external threat and the internal romantic conflict. Ideally, these resolutions are intertwined.</p>
 </div>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Look For in Act 3</span>
     <p>This is where everything comes together—or should. Watch for how the author weaves both arcs into a single climax:</p>
     
@@ -4850,7 +4925,7 @@
 <h4>If you removed one arc's midpoint entirely, would the other arc still make sense? What would be lost?</h4>
 <div class="write-space" style="min-height: 3.8in;" contenteditable="true"></div>
 
-<h3 class="break-before">The Emotional Mirror</h3>
+<h3>The Emotional Mirror</h3>
 
 <p>In deeply integrated romantasy, the state of the world reflects the state of the relationship. This is the Emotional Mirror—and when an author uses it well, the world itself becomes an expression of the love story.</p>
 
@@ -4869,7 +4944,7 @@
     <span class="text-muted" style="margin-left: 0.5rem; font-size: 0.8rem;">(1 = No mirror, 5 = World fully reflects relationship)</span>
 </div>
 
-<h3 class="break-before">Integration Deep Questions</h3>
+<h3>Integration Deep Questions</h3>
 
 <p>After filling in the grid, the bridge identifier, and the midpoint analysis, sit with these questions. They'll help you synthesise everything you've observed about how this book weaves its arcs.</p>
 
@@ -4907,7 +4982,7 @@
 
 <p>The difference between a well-executed trope and a cliché is specificity. Generic tropes bore readers. Specific tropes thrill them.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What Makes a Trope Work</span>
     <p>When analysing trope execution, ask yourself these questions:</p>
 
@@ -4924,7 +4999,7 @@
 
 <p>These are the large-scale dynamics that define the romance. Identify which ones appear in your book, then analyse how they're executed. Here are a few examples of how common macro tropes work:</p>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Enemies to Lovers: The Four Phases</span>
     <p><strong>Phase 1 — Justified Hatred:</strong> The hatred must feel REAL. Ask: Is it personal (he killed my family) or systemic (our peoples are at war)? Is it based on a misunderstanding that will be corrected, or a genuine wrong that requires redemption?</p>
     <p><strong>Phase 2 — Crack in Armor:</strong> One character sees the other contradict their assumptions. This is often a witnessed act of kindness, competence, or vulnerability. What moment makes one think "maybe I was wrong about them"?</p>
@@ -4932,27 +5007,27 @@
     <p><strong>Phase 4 — Respect to Attraction:</strong> Grudging admiration becomes desire. This is where tension becomes romantic. What specific moment marks the shift?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Fated Mates / Soul Bonds</span>
     <p><strong>The Problem:</strong> If they're fated, where's the tension? Good authors create conflict BECAUSE of the bond, not despite it. One resists. The bond is conditional. It creates obligations that conflict with desires.</p>
     <p><strong>The Best Version:</strong> The bond forces them together, but they must CHOOSE each other to make it real. Fate brings them together; love makes them stay.</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Slow Burn: The Art of Delayed Gratification</span>
     <p><strong>The Promise:</strong> Readers know the characters will get together—the pleasure is in the WAIT. Every lingering glance, accidental touch, and loaded silence adds fuel.</p>
     <p><strong>Pacing Is Everything:</strong> Too fast and it's not a slow burn. Too slow and readers lose patience. The best slow burns escalate in micro-steps: awareness → attraction → denial → near-miss → surrender.</p>
     <p><strong>What to Watch:</strong> How does the author create tension without resolution? What moments almost break the dam? How many chapters between the first spark and the first real contact?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Morally Grey Hero: The Tightrope</span>
     <p><strong>The Appeal:</strong> Readers want someone dangerous who is tender only for the love interest. The key is making the "grey" feel genuine—not just a bad boy with good hair.</p>
     <p><strong>The Line:</strong> The character must do genuinely questionable things. But the author gives us access to their reasoning, their pain, their code. We understand even when we don't approve.</p>
     <p><strong>What to Watch:</strong> What is the character's moral code? What lines won't they cross? How does the love interest challenge or change their morality without "fixing" them?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Forbidden Love: Why They Can't</span>
     <p><strong>The Stakes Must Be Real:</strong> If the "forbidden" part has no teeth, there's no tension. What's the actual cost of being together—exile, death, war, betrayal of a cause?</p>
     <p><strong>Internal vs. External:</strong> Is the barrier external (law, duty, rival courts) or internal (guilt, loyalty, fear)? The best forbidden romances layer both.</p>
@@ -5060,19 +5135,19 @@
 
 <p>These are the specific scenes readers screenshot and share on social media. They're the moments that sell books on BookTok and Bookstagram. They're the lines people tattoo on their arms. Understanding WHY these moments work is essential for any romantasy writer.</p>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">"Who Did This To You?"</span>
     <p><strong>Why It Works:</strong> This shows protective rage from someone who was previously cold or restrained. The power dynamic shifts. The reader thinks: "They would burn down the world for this person."</p>
     <p><strong>What to Watch:</strong> What triggers the rage? How is it expressed? What does it reveal about their feelings?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Wound Tending / Injury Care</span>
     <p><strong>Why It Works:</strong> Forced intimacy + vulnerability + tenderness = reader catnip. One character must touch the other. There's often pain, which creates permission for comfort.</p>
     <p><strong>What to Watch:</strong> How does the author slow down time? What small gestures carry emotional weight?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Training Scene</span>
     <p><strong>Why It Works:</strong> Physical contact + competence display + sweating/breathing hard = tension. The best training scenes are foreplay disguised as combat.</p>
     <p><strong>What to Watch:</strong> How does the author make fighting feel like flirting?</p>
@@ -5186,7 +5261,7 @@
 
 <p>The best intimacy scenes aren't gratuitous—they're story. They reveal character, advance the relationship, and mark emotional turning points. When analysing spice, don't just note WHAT happens. Focus on WHY and WHAT IT MEANS.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What to Analyse in Intimacy Scenes</span>
 
     <p><strong>Placement Matters:</strong> Where in the story does physical intimacy occur? Too early feels unearned. Too late frustrates readers. Most successful romantasy places the first major intimate scene around 50-65% of the book—after the relationship has built, but before the black moment can destroy it.</p>
@@ -5222,7 +5297,7 @@
     <p><strong>5 – Explicit:</strong> Detailed, explicit scenes</p>
 </div>
 
-<table class="break-before">
+<table class="break-before" style="break-inside: avoid;">
     <thead>
         <tr>
             <th>#</th>
@@ -5264,7 +5339,7 @@
     </tbody>
 </table>
 
-<table class="break-before">
+<table class="break-before" style="break-inside: avoid;">
     <thead>
         <tr>
             <th>#</th>
@@ -5275,21 +5350,21 @@
         </tr>
     </thead>
     <tbody>
-        <tr style="height: 2.4in;">
+        <tr style="height: 2.8in;">
             <td style="width: 5%;">5</td>
             <td style="width: 12%;"></td>
             <td style="width: 15%;"></td>
             <td style="width: 20%;"></td>
             <td></td>
         </tr>
-        <tr style="height: 2.4in;">
+        <tr style="height: 2.8in;">
             <td>6</td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-        <tr style="height: 2.4in;">
+        <tr style="height: 2.8in;">
             <td>7</td>
             <td></td>
             <td></td>
@@ -5303,7 +5378,7 @@
 
 <p>Chemistry isn't just physical. Often the most memorable romantic tension lives in dialogue. The way characters talk to each other—the teasing, the double meanings, the things left unsaid—can be more charged than any physical scene.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">What Creates Verbal Chemistry</span>
 
     <p><strong>Subtext:</strong> Characters saying one thing while meaning another. "I hate you" that sounds like "I want you." Insults that are really compliments. Pay attention to the gap between what's said and what's meant.</p>
@@ -5319,7 +5394,7 @@
 
 <p>Collect exchanges that sparked chemistry. Try to identify the technique from the list below.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Techniques to Look For</span>
 
     <p><strong>Double Meaning:</strong> A line that works on two levels—innocent on the surface, loaded underneath. The reader catches what the characters won't say directly.</p>
@@ -5337,7 +5412,7 @@
     <p><strong>Innuendo:</strong> Suggestive without being explicit. The tension lives in what's implied, letting the reader's imagination do the work.</p>
 </div>
 
-<table class="break-before">
+<table class="break-before" style="break-inside: avoid;">
     <thead>
         <tr>
             <th>Chapter</th>
@@ -5347,32 +5422,32 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 12%; height: 1.4in; vertical-align: top; font-style: normal;">Ch 6</td>
+            <td style="width: 12%; height: 1.7in; vertical-align: top; font-style: normal;">Ch 6</td>
             <td style="vertical-align: top;">"You're staring." / "I'm assessing a threat." / "And what did you conclude?" / "That you're dangerous for entirely the wrong reasons."</td>
             <td style="width: 25%; vertical-align: top;">Double meaning — surface insult hides attraction. The "wrong reasons" is the confession neither will acknowledge.</td>
         </tr>
         <tr>
-            <td style="height: 1.4in; vertical-align: top;"></td>
+            <td style="height: 1.7in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.4in; vertical-align: top;"></td>
+            <td style="height: 1.7in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.4in; vertical-align: top;"></td>
+            <td style="height: 1.7in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.4in; vertical-align: top;"></td>
+            <td style="height: 1.7in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.4in; vertical-align: top;"></td>
+            <td style="height: 1.7in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
@@ -5393,7 +5468,7 @@
 
 <p>Great writers are thieves. Not of words—of techniques. When you read something that makes you stop and think "how did they DO that?", you've found gold. Your job is to mine it.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">How to Extract Usable Lessons</span>
 
     <p><strong>Don't Just Copy—Analyse:</strong> Anyone can write down a beautiful sentence. The craft lesson is in understanding WHY it's beautiful. Break it apart. What specific choices make it work?</p>
@@ -5413,7 +5488,7 @@
 
 <p>Copy passages that stopped you. Then be specific about the technique.</p>
 
-<table>
+<table style="break-inside: avoid;">
     <thead>
         <tr>
             <th style="width: 20%;">Category</th>
@@ -5423,34 +5498,34 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 20%; font-style: normal; height: 1.5in; vertical-align: top;">Opening Hook</td>
+            <td style="width: 20%; font-style: normal; height: 1.8in; vertical-align: top;">Opening Hook</td>
             <td style="vertical-align: top;">"The night my sister tried to kill me, the moon was full." (p.1)</td>
             <td style="width: 30%; vertical-align: top;">Immediate stakes + family conflict + atmospheric setting in one line</td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Opening Hook</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Opening Hook</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Sensory Description</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Sensory Description</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Tension Building</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Tension Building</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Emotional Moment</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Emotional Moment</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
     </tbody>
 </table>
 
-<table class="break-before">
+<table class="break-before" style="break-inside: avoid;">
     <thead>
         <tr>
             <th style="width: 20%;">Category</th>
@@ -5460,27 +5535,27 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 20%; height: 1.5in; vertical-align: top; font-style: normal;">Dialogue/Banter</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top; font-style: normal;">Dialogue/Banter</td>
             <td style="vertical-align: top;">"I don't need your protection." / "Then consider it a hobby." (p.89)</td>
             <td style="width: 30%; vertical-align: top;">Subverts the protector trope. Humor deflects vulnerability while revealing it. She asserts independence; he admits he cares without saying so.</td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Action Sequence</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Action Sequence</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Chapter Ending</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Chapter Ending</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">World-Building</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">World-Building</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.5in; vertical-align: top;">Plot Twist</td>
+            <td style="width: 20%; height: 1.8in; vertical-align: top;">Plot Twist</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
@@ -5625,7 +5700,7 @@
 
 <p>Your notes from earlier in the process are just raw materials. This is the place you turn raw materials into something that is usable. Be honest with yourself about what worked and what didn't. Most importantly, be honest about what you can actually take and apply the next time you begin drafting or revising. Your ultimate goal is not to write a book review; it is to walk away with practical ideas that you can put into action at the next opportunity.</p>
 
-<div class="insight-box">
+<div class="labeled-section">
     <span class="insight-label">Questions to Drive Your Synthesis</span>
 
     <p><strong>What Made This Book Work (Or Not)?</strong> Not "I liked it" or "I didn't like it"—WHY? Be specific. The answers will teach you something about reader expectations, genre conventions, and your own taste.</p>
@@ -5683,12 +5758,12 @@
 <h4>My one-sentence logline (must require both arcs):</h4>
 <div class="write-space-sm" contenteditable="true"></div>
 
-<div class="insight-box" style="margin-top: 1.5rem;">
+<div class="insight-box break-before" style="margin-top: 0;">
     <span class="insight-label">Structural Pitfall Diagnosis</span>
     <p>Based on your reading, does this book suffer from any of these common integration failures? Be honest—even books you love can have structural weaknesses. Identifying them teaches you what to avoid.</p>
 </div>
 
-<table>
+<table style="break-inside: avoid;">
     <thead>
         <tr>
             <th style="width: 25%;">Pitfall</th>
@@ -5700,27 +5775,27 @@
         <tr>
             <td style="vertical-align: top;"><strong>Bolted-On Romance</strong><br><span class="text-muted" style="font-size: 0.8rem;">Romance could be removed without affecting fantasy plot</span></td>
             <td style="text-align: center; vertical-align: top;">Y / N</td>
-            <td style="height: 0.8in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
         </tr>
         <tr>
             <td style="vertical-align: top;"><strong>"Plot? What Plot?"</strong><br><span class="text-muted" style="font-size: 0.8rem;">Fantasy exists only to create romantic scenarios</span></td>
             <td style="text-align: center; vertical-align: top;">Y / N</td>
-            <td style="height: 0.8in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
         </tr>
         <tr>
             <td style="vertical-align: top;"><strong>Logic-Leap</strong><br><span class="text-muted" style="font-size: 0.8rem;">Characters act against their intelligence to serve plot</span></td>
             <td style="text-align: center; vertical-align: top;">Y / N</td>
-            <td style="height: 0.8in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
         </tr>
         <tr>
             <td style="vertical-align: top;"><strong>Stakes Asymmetry</strong><br><span class="text-muted" style="font-size: 0.8rem;">One arc carries life-or-death stakes, the other doesn't</span></td>
             <td style="text-align: center; vertical-align: top;">Y / N</td>
-            <td style="height: 0.8in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
         </tr>
     </tbody>
 </table>
 
-<h4 class="break-before">Applying the Through-Thread to Your Own Writing</h4>
+<h4>Applying the Through-Thread to Your Own Writing</h4>
 
 <p>Having analysed how this book handles dual-arc integration, now turn the lens on your own work-in-progress. These questions bridge analysis and application.</p>
 
@@ -5810,7 +5885,7 @@
 
 <p class="hint" style="margin-top: 1rem;"><em>Record the integration patterns you identified in this book.</em></p>
 
-<table>
+<table style="break-inside: avoid;">
     <thead>
         <tr>
             <th style="width: 30%;">Pattern Used</th>
@@ -5818,20 +5893,36 @@
         </tr>
     </thead>
     <tbody>
-        <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="height: 0.9in; vertical-align: top; font-style: normal;">Crucible Quest</td>
+        <tr style="height: 1.05in; color: var(--color-text-muted); font-style: italic;">
+            <td style="vertical-align: top; font-style: normal;">Crucible Quest</td>
             <td style="vertical-align: top;">The journey to the Northern Wastes forces them into weeks of shared survival. Without the quest, they'd never have spent enough time together for the walls to come down.</td>
         </tr>
-        <tr>
-            <td style="height: 0.9in; vertical-align: top;"></td>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Symbiotic Magic</td>
             <td style="vertical-align: top;"></td>
         </tr>
-        <tr>
-            <td style="height: 0.9in; vertical-align: top;"></td>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Antagonist's Leverage</td>
             <td style="vertical-align: top;"></td>
         </tr>
-        <tr>
-            <td style="height: 0.9in; vertical-align: top;"></td>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Political Marriage / Bargain</td>
+            <td style="vertical-align: top;"></td>
+        </tr>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Mirrored Wounds</td>
+            <td style="vertical-align: top;"></td>
+        </tr>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Secret Identity</td>
+            <td style="vertical-align: top;"></td>
+        </tr>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Power Synergy</td>
+            <td style="vertical-align: top;"></td>
+        </tr>
+        <tr style="height: 1.05in;">
+            <td style="vertical-align: top;">Prophecy of Union</td>
             <td style="vertical-align: top;"></td>
         </tr>
     </tbody>
@@ -5841,8 +5932,8 @@
 
 <p>These terms give you a shared vocabulary for talking about how romantasy works at the structural level. They're drawn from romance craft, fantasy plotting, and the specific challenges of weaving those traditions together.</p>
 
-<div class="quick-ref" style="margin-top: 0.5rem;">
-    <h4 class="mt-0">Structure &amp; Integration</h4>
+<div class="labeled-section">
+    <span class="box-label">Structure &amp; Integration</span>
     <p><strong>Through-Thread:</strong> The causal chain that makes romance and fantasy arcs inseparable. When you pull one thread, both arcs unravel. This is the defining feature of great romantasy.</p>
     <p><strong>Double Helix:</strong> A structural model where romance and fantasy arcs twist around each other like DNA strands, crossing at key beats. Each strand takes turns being dominant, but they share the same backbone.</p>
     <p><strong>The Bridge:</strong> The specific mechanism that makes two plots inseparable. A magical bond, a shared quest, a political marriage. Without the bridge, the arcs could exist independently. The bridge makes them one story.</p>
@@ -5850,8 +5941,8 @@
     <p><strong>Emotional Mirror:</strong> When the state of the world reflects the state of the relationship. The kingdom thrives when the couple is united, crumbles when they're apart. Weather shifts with mood. Magic responds to emotional truth.</p>
 </div>
 
-<div class="quick-ref" style="margin-top: 1rem;">
-    <h4 class="mt-0">Diagnostic Terms</h4>
+<div class="labeled-section">
+    <span class="box-label">Diagnostic Terms</span>
     <p><strong>Bolted-On Romance:</strong> A structural pitfall where the romance could be removed without affecting the fantasy plot. The love story feels decorative rather than essential. Common in fantasy novels that add romance as an afterthought.</p>
     <p><strong>"Plot? What Plot?" Syndrome:</strong> The opposite pitfall—the fantasy plot is so thin it exists only to create romantic scenarios. The world-building and external stakes feel like wallpaper rather than a story in their own right.</p>
     <p><strong>Logic-Leap:</strong> When a romance beat forces an unreasonable fantasy decision (or vice versa) just to keep both arcs moving. Characters make choices that serve the plot but contradict their established intelligence or values.</p>
@@ -5859,8 +5950,8 @@
     <p><strong>Fantasy Romance vs. Romantic Fantasy:</strong> A spectrum, not a binary. Fantasy Romance foregrounds the love story with fantasy as setting and obstacle. Romantic Fantasy foregrounds the quest/world with romance as emotional engine. Knowing where a book falls on this spectrum changes how you analyse its structure.</p>
 </div>
 
-<div class="quick-ref" style="margin-top: 1rem;">
-    <h4 class="mt-0">Romantic Structure</h4>
+<div class="labeled-section">
+    <span class="box-label">Romantic Structure</span>
     <p><strong>Adhesion:</strong> The external force that keeps characters together when they'd rather walk away. In romantasy, it's often fantasy-based: a curse, a bargain, a war, a shared quest.</p>
     <p><strong>The Wound:</strong> The past trauma that shapes how a character sees love and the world. It creates the internal obstacle to the relationship.</p>
     <p><strong>The Lie:</strong> A false belief the character holds that must be overcome for growth. In romance: "Love is weakness." "I'm unworthy." In fantasy: "Power is the only safety."</p>
@@ -5884,133 +5975,133 @@
 
 <p>Macro tropes are the large-scale romantic dynamics that define the relationship arc. Most romantasy novels layer two or three of these together.</p>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Enemies to Lovers</span>
     <p><strong>The Promise:</strong> Two people who genuinely hate each other will fall in love. The hatred must feel REAL—personal, justified, specific.</p>
     <p><strong>The Phases:</strong> Justified hatred → crack in armour (one contradicts the other's assumptions) → reluctant allies (forced cooperation) → respect to attraction (grudging admiration becomes desire).</p>
     <p><strong>What to Watch:</strong> Is the hatred earned or manufactured? What moment marks the shift from enemy to "maybe I was wrong"? How does the author maintain tension once the characters stop hating each other?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Forced Proximity</span>
     <p><strong>The Promise:</strong> Characters who wouldn't choose to be together are physically trapped in the same space. Proximity strips away walls.</p>
     <p><strong>Common Setups:</strong> Magical bonds, captivity, dangerous journeys, one-bed-in-an-inn, shared hiding place, academy/court assignments, fake relationships.</p>
     <p><strong>What to Watch:</strong> Is the trap airtight? (Readers will poke holes.) How does physical closeness create emotional intimacy? What conversations happen because they can't escape each other?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Fated Mates / Soul Bonds</span>
     <p><strong>The Promise:</strong> The universe itself declares these two belong together. The challenge: if they're fated, where's the tension?</p>
     <p><strong>Best Execution:</strong> Good authors create conflict BECAUSE of the bond, not despite it. One resists. The bond is incomplete or conditional. It creates obligations that conflict with desires.</p>
     <p><strong>What to Watch:</strong> Does the bond force them together while they must CHOOSE each other to make it real? Fate brings them together; love makes them stay.</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Slow Burn</span>
     <p><strong>The Promise:</strong> The pleasure is in the WAIT. Every lingering glance, accidental touch, and loaded silence adds fuel to a fire that won't ignite for chapters.</p>
     <p><strong>The Escalation:</strong> Awareness → attraction → denial → near-miss → surrender. The best slow burns escalate in micro-steps.</p>
     <p><strong>What to Watch:</strong> How does the author create tension without resolution? What moments almost break the dam? How many chapters between the first spark and the first real contact?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Forbidden Love</span>
     <p><strong>The Promise:</strong> They can't be together—and the cost of trying is real. Exile, death, war, betrayal of a cause.</p>
     <p><strong>Internal vs. External:</strong> Is the barrier external (law, duty, rival courts) or internal (guilt, loyalty, fear)? The best forbidden romances layer both.</p>
     <p><strong>What to Watch:</strong> How does the author make the reader root for rule-breaking? At what point does love become worth the cost? Does the resolution remove the barrier or accept it?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Morally Grey Hero</span>
     <p><strong>The Promise:</strong> Someone dangerous who is tender only for the love interest. The "grey" must feel genuine—not just a bad boy with good hair.</p>
     <p><strong>The Line:</strong> The character does genuinely questionable things. But the author gives us access to their reasoning, their pain, their code. We understand even when we don't approve.</p>
     <p><strong>What to Watch:</strong> What is the character's moral code? What lines won't they cross? How does the love interest challenge or change their morality without "fixing" them?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Hidden Identity / Disguise</span>
     <p><strong>The Promise:</strong> One character conceals who they truly are—a secret heir, a spy, a runaway royal, a god in mortal form. The romance develops based on the false self.</p>
     <p><strong>The Ticking Clock:</strong> Readers know the reveal is coming. Tension comes from watching intimacy deepen while the lie grows more costly to maintain.</p>
     <p><strong>What to Watch:</strong> Does the deceiver fall in love before or after the lie becomes unsustainable? How does the betrayed character respond—and what must be done to earn forgiveness?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Marriage of Convenience / Arranged Union</span>
     <p><strong>The Promise:</strong> A political alliance, a bargain, a debt—something forces two people into a formal bond before feelings exist. Duty becomes desire.</p>
     <p><strong>The Tension:</strong> They're legally or magically bound but emotionally strangers. Intimacy is obligated but authenticity isn't. When does performance become real?</p>
     <p><strong>What to Watch:</strong> What small acts of genuine care slip through the formal arrangement? When does the character start doing things they don't have to?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Found Family</span>
     <p><strong>The Promise:</strong> Characters who have lost (or never had) family find a new one—a crew, a court, a band of rebels. The romance grows within this chosen family.</p>
     <p><strong>Why It Hits:</strong> It satisfies two needs at once: romantic love AND belonging. The love interest becomes both partner and home.</p>
     <p><strong>What to Watch:</strong> How does the found family create opportunities for the romance? Does the group dynamic create jealousy, protectiveness, or forced teamwork between the leads?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Chosen One / Power Awakening</span>
     <p><strong>The Promise:</strong> One character discovers extraordinary power. This creates an immediate imbalance—and imbalance is the engine of romantic tension.</p>
     <p><strong>Romance Friction:</strong> Does the love interest fear the power? Train it? Envy it? Protect the character from it? The power becomes a third presence in the relationship.</p>
     <p><strong>What to Watch:</strong> How does growing power change the romantic dynamic? Does the power bring them together (shared destiny) or push them apart (fear, duty, sacrifice)?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Protector / Guardian</span>
     <p><strong>The Promise:</strong> One character is sworn to guard the other—a bodyguard, a sworn shield, a bonded protector. Professional distance is the rule; breaking it is the story.</p>
     <p><strong>The Power Imbalance:</strong> One holds physical power, the other holds authority. The best versions play with this tension rather than ignoring it.</p>
     <p><strong>What to Watch:</strong> When does "I'm protecting you because it's my duty" become "I'm protecting you because I can't breathe without you"? How is the power imbalance reconciled?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Rivals to Lovers</span>
     <p><strong>The Promise:</strong> Two people competing for the same goal discover that the person who pushes them hardest is the one they want most.</p>
     <p><strong>The Difference from Enemies:</strong> Rivals respect each other's competence. The friction is admiration-based, not hatred-based. They make each other better.</p>
     <p><strong>What to Watch:</strong> How does competition create intimacy? When does "I want to beat you" become "I want you"? Does one concede, or do they find a way to both win?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Second Chance Romance</span>
     <p><strong>The Promise:</strong> Two people who loved and lost each other get another chance. The history is the tension—readers know the love was real because it already happened once.</p>
     <p><strong>The Challenge:</strong> Why did they separate? Is the original wound healed or just buried? What's changed enough to make it work this time?</p>
     <p><strong>What to Watch:</strong> How does the author balance nostalgia with present-day chemistry? What moment proves this time will be different?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Grumpy / Sunshine</span>
     <p><strong>The Promise:</strong> An emotionally guarded character is slowly melted by someone warm and open. The grumpy one's walls crack—but only for the sunshine character.</p>
     <p><strong>Why It Works:</strong> It's the "chosen one" dynamic applied to emotion. Being selected by someone who rejects everyone else feels like the highest compliment.</p>
     <p><strong>What to Watch:</strong> How does the sunshine character earn access without being a pushover? What vulnerability lies beneath the grumpiness? When does the grumpy character do something soft unprompted?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Fake Relationship</span>
     <p><strong>The Promise:</strong> Two people pretend to be together for practical reasons—a political ruse, a family deception, a cover story. Pretending becomes real.</p>
     <p><strong>The Escalation:</strong> Awkward performance → comfortable performance → forgetting it's performance → panic when the arrangement ends.</p>
     <p><strong>What to Watch:</strong> What moment marks the shift from acting to feeling? How does the "audience" for the fake relationship create or relieve tension? What happens when the pretence is no longer needed?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Captive / Captor</span>
     <p><strong>The Promise:</strong> One character holds power over the other. The romance lives in the slow erosion of that power dynamic—or its deliberate inversion.</p>
     <p><strong>The Ethical Tightrope:</strong> The author must acknowledge the power imbalance. The best versions give the captive agency, intelligence, and the ability to affect the captor in return.</p>
     <p><strong>What to Watch:</strong> How does the author make this feel romantic rather than abusive? When does the captor start making concessions? Does the captive choose to stay once free?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Royal / Commoner</span>
     <p><strong>The Promise:</strong> Love across a class divide. One wears a crown; the other doesn't kneel. The tension lives in the gap between their worlds.</p>
     <p><strong>The Stakes:</strong> Courts are dangerous. Loving a commoner is a political liability. The commoner may be used as leverage, threatened, or forced to transform into something they're not.</p>
     <p><strong>What to Watch:</strong> How does the power/class imbalance create conflict? Does the royal choose love over duty, or find a way to have both? Does the commoner retain their identity?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Redemption Arc</span>
     <p><strong>The Promise:</strong> A character who has done terrible things earns a second chance—often because love gives them something worth changing for.</p>
     <p><strong>The Challenge:</strong> Redemption must be earned, not given. The character must face what they've done, make amends, and prove change through action—not just feeling sorry.</p>
     <p><strong>What to Watch:</strong> What did they do? Is it forgivable? Does the love interest challenge them to be better without becoming their therapist? Is the redemption complete or ongoing?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Mutual Pining</span>
     <p><strong>The Promise:</strong> Both characters want each other desperately—and neither knows the other feels the same. The reader watches two people suffer beautifully.</p>
     <p><strong>Why It Works:</strong> Dramatic irony is powerful. Readers scream at the page because they can see what the characters can't.</p>
@@ -6021,84 +6112,84 @@
 
 <p>Micro tropes are the specific scenes and moments that readers screenshot, share on BookTok, and tattoo on their arms. They're the beats that sell books through word of mouth. Understanding WHY they work is essential for any romantasy writer.</p>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">"Who Did This to You?"</span>
     <p><strong>The Moment:</strong> A previously cold or restrained character discovers that someone has hurt the person they care about. Protective rage erupts. The power dynamic shifts instantly.</p>
     <p><strong>Why It Goes Viral:</strong> It reveals the depth of feeling the character has been hiding. The reader thinks: "They would burn down the world for this person."</p>
     <p><strong>What to Watch:</strong> What triggers the rage? How is it expressed—controlled fury or explosive violence? What does it reveal about their feelings that they haven't admitted?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Wound Tending / Injury Care</span>
     <p><strong>The Moment:</strong> One character is hurt. The other tends to them. Forced intimacy + vulnerability + tenderness = reader catnip.</p>
     <p><strong>Why It Works:</strong> One character must touch the other. There's often pain, which creates permission for comfort. Walls come down because survival demands it.</p>
     <p><strong>What to Watch:</strong> How does the author slow down time during the scene? What small gestures carry emotional weight? Does the injured character resist care or surrender to it?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Training Scene</span>
     <p><strong>The Moment:</strong> Physical contact + competence display + sweating/breathing hard = tension. The best training scenes are foreplay disguised as combat.</p>
     <p><strong>Why It Works:</strong> It gives characters permission to touch, to be close, to watch each other's bodies—all under the cover of a "legitimate" activity.</p>
     <p><strong>What to Watch:</strong> How does the author make fighting feel like flirting? When does instruction become something more intimate? Who pins whom, and what happens in that suspended moment?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Jealousy / Possessive Moment</span>
     <p><strong>The Moment:</strong> "Mine." One character sees someone else paying attention to their person. Something primal surfaces—often before they've admitted their feelings even to themselves.</p>
     <p><strong>Why It Works:</strong> It reveals the depth of attachment. Jealousy is irrational, which means it bypasses the character's emotional defences.</p>
     <p><strong>What to Watch:</strong> What triggers the jealousy? How does it manifest—a clenched jaw, a territorial gesture, words they can't take back? Is it addressed or suppressed?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Almost Kiss (Interrupted)</span>
     <p><strong>The Moment:</strong> They lean in. Breath mingles. And then—something interrupts. Delayed gratification at its most agonising.</p>
     <p><strong>Why It Works:</strong> The anticipation is often better than the payoff. Each interrupted kiss makes the eventual real one feel earned and electric.</p>
     <p><strong>What to Watch:</strong> How close do they get? What interrupts—something external or one of them pulling away? How do they react to the interruption? Do they pretend it didn't happen?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Dance Scene</span>
     <p><strong>The Moment:</strong> A ball, a celebration, a formal occasion. Two characters dance together, and the rest of the room disappears.</p>
     <p><strong>Why It Works:</strong> Dancing is sanctioned intimacy. You can hold someone, look into their eyes, move in sync—all in public. It's a performance of romance that becomes real.</p>
     <p><strong>What to Watch:</strong> How does the author use the choreography of the dance as a metaphor for the relationship? What is said without words? Who watches them, and does that audience matter?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Protective Snarl / Threat Display</span>
     <p><strong>The Moment:</strong> Someone threatens the love interest. The protagonist goes feral. It's primal, it's possessive, and readers lose their minds.</p>
     <p><strong>Why It Works:</strong> It's "who did this to you?" turned proactive. The character isn't reacting to past harm—they're preventing future harm with terrifying intensity.</p>
     <p><strong>What to Watch:</strong> Is the threat credible? How disproportionate is the response? Does the love interest find it attractive, alarming, or both?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Vulnerability Confession</span>
     <p><strong>The Moment:</strong> A character who has been guarded finally reveals something true—a fear, a wound, a secret. Often happens in the dark, in whispers, after a crisis.</p>
     <p><strong>Why It Works:</strong> Emotional nudity. The character is more exposed than they would be without clothes. Trust is the ultimate intimacy.</p>
     <p><strong>What to Watch:</strong> What prompts the confession? How does the other character receive it? Is there reciprocation, or does one remain guarded?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Sacrifice / "Not Without You"</span>
     <p><strong>The Moment:</strong> One character faces death or loss for the other. Or refuses to leave when leaving would save them. Love is proven through cost.</p>
     <p><strong>Why It Works:</strong> It answers the fundamental romantic question: "How much do you love me?" The answer is: "More than my own survival."</p>
     <p><strong>What to Watch:</strong> Is the sacrifice voluntary or instinctive? Does the other character accept it or fight it? What does it cost, and is that cost permanent?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">Forehead Touch / Non-Sexual Intimacy</span>
     <p><strong>The Moment:</strong> A gesture that's more intimate than a kiss—foreheads pressed together, a hand cradling a face, fingers interlaced. The tenderness is devastating.</p>
     <p><strong>Why It Works:</strong> It signals emotional intimacy rather than physical desire. It says "I see you" rather than "I want you." In a genre with plenty of heat, the gentle moments hit hardest.</p>
     <p><strong>What to Watch:</strong> When does this happen relative to more physical intimacy? What emotion does it express that a kiss couldn't? How does the other character respond?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">"You're Mine" / Claiming Declaration</span>
     <p><strong>The Moment:</strong> One character claims the other—verbally, magically, or through action. It's possessive, it's certain, and it leaves no room for doubt.</p>
     <p><strong>Why It Works:</strong> After chapters of uncertainty, someone finally says it out loud. The declaration is an end to ambiguity and a commitment to whatever comes next.</p>
     <p><strong>What to Watch:</strong> Is the claiming mutual or one-sided? Does it happen in private or as a public declaration? How does the claimed character respond—do they resist, surrender, or claim back?</p>
 </div>
 
-<div class="example-box">
+<div class="labeled-section">
     <span class="example-label">The Rescue / "I Will Always Find You"</span>
     <p><strong>The Moment:</strong> One character moves heaven and earth to save the other. They cross continents, break laws, defy gods. Nothing will stop them.</p>
     <p><strong>Why It Works:</strong> It's devotion made physical. Words are easy; actions are proof. A character who fights through an army to reach someone is making an irrefutable statement.</p>
