@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option A — Page Break Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+    <style>
+        :root {
+            --color-guide: #6b2d4d;
+            --color-guide-light: rgba(107, 45, 77, 0.08);
+            --color-bg: #faf9f7;
+            --color-noir: #1a1515;
+            --color-accent: #d4a23c;
+            --color-text-main: #121212;
+            --color-text-muted: #444444;
+            --font-display: 'Libre Baskerville', serif;
+            --font-accent: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            --theme-color: var(--color-guide);
+        }
+
+        @page {
+            size: 8.5in 11in;
+            margin: 65px 72px 72px 72px;
+            background: var(--color-bg);
+            @bottom-center {
+                content: counter(page);
+                font-family: 'Libre Baskerville', serif;
+                font-size: 0.7rem;
+                font-weight: 700;
+                color: var(--color-guide);
+            }
+            @bottom-left {
+                content: string(section-title);
+                font-family: 'Libre Baskerville', serif;
+                font-size: 0.6rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: var(--color-text-muted);
+            }
+        }
+        @page:first {
+            @bottom-center { content: none; }
+            @bottom-left { content: none; }
+        }
+
+        .pagedjs_page {
+            background: var(--color-bg) !important;
+            position: relative !important;
+        }
+        .pagedjs_pagebox { position: relative !important; }
+        .pagedjs_pagebox::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 10px !important; left: 10px !important;
+            right: 10px !important; bottom: 10px !important;
+            border: 3px solid var(--color-guide) !important;
+            pointer-events: none !important; z-index: 1000 !important;
+        }
+        .pagedjs_pagebox::after {
+            content: '' !important;
+            position: absolute !important;
+            top: 6px !important; left: 6px !important;
+            right: 6px !important; bottom: 6px !important;
+            border: 1.5px solid var(--color-accent) !important;
+            pointer-events: none !important; z-index: 1001 !important;
+        }
+
+        .nav-bar {
+            position: running(nav);
+            font-family: var(--font-body);
+            font-size: 0.55rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            padding: 0.35rem 0;
+            border-bottom: 2px solid var(--color-guide);
+        }
+        .nav-bar a {
+            color: var(--color-guide);
+            text-decoration: none;
+            padding: 0.15rem 0.3rem;
+            white-space: nowrap;
+        }
+        .nav-sep { color: var(--color-accent); font-weight: 300; }
+        @page { @top-center { content: element(nav); } }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            line-height: 1.7;
+            color: var(--color-text-main);
+            background-color: var(--color-bg);
+        }
+
+        h2 {
+            font-family: var(--font-accent);
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--color-guide);
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 0.75rem;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        .section-title { string-set: section-title content(text); }
+
+        .insight-label {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+            background: var(--theme-color);
+            display: inline-block;
+            padding: 5px 12px;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            break-after: avoid;
+        }
+
+        /* ═══════════════════════════════════════
+           OPTION A: Left border, flows freely
+           ═══════════════════════════════════════ */
+        .labeled-section {
+            border-left: 4px solid var(--theme-color);
+            padding: 0 0 0 20px;
+            margin: 1.5rem 0 0.75rem 0;
+            /* No break-inside: avoid — this is the whole point */
+        }
+
+        .labeled-section p {
+            margin-bottom: 0.75rem;
+            line-height: 1.75;
+            text-align: left;
+        }
+        .labeled-section p:last-child { margin-bottom: 0; }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <a href="#">Book Info</a><span class="nav-sep">|</span>
+    <a href="#">Ch. Logs</a><span class="nav-sep">|</span>
+    <a href="#">Romance</a><span class="nav-sep">|</span>
+    <a href="#">Fantasy</a><span class="nav-sep">|</span>
+    <a href="#">Dual-Arc</a><span class="nav-sep">|</span>
+    <a href="#">Tropes</a><span class="nav-sep">|</span>
+    <a href="#">Spice</a><span class="nav-sep">|</span>
+    <a href="#">Craft</a><span class="nav-sep">|</span>
+    <a href="#">Synthesis</a>
+</div>
+
+<span class="section-title">Romance Arc Tracking</span>
+
+<h2>Romance Arc Tracking</h2>
+
+<p>Romance readers have expectations for how relationships develop. Great romantasy honours these expectations while weaving them into the fantasy plot so tightly that both arcs feel inseparable.</p>
+
+<p>As you read, you'll notice the romance following a natural progression—even when the characters are fighting dark magic or fleeing across continents. The key is to track not just WHAT happens in the romance, but HOW it connects to the fantasy stakes at every step.</p>
+
+<div class="labeled-section">
+    <span class="insight-label">Phase 1: Setup & Attraction (0–25%)</span>
+    <p>The characters meet and an initial dynamic is established. There should be an immediate spark of some kind—attraction, antagonism, intrigue, or all three. The romance promise is made to the reader: these two will end up together.</p>
+    <p>In romantasy, pay attention to how the meeting is tied to the fantasy plot. Does the magic system create the connection? Does the quest force them together? The best setups make the meeting feel inevitable AND organic to the world.</p>
+    <p>Look for: the first moment of awareness between the characters, what creates the initial tension (is it hostility? intrigue? forced proximity?), and how the author signals to the reader that this is a romance worth investing in. The setup should feel specific to THIS world and THESE characters.</p>
+</div>
+
+<!-- This section is big enough that it WILL split across pages 1→2 -->
+<div class="labeled-section">
+    <span class="insight-label">What to Look For in Phase 2</span>
+    <p>This phase is about the slow erosion of resistance. The characters don't want to fall in love, but they can't help it. Look for:</p>
+    
+    <p><strong>The Inkling of Desire:</strong> This is the first crack in the armour. It's often physical—a moment where one character notices something attractive about the other despite themselves. Look for: stolen glances, unwanted awareness of the other's body, finding excuses to be near them. How does the author show attraction while the character is still in denial?</p>
+    
+    <p><strong>Vulnerability Moments:</strong> Watch for scenes where one character sees the other's true self—often their pain, their kindness, or their competence. In romantasy, this might happen during a battle, a magical trial, or a moment of physical danger. What makes one character start to see the other as a person rather than an enemy/stranger?</p>
+    
+    <p><strong>The Deepening:</strong> Attraction becomes something more. Look for: conversations that go deeper than necessary, shared secrets, moments of unexpected tenderness. How does the author escalate emotional intimacy? What small moments build the connection?</p>
+    
+    <p><strong>The Midpoint Intimacy:</strong> Around the 50% mark, something significant happens in the relationship. This might be a first kiss, a confession, or a physical intimacy scene. But note: this moment should feel earned AND premature. The characters aren't ready—that's what creates the tension for Phase 3.</p>
+</div>
+
+<!-- This section should start on page 2 and flow into page 3 -->
+<div class="labeled-section">
+    <span class="insight-label">What to Look For in Phase 3</span>
+    <p>This phase is about everything falling apart. After the vulnerability of Phase 2, the characters retreat. Something—internal fear, external threat, a misunderstanding, or a betrayal—drives them apart.</p>
+    
+    <p><strong>Shields Up:</strong> After the vulnerability of Phase 2, one or both characters pull away. Old fears resurface. The wound reasserts itself. Look for: emotional withdrawal, return to old patterns, defensive behaviour. What triggers the retreat? Is it internal (fear of vulnerability) or external (a revelation, a betrayal)?</p>
+    
+    <p><strong>The Breakup/Separation:</strong> Something happens that makes one or both characters believe the relationship is over—or should be. In romantasy, this often coincides with a fantasy crisis: a betrayal, a revelation, or a sacrifice that puts the relationship at odds with the quest. The most effective separations feel inevitable AND devastating.</p>
+    
+    <p><strong>External Pressure:</strong> It's not just internal threats—it's the world conspiring against them. The antagonist might exploit the relationship. Political forces might demand separation. The magic itself might turn against the bond. How does the author use external pressure to test the relationship?</p>
+    
+    <p><strong>Rock Bottom:</strong> This is rock bottom. One or both characters face their greatest fear—which is almost always connected to their wound. The relationship seems completely, irreparably broken. In romantasy, this usually coincides with the "All Is Lost" beat of the fantasy plot. Notice how the author makes both arcs hit their lowest point simultaneously.</p>
+</div>
+
+<!-- This section should land somewhere on page 3, possibly flowing into 4 -->
+<div class="labeled-section">
+    <span class="insight-label">What to Look For in Phase 4</span>
+    <p>This phase is about earning the happy ending. The protagonist realizes love is worth fighting for—and proves it through action, not just words.</p>
+    
+    <p><strong>The Realization:</strong> One or both characters understands what they've lost—and what they're willing to risk to get it back. This often comes through a moment of solitude, a conversation with a secondary character, or a crisis that puts everything in perspective. The realization should connect to the character's wound: they're finally ready to let go of the false belief that's been holding them back.</p>
+    
+    <p><strong>The Choice:</strong> This is the visible proof of inner change. The character must CHOOSE the relationship over safety, pride, duty, or fear. In romantasy, this choice often has fantasy-scale consequences: choosing love might mean defying a king, breaking a magical oath, or sacrificing power. The higher the cost, the more satisfying the payoff.</p>
+    
+    <p><strong>Grand Gesture:</strong> The grand gesture should demonstrate growth, not just feelings. It's not enough to say "I love you"—the character must DO something that proves they've changed. The gesture should cost them something real and should directly address the wound or fear that kept them apart.</p>
+    
+    <p><strong>HEA/HFN:</strong> The Happy Ever After or Happy For Now. The relationship is secured, the fantasy conflict is resolved, and both arcs reach a satisfying conclusion. The best endings mirror the opening—showing how far the characters have come. Notice whether the final image contrasts with or completes the story's opening image.</p>
+</div>
+
+<p>After identifying these beats, use the tracking tables in the following pages to record specific chapters, page numbers, and your observations about how the romance and fantasy arcs intersect.</p>
+
+</body>
+</html>
