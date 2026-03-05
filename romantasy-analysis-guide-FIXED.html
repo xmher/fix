@@ -1332,9 +1332,9 @@
 
         /* ── LAYOUT FIXES (consolidated) ── */
 
-        /* Allow tables to split across pages — headers repeat via table-header-group */
-        .beat-table { break-inside: auto; }
-        .beat-table.expanded { break-inside: auto; }
+        /* Beat tables — keep on one page, push to top of new page */
+        .beat-table { break-inside: avoid; break-before: page; margin: 0; }
+        .beat-table.expanded { break-inside: avoid; }
 
         /* Beat tables - tighter cell padding to fit more rows per page */
         .beat-table td,
@@ -5298,7 +5298,7 @@
     <p><strong>5 – Explicit:</strong> Detailed, explicit scenes</p>
 </div>
 
-<table class="break-before" style="break-inside: avoid;">
+<table class="break-before" style="break-inside: avoid; margin: 0;">
     <thead>
         <tr>
             <th>#</th>
@@ -5340,7 +5340,7 @@
     </tbody>
 </table>
 
-<table class="break-before" style="break-inside: avoid;">
+<table class="break-before" style="break-inside: avoid; margin: 0;">
     <thead>
         <tr>
             <th>#</th>
@@ -5413,7 +5413,7 @@
     <p><strong>Innuendo:</strong> Suggestive without being explicit. The tension lives in what's implied, letting the reader's imagination do the work.</p>
 </div>
 
-<table class="break-before" style="break-inside: avoid;">
+<table class="break-before" style="break-inside: avoid; margin: 0;">
     <thead>
         <tr>
             <th>Chapter</th>
@@ -5423,32 +5423,32 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 12%; height: 1.7in; vertical-align: top; font-style: normal;">Ch 6</td>
+            <td style="width: 12%; height: 1.4in; vertical-align: top; font-style: normal;">Ch 6</td>
             <td style="vertical-align: top;">"You're staring." / "I'm assessing a threat." / "And what did you conclude?" / "That you're dangerous for entirely the wrong reasons."</td>
             <td style="width: 25%; vertical-align: top;">Double meaning — surface insult hides attraction. The "wrong reasons" is the confession neither will acknowledge.</td>
         </tr>
         <tr>
-            <td style="height: 1.7in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.7in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.7in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.7in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="height: 1.7in; vertical-align: top;"></td>
+            <td style="height: 1.4in; vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
             <td style="vertical-align: top;"></td>
         </tr>
@@ -5499,34 +5499,34 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 20%; font-style: normal; height: 1.8in; vertical-align: top;">Opening Hook</td>
+            <td style="width: 20%; font-style: normal; height: 1.7in; vertical-align: top;">Opening Hook</td>
             <td style="vertical-align: top;">"The night my sister tried to kill me, the moon was full." (p.1)</td>
             <td style="width: 30%; vertical-align: top;">Immediate stakes + family conflict + atmospheric setting in one line</td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Opening Hook</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Opening Hook</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Sensory Description</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Sensory Description</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Tension Building</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Tension Building</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Emotional Moment</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Emotional Moment</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
     </tbody>
 </table>
 
-<table class="break-before" style="break-inside: avoid;">
+<table class="break-before" style="break-inside: avoid; margin: 0;">
     <thead>
         <tr>
             <th style="width: 20%;">Category</th>
@@ -5536,27 +5536,27 @@
     </thead>
     <tbody>
         <tr style="color: var(--color-text-muted); font-style: italic;">
-            <td style="width: 20%; height: 1.8in; vertical-align: top; font-style: normal;">Dialogue/Banter</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top; font-style: normal;">Dialogue/Banter</td>
             <td style="vertical-align: top;">"I don't need your protection." / "Then consider it a hobby." (p.89)</td>
             <td style="width: 30%; vertical-align: top;">Subverts the protector trope. Humor deflects vulnerability while revealing it. She asserts independence; he admits he cares without saying so.</td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Action Sequence</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Action Sequence</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Chapter Ending</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Chapter Ending</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">World-Building</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">World-Building</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
         <tr>
-            <td style="width: 20%; height: 1.8in; vertical-align: top;">Plot Twist</td>
+            <td style="width: 20%; height: 1.7in; vertical-align: top;">Plot Twist</td>
             <td style="vertical-align: top;"></td>
             <td style="width: 30%; vertical-align: top;"></td>
         </tr>
